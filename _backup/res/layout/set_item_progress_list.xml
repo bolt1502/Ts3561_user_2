@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textSize="28.0px" android:textColor="@android:color/black" android:gravity="center|left" android:id="@id/btn" android:background="@drawable/ripple_bg" android:paddingLeft="50.0px" android:paddingRight="600.0px" android:clickable="false" android:layout_width="fill_parent" android:layout_height="111.0px" />
+    <SeekBar android:id="@id/img_progress" android:clickable="true" android:layout_width="329.0px" android:layout_height="50.0px" android:layout_marginLeft="612.0px" android:layout_marginTop="14.0px" android:maxHeight="50.0px" android:progressDrawable="@drawable/setup_sound_seekbar_bg" android:minHeight="50.0px" android:thumb="@drawable/setup_general_seekbar_dot" android:thumbOffset="0.0dip" />
+    <TextView android:textSize="28.0px" android:textColor="#ff717476" android:gravity="center|left" android:id="@id/val" android:clickable="false" android:layout_width="50.0px" android:layout_height="fill_parent" android:layout_marginLeft="960.0px" android:layout_marginTop="0.0px" android:singleLine="true" />
+    <ImageView android:background="@drawable/setup_main_line" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_alignParentBottom="true" />
+</RelativeLayout>

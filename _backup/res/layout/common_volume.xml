@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/progrecess" android:background="@drawable/common_vol_bg" android:layout_marginTop="500.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SeekBar android:id="@id/seekBar1" android:layout_width="740.0px" android:layout_height="wrap_content" android:layout_marginLeft="173.0px" android:maxHeight="57.0px" android:max="30" android:progress="10" android:progressDrawable="@drawable/common_vol_progress_bar" android:thumb="@drawable/common_vol_point" android:layout_centerVertical="true" />
+    <Button android:textSize="32.0px" android:textColor="#ffffffff" android:id="@id/volmodename" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0px" android:layout_marginTop="5.0px" android:text="音量" />
+    <TextView android:textSize="32.0px" android:textColor="#ffffffff" android:id="@id/volsize" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="910.0px" android:layout_marginTop="19.0px" android:text="10" />
+</RelativeLayout>

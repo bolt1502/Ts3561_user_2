@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0sp" android:textColor="#ffffffff" android:id="@id/btn_fatctory_audio_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="300.0px" android:layout_marginTop="30.0px" android:text="" />
+    <TextView android:textSize="20.0sp" android:textColor="#ffffffff" android:id="@id/btn_fatctory_record_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="450.0px" android:layout_marginTop="230.0px" android:text="" />
+    <Button android:textSize="35.0sp" android:textColor="#ff000000" android:layout_gravity="center_horizontal" android:id="@id/btn_fatctory_record_audio" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="400.0px" android:layout_marginTop="300.0px" android:text="按下录音" />
+    <Button android:textSize="35.0sp" android:textColor="#ff000000" android:layout_gravity="center_horizontal" android:id="@id/btn_fatctory_left_audio" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0px" android:layout_marginTop="100.0px" android:text="左声道" />
+    <Button android:textSize="35.0sp" android:textColor="#ff000000" android:layout_gravity="center_horizontal" android:id="@id/btn_fatctory_right_audio" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="780.0px" android:layout_marginTop="100.0px" android:text="右声道" />
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/screensettings_brightnessid" android:background="@drawable/screensettings_brightness" android:layout_width="94.0px" android:layout_height="58.0px" android:layout_marginLeft="0.0px" android:layout_marginTop="0.0px" />
+    <Button android:id="@id/screensettings_contrastid" android:background="@drawable/screensettings_contrast" android:layout_width="94.0px" android:layout_height="58.0px" android:layout_marginLeft="94.0px" android:layout_marginTop="0.0px" />
+    <Button android:id="@id/screensettings_hueid" android:background="@drawable/screensettings_sharpness" android:layout_width="94.0px" android:layout_height="58.0px" android:layout_marginLeft="188.0px" android:layout_marginTop="0.0px" />
+    <Button android:id="@id/screensettings_saturationid" android:background="@drawable/screensettings_saturation" android:layout_width="94.0px" android:layout_height="58.0px" android:layout_marginLeft="282.0px" android:layout_marginTop="0.0px" />
+    <Button android:id="@id/screensettings_defaultid" android:background="@drawable/screensettings_default" android:layout_width="94.0px" android:layout_height="58.0px" android:layout_marginLeft="376.0px" android:layout_marginTop="0.0px" />
+    <Button android:id="@id/screensettings_cancelid" android:background="@drawable/screensettings_cancel" android:layout_width="94.0px" android:layout_height="58.0px" android:layout_marginLeft="470.0px" android:layout_marginTop="0.0px" />
+    <ImageView android:id="@id/screensettings_popupid" android:background="@drawable/screensettings_popup" android:layout_width="566.0px" android:layout_height="69.0px" android:layout_marginLeft="0.0px" android:layout_marginTop="58.0px" />
+    <Button android:id="@id/screensettings_addingid" android:background="@drawable/screensettings_adding" android:layout_width="40.0px" android:layout_height="40.0px" android:layout_marginLeft="506.0px" android:layout_marginTop="70.0px" />
+    <Button android:id="@id/screensettings_reduceid" android:background="@drawable/screensettings_reduce" android:layout_width="40.0px" android:layout_height="40.0px" android:layout_marginLeft="16.0px" android:layout_marginTop="70.0px" />
+    <SeekBar android:id="@id/screenset_seekBar" android:layout_width="387.0px" android:layout_height="21.0px" android:layout_marginLeft="65.0px" android:layout_marginTop="80.0px" android:maxHeight="21.0px" android:max="100" android:progress="30" android:progressDrawable="@drawable/screensetting_progress_bar" android:thumb="@drawable/screensettings_point" />
+    <TextView android:textSize="28.0px" android:textColor="#ffffffff" android:id="@id/screenset_showinfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="460.0px" android:layout_marginTop="70.0px" android:text="10" />
+</RelativeLayout>

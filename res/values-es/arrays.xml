@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="set_main_options">
+        <item>Común</item>
+        <item>Monitor</item>
+        <item>Volumen</item>
+        <item>Sonido</item>
+        <item>Vídeo</item>
+        <item>Navegación</item>
+        <item>Bluetooth</item>
+        <item>SWC</item>
+        <item>Sobre Dispositivo</item>
+    </string-array>
+    <string-array name="set_genera_options">
+        <item>tiempo en espera</item>
+        <item>Speech Recognition</item>
+        <item>AssistiveTouch</item>
+        <item>Supresión de Volumen Inversa</item>
+        <item>Logo de Arranque</item>
+        <item>Virtual CD Storage Device</item>
+        <item>Resetear toda la Configuracion</item>
+        <item>Borrar contenidos</item>
+    </string-array>
+    <string-array name="set_display_options">
+        <item>Durante el día de retroiluminación Set</item>
+        <item>La noche de luz de fondo Set</item>
+        <item>Modo Automático</item>
+        <item>Clave Color de luz</item>
+    </string-array>
+    <string-array name="set_volume_options">
+        <item>Volumen de Medios</item>
+        <item>Volumen de Navi</item>
+        <item>Volumen de BT</item>
+        <item>Volumen del timbre</item>
+        <item>Volumen de Alarma</item>
+        <item>Volumen del sistema</item>
+    </string-array>
+    <string-array name="set_video_options">
+        <item>Visualización de vídeo está prohibido durante la conducción</item>
+        <item>Revertir Asistente Línea</item>
+        <item>Revertir Atención Línea</item>
+        <item>Cámara Espejo Trasero</item>
+        <item>Aire Acondicionado</item>
+        <item>Vídeo trasero</item>
+    </string-array>
+    <string-array name="set_navi_options">
+        <item>Inicio automático de navegación</item>
+        <item>Ruta de archivo</item>
+    </string-array>
+    <string-array name="set_bt_options">
+        <item>PIN Código</item>
+        <item>Automática conectar</item>
+        <item>Respuesta automática</item>
+    </string-array>
+    <string-array name="set_eqpment_options">
+        <item>HMI</item>
+        <item>MCU</item>
+        <item>MEDIA</item>
+        <item>NKV</item>
+        <item>BTV</item>
+        <item>DVDROM</item>
+    </string-array>
+    <string-array name="tpms_general_disp">
+        <item>TEMP Unit</item>
+        <item>Pressure Unit</item>
+        <item>MAX TEMP</item>
+        <item>MAX Pressure</item>
+        <item>MIN Pressure</item>
+    </string-array>
+    <string-array name="tpms_general_error">
+        <item>Flat Tire</item>
+        <item>Low Voltage</item>
+        <item>No Signal</item>
+        <item>Low Pressure</item>
+        <item>High Pressure</item>
+        <item>Start study</item>
+        <item>studying</item>
+    </string-array>
+</resources>

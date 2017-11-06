@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/bt_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/bt_sub_items" />
+    <ImageView android:id="@id/btIvCallingIcon" android:layout_width="195.0px" android:layout_height="195.0px" android:layout_marginLeft="484.0px" android:layout_marginTop="16.0px" android:src="@drawable/bt_dial_people" />
+    <TextView android:textSize="30.0px" android:textColor="@android:color/white" android:gravity="center" android:id="@id/btTvCallingName" android:layout_width="630.0px" android:layout_height="50.0px" android:layout_marginLeft="260.0px" android:layout_marginTop="220.0px" android:singleLine="true" />
+    <TextView android:textSize="40.0px" android:textColor="@android:color/white" android:gravity="center" android:id="@id/btTvCallingNo" android:layout_width="630.0px" android:layout_height="50.0px" android:layout_marginLeft="260.0px" android:layout_marginTop="270.0px" android:singleLine="true" />
+    <TextView android:textSize="27.0px" android:textColor="@android:color/white" android:gravity="center" android:id="@id/btTvCallingSta" android:layout_width="630.0px" android:layout_height="50.0px" android:layout_marginLeft="260.0px" android:layout_marginTop="320.0px" android:singleLine="true" />
+    <ImageButton android:id="@id/btBtnCallSound" android:background="@drawable/bt_btn_calling_sound" android:layout_width="76.0px" android:layout_height="76.0px" android:layout_marginLeft="266.0px" android:layout_marginTop="399.0px" />
+    <ImageButton android:id="@id/btBtnCallVoiceSW" android:background="@drawable/bt_btn_calling_voicesw" android:layout_width="76.0px" android:layout_height="76.0px" android:layout_marginLeft="403.0px" android:layout_marginTop="399.0px" />
+    <ImageButton android:id="@id/btBtnCallMicMute" android:background="@drawable/bt_btn_calling_micmute" android:layout_width="76.0px" android:layout_height="76.0px" android:layout_marginLeft="540.0px" android:layout_marginTop="399.0px" />
+    <ImageButton android:id="@id/btBtnCallAnswer" android:background="@drawable/bt_btn_calling_call" android:layout_width="76.0px" android:layout_height="76.0px" android:layout_marginLeft="677.0px" android:layout_marginTop="399.0px" />
+    <ImageButton android:id="@id/btBtnCallHangup" android:background="@drawable/bt_btn_calling_hangup" android:layout_width="76.0px" android:layout_height="76.0px" android:layout_marginLeft="814.0px" android:layout_marginTop="399.0px" />
+</RelativeLayout>

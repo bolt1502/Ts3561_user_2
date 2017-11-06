@@ -1,0 +1,481 @@
+package com.ts.main.common;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Locale;
+
+import android.R.integer;
+import android.content.Context;
+import android.content.Intent;
+import android.hardware.input.InputManager;
+import android.os.StatFs;
+import android.os.SystemClock;
+import android.util.Log;
+import android.view.InputDevice;
+import android.view.KeyCharacterMap;
+import android.view.KeyEvent;
+import android.view.MotionEvent;
+import android.widget.Toast;
+
+import com.autochips.storage.EnvironmentATC;
+import com.ts.MainUI.TsFile;
+import com.yyw.ts70xhw.FtSet;
+import com.yyw.ts70xhw.Iop;
+import com.yyw.ts70xhw.Mcu;
+
+public class KeyTouch {
+
+	private static final String TAG = "KeyTouch";
+	
+	private static final String screenpath = "abc腾实截图/";
+
+	private static final String CTOUCH_FILE = "i2c_touch.cfg";
+	
+	public static final int GAMMA_MAX_NUM = 366;
+	
+	int inputSource = InputDevice.SOURCE_UNKNOWN;
+	
+	EnvironmentATC EnvATC;
+
+	static KeyTouch MyKeyTouch = null;
+	Context mContext=null;
+
+	public static KeyTouch GetInstance() {
+		if (MyKeyTouch == null) {
+			MyKeyTouch = new KeyTouch();
+
+		}
+		return MyKeyTouch;
+
+	}
+	private String mGarmarData[] = new String[] {
+			"arm_gamma",
+			"cam_gamma",
+			"dvd_gamma",
+			"usb_gamma",
+			"aux_gamma",
+			"tv_gamma",
+			"fcam_gamma",		
+	};
+
+	static int TickNum = 100;
+
+	int GetFileData(String sPath,byte[] Buf) {
+		File file = null;
+		int nReadNum = 0;
+		file = new File(sPath);
+		if (!file.exists() || file.isDirectory()) {
+			return nReadNum;
+		}
+
+		try {
+			FileInputStream fis = new FileInputStream(file);
+			nReadNum = fis.read(Buf);
+			fis.close();
+			return nReadNum;
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return nReadNum;
+
+	}
+	public static boolean copyFile(String srcFileName, String destFileName, boolean reWrite) 
+		    throws IOException {
+		    Log.d(TAG, "copyFile, begin");
+		    File srcFile = new File(srcFileName);
+		    File destFile = new File(destFileName);        
+		    if(!srcFile.exists()) {
+		        Log.d(TAG, "copyFile, source file not exist.");
+		        return false;
+		    }
+		    if(!srcFile.isFile()) {
+		        Log.d(TAG, "copyFile, source file not a file.");
+		        return false;
+		    }
+		    if(!srcFile.canRead()) {
+		        Log.d(TAG, "copyFile, source file can't read.");
+		        return false;
+		    }
+		    if(destFile.exists() && reWrite){
+		        Log.d(TAG, "copyFile, before copy File, delete first.");
+		        destFile.delete();
+		    }
+		 
+		    try {
+		        InputStream inStream = new FileInputStream(srcFile);
+		        FileOutputStream outStream = new FileOutputStream(destFile);
+		        byte[] buf = new byte[1024];
+		        int byteRead = 0;
+		        while ((byteRead = inStream.read(buf)) != -1) {
+		            outStream.write(buf, 0, byteRead);
+		        }
+		        outStream.flush();
+		        outStream.close();
+		        inStream.close();
+		    } catch (IOException e) {
+		        throw e;
+		    } catch (Exception e) {
+		        e.printStackTrace();
+		    }
+		 
+		    Log.d(TAG, "copyFile, success");
+		    return true;
+		}
+
+	public void SearchBootFile()
+	{
+
+		
+	
+		
+		
+	}
+	
+	
+	private byte[]Mydada = new byte[5];
+	public int SearchCtouchFile(int nForce) {
+		
+	//
+		if (TickNum > 0 || nForce==1) {
+			int nWriteData = 0;
+			if(nForce==0)
+			{
+				TickNum--;
+			}
+			String mCtouchPath[] = MainSet.GetInstance().GetMountedStorage();
+			if(mCtouchPath==null)
+			{
+				return 0;
+			}
+			for (int i = 0; i < mCtouchPath.length; i++) {
+				
+				int nReadNum = GetFileData(mCtouchPath[i] +"/"+ CTOUCH_FILE,Mydada);
+				if(nReadNum>0)			//兼容3360导入文件
+				{
+					TickNum = 0;
+					
+					switch(Mydada[0])
+					{
+					case 1:
+						nWriteData = 0;
+						break;
+					case 2:
+						nWriteData = 1;
+						break;
+					case 3:
+						nWriteData = 2;
+						break;
+					case 4:
+						nWriteData = 3;
+						break;
+					}
+					int nTYPR = FtSet.GetCtXYswap();
+					FtSet.SetCtXYswap(nWriteData);
+					int nData = 0;
+					if(nReadNum==5)			//防止遇到特殊的分辨率的屏 以作特殊处理
+					{
+						
+						nData = (Mydada[2]*256 + Mydada[1])*65536 + ( Mydada[3]+ Mydada[4]*256);
+						FtSet.SetCtXYrange(nData);		//1024*256+600
+					}
+					else			
+					{
+						nData = (1024*65536+600);		//1024*256+600
+						
+					}
+					
+					FtSet.Save(0);
+					if(mContext!=null)
+					{
+						Toast.makeText(mContext, "电容参数导入成功", Toast.LENGTH_SHORT).show();
+					}
+					
+					break;
+				}
+
+			}
+
+		}
+		return 1;
+	}
+	
+	public void Inint(Context MyContext)
+	{
+		mContext = MyContext;
+		EnvATC = new EnvironmentATC(mContext);
+		inputSource = getSource(inputSource, InputDevice.SOURCE_TOUCHSCREEN);
+		
+	}
+	
+	private int nPoint[] = new int[3];
+	private int nPointOld[] = new int[3];
+	private int TouchTime = 0;
+	public void DealTask()
+	{
+		if(Iop.GetTouchMul(nPoint)==0) return;	//句柄异常就不要
+		if(nPoint[0]!=nPointOld[0])	
+		{
+			for (int i = 0; i < 3; i++)
+			{
+				nPointOld[i] = nPoint[i];
+			}
+			TouchTime = 0;
+			if(nPointOld[0]>0)		//有按键按下
+			{
+				Log.i(TAG, "nPointOld[0]=="+nPointOld[0]);
+				Log.i(TAG, "nPointOld[1]=="+nPointOld[1]);
+				Log.i(TAG, "nPointOld[2]=="+nPointOld[2]);
+				if((nPointOld[1]>0) && (nPointOld[1]<1024) &&
+						(nPointOld[2]>0) && (nPointOld[2]<600))
+				{
+					if(Mcu.BklisOn()==0)//背光关
+					{
+						Mcu.BklTurn();
+						Log.i(TAG, "Mcu.BklTurn();==");
+					}
+				}
+				
+				
+			}
+		}
+		else {
+			if(nPointOld[0]>=4)		//⑤指按下
+			{
+				TouchTime++;
+				if(TouchTime==130)		//超过10秒
+				{
+					WinShow.show("com.ts.MainUI","com.ts.main.touch.TouchActivity");
+				}
+				Log.i(TAG, "TouchTime=="+TouchTime);
+				Log.i(TAG, "nPoint[0]=="+nPoint[0]);
+				Log.i(TAG, "nPoint[1]=="+nPoint[1]);
+				Log.i(TAG, "nPoint[2]=="+nPoint[2]);
+			}
+		}
+
+			
+		
+			
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+	public void SendTouchXY()
+	{
+		
+	}
+	
+	/**
+     * Builds a MotionEvent and injects it into the event stream.
+     *
+     * @param inputSource the InputDevice.SOURCE_* sending the input event
+     * @param action the MotionEvent.ACTION_* for the event
+     * @param when the value of SystemClock.uptimeMillis() at which the event happened
+     * @param x x coordinate of event
+     * @param y y coordinate of event
+     * @param pressure pressure of event
+     */
+    private void injectMotionEvent(int inputSource, int action, long when, float x, float y, float pressure) {
+        final float DEFAULT_SIZE = 1.0f;
+        final int DEFAULT_META_STATE = 0;
+        final float DEFAULT_PRECISION_X = 1.0f;
+        final float DEFAULT_PRECISION_Y = 1.0f;
+        final int DEFAULT_DEVICE_ID = 0;
+        final int DEFAULT_EDGE_FLAGS = 0;
+        MotionEvent event = MotionEvent.obtain(when, when, action, x, y, pressure, DEFAULT_SIZE,
+                DEFAULT_META_STATE, DEFAULT_PRECISION_X, DEFAULT_PRECISION_Y, DEFAULT_DEVICE_ID,
+                DEFAULT_EDGE_FLAGS);
+        event.setSource(inputSource);
+       // Log.i(TAG, "injectMotionEvent: " + event);
+        InputManager.getInstance().injectInputEvent(event,
+                InputManager.INJECT_INPUT_EVENT_MODE_WAIT_FOR_FINISH);
+    }
+    private static final int getSource(int inputSource, int defaultSource) {
+        return inputSource == InputDevice.SOURCE_UNKNOWN ? defaultSource : inputSource;
+    }
+    
+    boolean bDown;
+    public void sendTap(float x, float y,int State) {  
+		 
+	       final float Touchx = x;
+	       final float Touchy = y;
+	       final int TouchState = State;   
+	        new Thread(){
+	        	public void run()
+				{  
+	        		inputSource  = InputDevice.SOURCE_TOUCHSCREEN;
+	        		Log.i(TAG,"inputSource="+inputSource);
+	        		
+	        		 long now = SystemClock.uptimeMillis();
+	        		 if(TouchState==1)
+	        		 {
+	        			 if(bDown)
+	        			 {
+	        				 Log.i(TAG,"sendTap x="+Touchx +"sendTap y="+Touchy+"move");
+	        				 injectMotionEvent(inputSource, MotionEvent.ACTION_MOVE, now, Touchx, Touchy, 1.0f); 
+	        			 }
+	        			 else
+	        			 {
+	        				 Log.i(TAG,"sendTap x="+Touchx +"sendTap y="+Touchy+"down");
+	        				 injectMotionEvent(inputSource, MotionEvent.ACTION_DOWN, now, Touchx, Touchy, 1.0f);
+	        			 }
+	        			 bDown = true;
+	        			
+	        		 }
+	        		 else
+	        		 {
+	        			 Log.i(TAG,"sendTap x="+Touchx +"sendTap y="+Touchy+"up");
+	        			 bDown = false;
+	        			 injectMotionEvent(inputSource, MotionEvent.ACTION_UP, now, Touchx, Touchy, 0.0f);
+	        		 }
+	        		 
+				}
+	        	
+	        }.start();
+	        
+	      
+	    }
+    
+    private void sendToucXYSync(MotionEvent event)
+    {
+    	
+    }
+
+	public void sendKeyClick(int keyCode) {
+		/*long now = SystemClock.uptimeMillis();
+		sendKeySync(new KeyEvent(now, now, KeyEvent.ACTION_DOWN, keyCode, 0, 0,
+				KeyCharacterMap.VIRTUAL_KEYBOARD, 0, 0,
+				InputDevice.SOURCE_KEYBOARD));
+
+		sendKeySync(new KeyEvent(now, now, KeyEvent.ACTION_UP, keyCode, 0, 0,
+				KeyCharacterMap.VIRTUAL_KEYBOARD, 0, 0,
+				InputDevice.SOURCE_KEYBOARD));*/
+		final int nkeyCode = keyCode;
+		
+		new Thread (){
+			public void run()
+			{  
+				try
+				{
+					long now = SystemClock.uptimeMillis();
+					sendKeySync(new KeyEvent(now, now, KeyEvent.ACTION_DOWN, nkeyCode, 0, 0,
+							KeyCharacterMap.VIRTUAL_KEYBOARD, 0, KeyEvent.FLAG_FROM_SYSTEM, InputDevice.SOURCE_KEYBOARD));
+					sendKeySync(new KeyEvent(now, now, KeyEvent.ACTION_UP, nkeyCode, 0, 0,
+							KeyCharacterMap.VIRTUAL_KEYBOARD, 0, KeyEvent.FLAG_FROM_SYSTEM, InputDevice.SOURCE_KEYBOARD));
+				}
+				catch (Exception e)
+				{  
+					Log.e("Exception when sendPointerSync", e.toString());
+				}
+			}  
+		}.start();
+	}
+
+	private static void sendKeySync(KeyEvent event) {
+		InputManager.getInstance().injectInputEvent(event,
+				InputManager.INJECT_INPUT_EVENT_MODE_WAIT_FOR_FINISH);
+	}
+	
+
+	
+	
+	 public long getSDAllSize(String path){
+	      //取得SD卡文件路径
+	      StatFs sf = new StatFs(path); 
+	      //获取单个数据块的大小(Byte)
+	      long blockSize = sf.getBlockSize(); 
+	      //获取所有数据块数
+	      long allBlocks = sf.getBlockCount();
+	      //返回SD卡大小
+	      //return allBlocks * blockSize; //单位Byte
+	      //return (allBlocks * blockSize)/1024; //单位KB
+	      return (allBlocks * blockSize)/1024/1024; //单位MB
+	    }    
+
+		boolean FathIsExits(String path)
+		{
+			
+			if(!TsFile.fileIsExists(path+screenpath+"Screeanshot.dat"))
+			{
+				TsFile.NewDir(path+screenpath);
+				try {
+					TsFile.writeFileSdcardFile(path+screenpath+"Screeanshot.dat", "abc");
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+			}
+			if(TsFile.fileIsExists(path+screenpath+"Screeanshot.dat"))
+			{
+				return true;
+			}
+			
+			
+			return false;
+			
+		}
+		
+	 public boolean takeScreenShot(String imagePath){
+		 
+		 
+		 String strSDMountedPath[] = EnvATC.getStorageMountedPaths(); 
+		 Log.i(TAG, "strSDMountedPath.length =="+strSDMountedPath.length);
+		 for(int i = 0;i<strSDMountedPath.length;i++)
+		{
+			 Log.i(TAG, "strSDMountedPath[i] =="+strSDMountedPath[i]);	
+			if(!strSDMountedPath[i].contains("emulated") && !strSDMountedPath[i].contains("cdfs") )
+			{
+				TsFile.NewDir(strSDMountedPath[i]+"/"+screenpath);
+				  SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd_HH-mm-ss",Locale.US);
+     	         imagePath	= strSDMountedPath[i]+"/"+screenpath+sdf.format(new Date())+ ".png";
+     	         Log.i(TAG, "imagePath =="+imagePath);
+     	         break;
+			}
+		}
+        
+
+         
+      if(imagePath.equals("" ))
+      {
+        Toast.makeText(mContext,"截图找不到盘符", Toast.LENGTH_SHORT).show();
+        return false ;
+      } 
+    
+      try {                     
+          Runtime. getRuntime().exec("screencap -p " + imagePath); 
+   } catch (Exception e) { 
+          e.printStackTrace(); 
+   }
+      
+      try
+	{
+		Thread.sleep(2000);
+	} catch (InterruptedException e)
+	{
+		// TODO Auto-generated catch block  
+		e.printStackTrace();
+	}
+      
+      Toast.makeText(mContext,imagePath, Toast.LENGTH_SHORT).show();
+      return true;
+      
+}
+
+	
+
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="56.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/fs_main_btn_text_size" android:textColor="@drawable/fs_can_item_color" android:ellipsize="end" android:gravity="center|left" android:id="@id/fscan_id" android:layout_width="420.0px" android:layout_height="45.0px" android:layout_marginLeft="32.0px" android:layout_marginTop="4.0px" android:text="@string/str_fsmain_can" android:singleLine="true" />
+    <ImageView android:background="@drawable/factory_short_line" android:layout_width="459.0px" android:layout_height="2.0px" android:layout_marginLeft="0.0px" android:layout_marginTop="51.0px" />
+</RelativeLayout>

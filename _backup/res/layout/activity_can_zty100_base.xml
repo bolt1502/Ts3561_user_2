@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/can_comm_layout" android:background="@drawable/can_zt_xx_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/scr_sta" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="305.0px" android:layout_marginTop="10.0px">
+        <LinearLayout android:orientation="vertical" android:id="@id/line_sta" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </ScrollView>
+    <ScrollView android:id="@id/scr_warn" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="305.0px" android:layout_marginTop="10.0px">
+        <LinearLayout android:orientation="vertical" android:id="@id/line_warn" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </ScrollView>
+</RelativeLayout>

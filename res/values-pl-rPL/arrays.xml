@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="set_main_options">
+        <item>Ustawienia</item>
+        <item>Wyświetlacz</item>
+        <item>Głośność</item>
+        <item>Equalizer</item>
+        <item>Video</item>
+        <item>Nawigacja</item>
+        <item>Bluetooth</item>
+        <item>Sterowanie Kierownicy</item>
+        <item>informacje o urządzeniu</item>
+    </string-array>
+    <string-array name="set_genera_options">
+        <item>czas czuwania</item>
+        <item>Speech Recognition</item>
+        <item>AssistiveTouch</item>
+        <item>Głośność podczas jazdy</item>
+        <item>Zmiana Logo</item>
+        <item>Virtual CD Storage Device</item>
+        <item>Reset ustawień</item>
+        <item>Usuń wszystkie ustawienia</item>
+    </string-array>
+    <string-array name="set_display_options">
+        <item>Dzienne podświetlenie</item>
+        <item>Nocne podświetlenie</item>
+        <item>Tryb AUTO</item>
+        <item>Key Light Color</item>
+    </string-array>
+    <string-array name="set_volume_options">
+        <item>Głośność systemu</item>
+        <item>Głośność NAVI</item>
+        <item>Głośność BT</item>
+        <item>Głośność klawiszy</item>
+        <item>Głośność Alarmu</item>
+        <item>Głośność systemu</item>
+    </string-array>
+    <string-array name="set_video_options">
+        <item>Oglądanie Video podczas jazdy</item>
+        <item>Asystent ostrzegania</item>
+        <item>Linia ostrzegania</item>
+        <item>Kamera cofania</item>
+        <item>Klimatyzacja</item>
+        <item>Tylny film</item>
+    </string-array>
+    <string-array name="set_navi_options">
+        <item>Auto start Nawigacji</item>
+        <item>ustawienia pliku</item>
+    </string-array>
+    <string-array name="set_bt_options">
+        <item>Kod PIN</item>
+        <item>Auto połączeni</item>
+        <item>Auto odbieranie</item>
+    </string-array>
+    <string-array name="set_eqpment_options">
+        <item>HMI</item>
+        <item>MCU</item>
+        <item>MEDIA</item>
+        <item>NKV</item>
+        <item>BTV</item>
+        <item>DVDROM</item>
+    </string-array>
+    <string-array name="tpms_general_disp">
+        <item>TEMP Unit</item>
+        <item>Pressure Unit</item>
+        <item>MAX TEMP</item>
+        <item>MAX Pressure</item>
+        <item>MIN Pressure</item>
+    </string-array>
+    <string-array name="tpms_general_error">
+        <item>Flat Tire</item>
+        <item>Low Voltage</item>
+        <item>No Signal</item>
+        <item>Low Pressure</item>
+        <item>High Pressure</item>
+        <item>Start study</item>
+        <item>studying</item>
+    </string-array>
+</resources>

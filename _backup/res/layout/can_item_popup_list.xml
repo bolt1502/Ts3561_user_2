@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="200.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textSize="30.0px" android:textColor="@android:color/white" android:gravity="center|left" android:id="@id/btn" android:background="@drawable/can_comm_rect" android:paddingLeft="30.0px" android:paddingRight="500.0px" android:clickable="false" android:layout_width="993.0px" android:layout_height="81.0px" android:layout_marginLeft="16.0px" />
+    <TextView android:textSize="30.0px" android:textColor="@android:color/white" android:gravity="center|right" android:id="@id/val" android:paddingLeft="90.0px" android:clickable="false" android:layout_width="340.0px" android:layout_height="81.0px" android:layout_marginLeft="570.0px" />
+    <ImageView android:textColor="@android:color/white" android:id="@id/delta" android:background="@drawable/can_comm_rt_delta" android:duplicateParentState="true" android:layout_width="40.0px" android:layout_height="30.0px" android:layout_marginLeft="940.0px" android:layout_marginTop="25.0px" />
+</RelativeLayout>

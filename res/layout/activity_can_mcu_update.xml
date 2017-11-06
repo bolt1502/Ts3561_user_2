@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/can_comm_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="35.0px" android:textColor="@android:color/white" android:gravity="center" android:id="@id/mcu_update_msg" android:layout_width="950.0px" android:layout_height="50.0px" android:layout_marginLeft="50.0px" android:layout_marginTop="210.0px" android:singleLine="true" />
+    <ProgressBar android:id="@id/mcu_update_progress" android:layout_width="848.0px" android:layout_height="27.0px" android:layout_marginLeft="88.0px" android:layout_marginTop="300.0px" android:max="5" android:progress="5" android:progressDrawable="@drawable/progress_mcu_update" style="?android:attr/progressBarStyleHorizontal" />
+    <Button android:textSize="30.0px" android:textColor="@android:color/white" android:id="@id/mcu_update_start" android:background="@drawable/btn_mcu_update" android:layout_width="134.0px" android:layout_height="70.0px" android:layout_marginLeft="338.0px" android:layout_marginTop="400.0px" android:text="@string/can_mcu_update" />
+    <Button android:textSize="30.0px" android:textColor="@android:color/white" android:id="@id/mcu_update_reset" android:background="@drawable/btn_mcu_update" android:layout_width="134.0px" android:layout_height="70.0px" android:layout_marginLeft="562.0px" android:layout_marginTop="400.0px" android:text="@string/can_mcu_rst" />
+</RelativeLayout>

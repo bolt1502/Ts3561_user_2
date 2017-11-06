@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="set_main_options">
+        <item>Общие</item>
+        <item>Экран</item>
+        <item>Громкость</item>
+        <item>Эквалайзер</item>
+        <item>Видео</item>
+        <item>Навигация</item>
+        <item>Bluetooth</item>
+        <item>Кнопки на руле</item>
+        <item>Об устройстве</item>
+    </string-array>
+    <string-array name="set_genera_options">
+        <item>Режим сна</item>
+        <item>Speech Recognition</item>
+        <item>Ассистент на дисплее</item>
+        <item>Громкость при движении</item>
+        <item>Логотип загрузки</item>
+        <item>Virtual CD Storage Device</item>
+        <item>Сбросить все настройки</item>
+        <item>Удалить все данные</item>
+    </string-array>
+    <string-array name="set_display_options">
+        <item>Дневной режим</item>
+        <item>Ночной режим</item>
+        <item>Авто-режим</item>
+        <item>Key Light Color</item>
+    </string-array>
+    <string-array name="set_volume_options">
+        <item>Медиа</item>
+        <item>Навигация</item>
+        <item>Bluetooth</item>
+        <item>Вызовы</item>
+        <item>Оповещения</item>
+        <item>Система</item>
+    </string-array>
+    <string-array name="set_video_options">
+        <item>Запрет просмотра видео в движении</item>
+        <item>Динамические линии парковки</item>
+        <item>Разметка камеры</item>
+        <item>Зеркалировать изображение камеры</item>
+        <item>Климат-контроль</item>
+        <item>Заднее видео</item>
+    </string-array>
+    <string-array name="set_navi_options">
+        <item>Автостарт навигации</item>
+        <item>Выбрать приложение</item>
+    </string-array>
+    <string-array name="set_bt_options">
+        <item>Пин-код</item>
+        <item>Автоподключение</item>
+        <item>Автоответ</item>
+    </string-array>
+    <string-array name="set_eqpment_options">
+        <item>HMI</item>
+        <item>MCU</item>
+        <item>MEDIA</item>
+        <item>NKV</item>
+        <item>BTV</item>
+        <item>DVDROM</item>
+    </string-array>
+    <string-array name="tpms_general_disp">
+        <item>TEMP Unit</item>
+        <item>Pressure Unit</item>
+        <item>MAX TEMP</item>
+        <item>MAX Pressure</item>
+        <item>MIN Pressure</item>
+    </string-array>
+    <string-array name="tpms_general_error">
+        <item>Flat Tire</item>
+        <item>Low Voltage</item>
+        <item>No Signal</item>
+        <item>Low Pressure</item>
+        <item>High Pressure</item>
+        <item>Start study</item>
+        <item>studying</item>
+    </string-array>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/wheel_layout" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/set_wheel_top" android:layout_width="fill_parent" android:layout_height="75.0px" layout="@layout/set_main_item_top" />
+    <ImageView android:background="@drawable/setup_swc_wheel" android:layout_width="194.0px" android:layout_height="194.0px" android:layout_marginLeft="415.0px" android:layout_marginTop="206.0px" />
+    <Button android:id="@id/btn_swc_vol_dec" android:background="@drawable/setup_btn_swc_vol_dec" android:layout_width="92.0px" android:layout_height="85.0px" android:layout_marginLeft="263.0px" android:layout_marginTop="101.0px" />
+    <Button android:id="@id/btn_swc_vol_inc" android:background="@drawable/setup_btn_swc_vol_inc" android:layout_width="92.0px" android:layout_height="85.0px" android:layout_marginLeft="154.0px" android:layout_marginTop="159.0px" />
+    <Button android:id="@id/btn_swc_prev" android:background="@drawable/setup_btn_swc_prev" android:layout_width="92.0px" android:layout_height="95.0px" android:layout_marginLeft="110.0px" android:layout_marginTop="267.0px" />
+    <Button android:id="@id/btn_swc_next" android:background="@drawable/setup_btn_swc_next" android:layout_width="92.0px" android:layout_height="95.0px" android:layout_marginLeft="227.0px" android:layout_marginTop="267.0px" />
+    <Button android:id="@id/btn_swc_hang" android:background="@drawable/setup_btn_swc_hang" android:layout_width="92.0px" android:layout_height="85.0px" android:layout_marginLeft="780.0px" android:layout_marginTop="379.0px" />
+    <Button android:id="@id/btn_swc_dial" android:background="@drawable/setup_btn_swc_dial" android:layout_width="92.0px" android:layout_height="85.0px" android:layout_marginLeft="707.0px" android:layout_marginTop="270.0px" />
+    <Button android:id="@id/btn_swc_ch_inc" android:background="@drawable/setup_btn_swc_ch_inc" android:layout_width="92.0px" android:layout_height="85.0px" android:layout_marginLeft="671.0px" android:layout_marginTop="101.0px" />
+    <Button android:id="@id/btn_swc_ch_dec" android:background="@drawable/setup_btn_swc_ch_dec" android:layout_width="92.0px" android:layout_height="85.0px" android:layout_marginLeft="780.0px" android:layout_marginTop="162.0px" />
+    <Button android:id="@id/btn_swc_mute" android:background="@drawable/setup_btn_swc_mute" android:layout_width="92.0px" android:layout_height="85.0px" android:layout_marginLeft="154.0px" android:layout_marginTop="376.0px" />
+    <Button android:id="@id/btn_swc_mode" android:background="@drawable/setup_btn_swc_mode" android:layout_width="92.0px" android:layout_height="85.0px" android:layout_marginLeft="263.0px" android:layout_marginTop="437.0px" />
+    <Button android:id="@id/btn_swc_poweroff" android:background="@drawable/setup_btn_swc_poweroff" android:layout_width="92.0px" android:layout_height="85.0px" android:layout_marginLeft="671.0px" android:layout_marginTop="437.0px" />
+    <Button android:id="@id/btn_swc_pp" android:background="@drawable/setup_btn_swc_playpause" android:layout_width="92.0px" android:layout_height="85.0px" android:layout_marginLeft="824.0px" android:layout_marginTop="270.0px" />
+    <Button android:id="@id/btn_swc_gps" android:background="@drawable/setup_btn_swc_gps" android:layout_width="123.0px" android:layout_height="47.0px" android:layout_marginLeft="452.0px" android:layout_marginTop="115.0px" />
+    <Button android:id="@id/btn_swc_clear" android:background="@drawable/setup_btn_swc_clear" android:layout_width="181.0px" android:layout_height="46.0px" android:layout_marginLeft="423.0px" android:layout_marginTop="460.0px" />
+</RelativeLayout>

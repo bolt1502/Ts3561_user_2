@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/factory_main_top" android:layout_width="1024.0px" android:layout_height="78.0px" android:layout_alignParentTop="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="30.0px" android:gravity="center" android:id="@id/fs_top_title" android:layout_width="wrap_content" android:layout_height="40.0px" android:layout_marginLeft="30.0px" android:layout_marginTop="15.0px" android:text="@string/str_fs_title" />
+    <Button android:textSize="30.0px" android:textColor="@color/fs_btn_text_color" android:id="@id/fs_top_btn_import" android:background="@drawable/fs_btn_top" android:layout_width="@dimen/fs_top_btn_width" android:layout_height="@dimen/fs_top_btn_height" android:layout_marginLeft="725.0px" android:layout_marginTop="3.0px" android:text="@string/str_fs_btn_import" />
+    <Button android:textSize="30.0px" android:textColor="@color/fs_btn_text_color" android:id="@id/fs_top_btn_save" android:background="@drawable/fs_btn_top" android:layout_width="@dimen/fs_top_btn_width" android:layout_height="@dimen/fs_top_btn_height" android:layout_marginLeft="867.0px" android:layout_marginTop="3.0px" android:text="@string/str_fs_btn_save" />
+</RelativeLayout>

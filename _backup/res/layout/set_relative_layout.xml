@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/set_relative_layout" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/set_sound_top" android:layout_width="fill_parent" android:layout_height="75.0px" layout="@layout/set_main_item_top" />
+    <ImageView android:background="@drawable/setup_bal_line" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_marginTop="140.0px" />
+    <include android:id="@id/set_sound_Bas" android:layout_width="510.0px" android:layout_height="51.0px" android:layout_marginLeft="450.0px" android:layout_marginTop="189.0px" layout="@layout/set_sound_progress_list" />
+    <include android:id="@id/set_sound_Mid" android:layout_width="510.0px" android:layout_height="51.0px" android:layout_marginLeft="450.0px" android:layout_marginTop="268.0px" layout="@layout/set_sound_progress_list" />
+    <include android:id="@id/set_sound_Tre" android:layout_width="510.0px" android:layout_height="51.0px" android:layout_marginLeft="450.0px" android:layout_marginTop="345.0px" layout="@layout/set_sound_progress_list" />
+    <include android:layout_width="275.0px" android:layout_height="51.0px" android:layout_marginLeft="475.0px" android:layout_marginTop="432.0px" layout="@layout/set_switch2" />
+    <TextView android:textSize="27.0px" android:textColor="#ff717475" android:gravity="center_vertical" android:id="@id/set_tv_switch2" android:layout_width="100.0px" android:layout_height="51.0px" android:layout_marginLeft="760.0px" android:layout_marginTop="432.0px" android:text="" />
+    <include android:layout_width="356.0px" android:layout_height="342.0px" android:layout_marginLeft="40.0px" android:layout_marginTop="138.0px" layout="@layout/set_balance_setup" />
+    <Button android:id="@id/set_balance_btn_center1" android:background="@drawable/setup_btn_bal_default" android:layout_width="116.0px" android:layout_height="59.0px" android:layout_marginLeft="160.0px" android:layout_marginTop="482.0px" />
+</RelativeLayout>

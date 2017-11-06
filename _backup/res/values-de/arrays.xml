@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="set_main_options">
+        <item>Allgemein</item>
+        <item>Bildschirm</item>
+        <item>Lautstärke</item>
+        <item>Sound</item>
+        <item>Video</item>
+        <item>Navigation</item>
+        <item>Bluetooth</item>
+        <item>Lenkradsteuerung</item>
+        <item>Geräte Informationen</item>
+    </string-array>
+    <string-array name="set_genera_options">
+        <item>Standby-Zeit</item>
+        <item>Speech Recognition</item>
+        <item>AssistiveTouch</item>
+        <item>Reverse Volume Suppression</item>
+        <item>Start Logo</item>
+        <item>Virtual CD Storage Device</item>
+        <item>Auf Werkseinstellungen zurücksetzen</item>
+        <item>Alle Inhalte löschen</item>
+    </string-array>
+    <string-array name="set_display_options">
+        <item>Hintergrundbeleuchtung Tag-Modus</item>
+        <item>Hintergrundbeleuchtung Nacht-Modus</item>
+        <item>Automatisch</item>
+        <item>Tastenbeleuchtung</item>
+    </string-array>
+    <string-array name="set_volume_options">
+        <item>Media Lautstärke</item>
+        <item>Navigations Lautstärke</item>
+        <item>Bluetooth Lautstärke</item>
+        <item>Ruftonlautstärke</item>
+        <item>Alarm Lautstärke</item>
+        <item>System Lautstärke</item>
+    </string-array>
+    <string-array name="set_video_options">
+        <item>Es ist Verboten Videos während der Fahrt zu sehen.</item>
+        <item>Reversing Assistant Line</item>
+        <item>Parklinien aktivieren</item>
+        <item>Rückfahrkamera spiegeln</item>
+        <item>Air Conditioner</item>
+        <item>Hinteres Video</item>
+    </string-array>
+    <string-array name="set_navi_options">
+        <item>Autostart Navigation</item>
+        <item>Dateipfad</item>
+    </string-array>
+    <string-array name="set_bt_options">
+        <item>Pin Code</item>
+        <item>Automatisch verbinden</item>
+        <item>Automatisch Antworten</item>
+    </string-array>
+    <string-array name="set_eqpment_options">
+        <item>HMI</item>
+        <item>MCU</item>
+        <item>MEDIA</item>
+        <item>NKV</item>
+        <item>BTV</item>
+        <item>DVDROM</item>
+    </string-array>
+    <string-array name="tpms_general_disp">
+        <item>TEMP Unit</item>
+        <item>Pressure Unit</item>
+        <item>MAX TEMP</item>
+        <item>MAX Pressure</item>
+        <item>MIN Pressure</item>
+    </string-array>
+    <string-array name="tpms_general_error">
+        <item>Flat Tire</item>
+        <item>Low Voltage</item>
+        <item>No Signal</item>
+        <item>Low Pressure</item>
+        <item>High Pressure</item>
+        <item>Start study</item>
+        <item>studying</item>
+    </string-array>
+</resources>

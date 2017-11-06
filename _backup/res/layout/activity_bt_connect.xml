@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/bt_bg01" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/bt_sub_items" />
+    <TextView android:textSize="25.0px" android:textColor="#ff10db8c" android:ellipsize="end" android:gravity="center" android:id="@id/btTvPhone" android:layout_width="268.0px" android:layout_height="33.0px" android:layout_marginLeft="448.0px" android:layout_marginTop="357.0px" android:text="" android:maxLines="1" />
+    <ImageView android:id="@id/btIvIcon" android:background="@drawable/bt_bluetooth_up" android:layout_width="269.0px" android:layout_height="269.0px" android:layout_marginLeft="448.0px" android:layout_marginTop="18.0px" android:contentDescription="TODO" />
+    <TextView android:textSize="35.0px" android:textColor="@android:color/white" android:ellipsize="end" android:gravity="center" android:id="@id/btTvDev" android:layout_width="268.0px" android:layout_height="47.0px" android:layout_marginLeft="448.0px" android:layout_marginTop="302.0px" android:text="设备: 1234" android:maxLines="1" />
+    <ImageButton android:id="@id/btBtnConnect" android:background="@drawable/bt_btn_connect" android:layout_width="90.0px" android:layout_height="90.0px" android:layout_marginLeft="469.0px" android:layout_marginTop="420.0px" />
+    <ImageButton android:id="@id/btBtnDisconnect" android:background="@drawable/bt_btn_disconnect" android:layout_width="90.0px" android:layout_height="90.0px" android:layout_marginLeft="622.0px" android:layout_marginTop="420.0px" />
+</RelativeLayout>

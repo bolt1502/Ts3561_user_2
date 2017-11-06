@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="28.0px" android:textColor="#ffffffff" android:gravity="center|right" android:id="@id/switch_value" android:layout_width="100.0px" android:layout_height="wrap_content" android:text="switch" android:layout_centerVertical="true" />
+    <Switch android:id="@id/switch_ctrl" android:layout_width="83.0px" android:layout_height="45.0px" android:layout_marginLeft="110.0px" android:textOn="" android:textOff="" android:thumb="@drawable/setup_switch_up" android:layout_centerVertical="true" android:switchMinWidth="83.0px" android:thumbTextPadding="19.0px" />
+</RelativeLayout>

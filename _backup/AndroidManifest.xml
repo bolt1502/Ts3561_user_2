@@ -1,0 +1,720 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:sharedUserId="android.uid.system" package="com.ts.MainUI">
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+    <uses-permission android:name="android.permission.READ_CALL_LOG"/>
+    <uses-permission android:name="android.permission.WRITE_CALL_LOG"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.BROADCAST_STICKY"/>
+    <uses-permission android:name="android.permission.INTERNAL_SYSTEM_WINDOW"/>
+    <application android:allowBackup="true" android:debuggable="true" android:label="@string/app_name" android:name="com.ts.can.MyApplication" android:theme="@style/AppTheme">
+        <meta-data android:name="appkey" android:value="H1TSDZ1611000000"/>
+        <meta-data android:name="appsecret" android:value="hf6a5d41f90101c5c84f6b01b6a227225a"/>
+        <activity android:label="@string/title_activity_authactivity_main" android:name="com.ts.main.auth.AuthActivity" android:taskAffinity="com.ts.main.auth.AuthActivity"/>
+        <activity android:icon="@drawable/mainmenu_del_up" android:label="@string/title_activity_delate_main" android:name="com.ts.main.auth.DelateMainActivity" android:taskAffinity="com.ts.main.auth.DelateMainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MYLAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:icon="@drawable/mainmenu_navi_up" android:label="@string/title_activity_navi_main" android:name="com.ts.main.navi.NaviMainActivity" android:taskAffinity="com.ts.main.navi.NaviMainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MYLAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:icon="@drawable/mainmenu_music_up" android:label="@string/title_activity_sdmain" android:name="com.ts.main.Media.SDMainActivity" android:taskAffinity="com.ts.main.Media.SDMainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MYLAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:icon="@drawable/mainmenu_video_up" android:label="@string/title_activity_usbmain" android:name="com.ts.main.Media.USBMainActivity" android:taskAffinity="com.ts.main.Media.USBMainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MYLAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:icon="@drawable/mainmenu_dvd_up" android:label="@string/title_activity_dvd_main" android:name="com.ts.main.Media.DvdMainActivity" android:taskAffinity="com.ts.main.Media.DvdMainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MYLAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:icon="@drawable/mainmenu_dvdbox_up" android:label="@string/title_activity_dvd_box_main" android:name="com.ts.main.Media.DvdBoxMainActivity" android:taskAffinity="com.ts.main.Media.DvdBoxMainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MYLAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:icon="@drawable/mainmenu_adas_up" android:label="@string/title_activity_adasmain" android:name="com.ts.main.Media.ADASMainActivity" android:taskAffinity="com.ts.main.Media.ADASMainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MYLAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:background="@drawable/avin_background" android:configChanges="locale|keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize" android:icon="@drawable/mainmenu_avin_up" android:label="@string/title_activity_avin_main" android:name="com.ts.main.avin.AvinMainActivity" android:taskAffinity="com.ts.MainUI.AvinMainActivity" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MYLAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="locale|keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize" android:name="com.ts.backcar.BackcarMainActivity" android:taskAffinity="com.ts.backcar.BackcarMainActivity" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MYLAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="locale|keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize" android:name="com.ts.backcar.RightCameraActivity" android:taskAffinity="com.ts.backcar.RightCameraActivity" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MYLAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:background="@drawable/avin_background" android:label="@string/title_activity_cstudy_main" android:name="com.ts.main.CStudy.CStudyMainActivity" android:taskAffinity="com.ts.CStudy.CStudyMainActivity"/>
+        <activity android:name="com.ts.bt.WrcActivity" android:taskAffinity="com.ts.bt.WrcActivity"/>
+        <activity android:background="@drawable/avin_background" android:label="@string/title_activity_aux_main" android:name="com.ts.main.avin2.AuxMainActivity" android:taskAffinity="com.ts.MainUI.AuxMainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MYLAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="locale|keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize" android:icon="@drawable/mainmenu_radio_up" android:label="@string/title_activity_radio_main" android:launchMode="singleTop" android:name="com.ts.main.radio.RadioMainActivity" android:taskAffinity="com.ts.MainUI.RadioMainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MYLAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <service android:exported="true" android:name="com.txznet.sdk.TXZService">
+            <intent-filter>
+                <action android:name="com.ts.MainUI.service.TXZService"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.ts.backcar.BackcarService">
+            <intent-filter>
+                <action android:name="android.intent.action.BACKCAR_SERVICE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </service>
+        <activity android:background="@color/background" android:configChanges="keyboardHidden|orientation" android:excludeFromRecents="true" android:label="@string/app_name" android:name="com.ts.backcar.BackCarActivity" android:screenOrientation="landscape"/>
+        <service android:exported="true" android:name=".MainService">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN_SERVICE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </service>
+        <service android:exported="true" android:name="com.broadfly.settings.SettingsService">
+            <intent-filter>
+                <action android:name="com.broadfly.settings.SettingsService"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </service>
+        <service android:exported="true" android:name="com.ts.main.common.MainUI">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN_UI"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </service>
+        <receiver android:name=".AutoBootUp">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.media.GIS_AUDIO_STATUS_ACTION"/>
+            </intent-filter>
+        </receiver>
+        <activity android:configChanges="locale|keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize" android:icon="@drawable/mainmenu_cmmb_up" android:label="@string/title_activity_cmmb_main" android:name="com.ts.main.cmmb.CmmbMainActivity" android:taskAffinity="com.ts.MainUI.CmmbMainActivity" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MYLAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="locale|keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize" android:icon="@drawable/mainmenu_atv_up" android:label="@string/title_activity_atv_main" android:name="com.ts.main.cmmb.AtvMainActivity" android:taskAffinity="com.ts.MainUI.AtvMainActivity" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MYLAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="locale|keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize" android:icon="@drawable/mainmenu_driving_up" android:label="@string/title_activity_dvr_main" android:launchMode="singleTop" android:name="com.ts.main.dvr.DvrMainActivity" android:taskAffinity="com.ts.MainUI.DvrMainActivity" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MYLAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="locale|keyboardHidden|mcc|mnc|orientation|screenLayout|screenSize" android:icon="@drawable/mainmenu_driving_up" android:label="@string/title_activity_fcamera_main" android:name="com.ts.main.fcamera.FcameraMainActivity" android:taskAffinity="com.ts.MainUI.FcameraMainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MYLAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:icon="@drawable/mainmenu_ipod_up" android:label="@string/title_activity_ipod_main" android:name="com.ts.main.ipod.IpodMainActivity" android:taskAffinity="com.ts.MainUI.IpodMainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MYLAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:icon="@drawable/mainmenu_phone_up" android:label="@string/title_activity_Dialer" android:name="com.ts.main.TsDailer.TsDailerActivity" android:taskAffinity="com.ts.main.TsDailer.TsDailerActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MYLAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:icon="@drawable/mainmenu_360_up" android:label="@string/title_activity_360view" android:name="com.ts.main.view360.View360MainActivity" android:taskAffinity="com.ts.main.view360.View360MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MYLAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/title_activity_touchh" android:name="com.ts.main.touch.TouchActivity" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <activity android:label="@string/title_activity_fsset_main" android:name="com.ts.factoryset.FsMainActivity" android:taskAffinity="com.ts.MainUI.FsMainActivity"/>
+        <activity android:label="@string/str_fsmain_atv" android:launchMode="singleTask" android:name="com.ts.factoryset.FsTVActivity" android:taskAffinity="com.ts.MainUI.FsMainActivity"/>
+        <activity android:label="@string/str_fsmain_rad" android:launchMode="singleTask" android:name="com.ts.factoryset.FsRadioActivity" android:taskAffinity="com.ts.MainUI.FsMainActivity"/>
+        <activity android:label="@string/str_fsmain_can" android:launchMode="singleTask" android:name="com.ts.factoryset.FsCanActivity" android:taskAffinity="com.ts.MainUI.FsMainActivity"/>
+        <activity android:label="@string/str_fsmain_vol" android:launchMode="singleTask" android:name="com.ts.factoryset.FsVolActivity" android:taskAffinity="com.ts.MainUI.FsMainActivity"/>
+        <activity android:label="@string/str_fsmain_ico" android:launchMode="singleTask" android:name="com.ts.factoryset.FsIconActivity" android:taskAffinity="com.ts.MainUI.FsMainActivity"/>
+        <activity android:label="@string/str_fsmain_display" android:launchMode="singleTask" android:name="com.ts.factoryset.FsDisplayActivity" android:taskAffinity="com.ts.MainUI.FsMainActivity"/>
+        <activity android:label="@string/str_fsmain_key" android:launchMode="singleTask" android:name="com.ts.factoryset.FsKeyActivity" android:taskAffinity="com.ts.MainUI.FsMainActivity"/>
+        <activity android:label="@string/str_fsmain_lang" android:launchMode="singleTask" android:name="com.ts.factoryset.FsLangActivity" android:taskAffinity="com.ts.MainUI.FsMainActivity"/>
+        <activity android:label="@string/str_fsmain_other" android:launchMode="singleTask" android:name="com.ts.factoryset.FsOtherActivity" android:taskAffinity="com.ts.MainUI.FsMainActivity"/>
+        <activity android:label="@string/str_fsmain_mpmode" android:launchMode="singleTask" android:name="com.ts.factoryset.FsMPModeActivity" android:taskAffinity="com.ts.MainUI.FsMainActivity"/>
+        <activity android:icon="@drawable/mainmenu_set_up" android:label="@string/title_activity_set_main" android:launchMode="singleTask" android:name="com.ts.set.SetMainActivity" android:taskAffinity="com.ts.set">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MYLAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/str_setting_title" android:launchMode="singleTask" android:name="com.ts.set.SetColorKeyMainActivity" android:taskAffinity="com.ts.set"/>
+        <activity android:label="@string/str_setting_title" android:launchMode="singleTask" android:name="com.ts.set.SettingGpsPathActivity" android:taskAffinity="com.ts.set"/>
+        <activity android:label="@string/str_setting_title" android:launchMode="singleTask" android:name="com.ts.set.SettingGerenalActivity" android:taskAffinity="com.ts.set"/>
+        <activity android:label="@string/str_setting_title" android:launchMode="singleTask" android:name="com.ts.set.SetVolumeActivity" android:taskAffinity="com.ts.set"/>
+        <activity android:label="@string/str_setting_title" android:launchMode="singleTask" android:name="com.ts.set.SettingGpsActivity" android:taskAffinity="com.ts.set"/>
+        <activity android:label="@string/str_setting_title" android:launchMode="singleTask" android:name="com.ts.set.SettingBalanceActivity" android:taskAffinity="com.ts.set"/>
+        <activity android:label="@string/str_setting_title" android:launchMode="singleTask" android:name="com.ts.set.SettingBootActivity" android:taskAffinity="com.ts.set"/>
+        <activity android:label="@string/str_setting_title" android:launchMode="singleTask" android:name="com.ts.set.SettingBtActivity" android:taskAffinity="com.ts.set"/>
+        <activity android:label="@string/str_setting_title" android:launchMode="singleTask" android:name="com.ts.set.SettingDisplayActivity" android:taskAffinity="com.ts.set"/>
+        <activity android:label="@string/str_setting_title" android:launchMode="singleTask" android:name="com.ts.set.SettingEquipmentActivity" android:taskAffinity="com.ts.set"/>
+        <activity android:label="@string/str_setting_title" android:launchMode="singleTask" android:name="com.ts.set.SettingSoundActivity" android:taskAffinity="com.ts.set.SettingSoundActivity"/>
+        <activity android:label="@string/str_setting_title" android:launchMode="singleTask" android:name="com.ts.set.SettingVideoActivity" android:taskAffinity="com.ts.set"/>
+        <activity android:label="@string/str_setting_title" android:launchMode="singleTask" android:name="com.ts.set.SettingWheelActivity" android:taskAffinity="com.ts.set"/>
+        <activity android:icon="@drawable/mainmenu_vehicle_up" android:label="@string/title_activity_car_info" android:launchMode="singleTask" android:name="com.ts.can.CanMainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MYLAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/title_activity_can_ac" android:launchMode="singleTask" android:name="com.ts.can.CanACActivity"/>
+        <activity android:label="@string/title_activity_can_door" android:launchMode="singleTask" android:name="com.ts.can.CanDoorActivity"/>
+        <activity android:label="@string/title_activity_can_mcu_update" android:launchMode="singleTask" android:name="com.ts.can.CanMcuUpdateActivity"/>
+        <activity android:label="@string/title_activity_can_camera" android:launchMode="singleTask" android:name="com.ts.can.CanCameraActivity" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <activity android:label="@string/title_activity_can_radar" android:name="com.ts.can.CanRadarActivity" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <activity android:label="@string/title_activity_bt" android:launchMode="singleTask" android:name="com.ts.bt.BtPhoneBookActivity" android:taskAffinity="com.ts.bt"/>
+        <activity android:label="@string/title_activity_bt" android:launchMode="singleTask" android:name="com.ts.bt.BtDialActivity" android:taskAffinity="com.ts.bt"/>
+        <activity android:icon="@drawable/mainmenu_bluetooth_up" android:label="@string/title_activity_bt" android:launchMode="singleTask" android:name="com.ts.bt.BtConnectActivity" android:taskAffinity="com.ts.bt">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/title_activity_bt" android:launchMode="singleTask" android:name="com.ts.bt.BtReturnActivity" android:taskAffinity="com.ts.bt"/>
+        <activity android:label="@string/title_activity_bt" android:launchMode="singleTask" android:name="com.ts.bt.BtLogActivity" android:taskAffinity="com.ts.bt"/>
+        <activity android:label="@string/title_activity_bt" android:launchMode="singleTask" android:name="com.ts.bt.BtSearchActivity" android:taskAffinity="com.ts.bt"/>
+        <activity android:icon="@drawable/mainmenu_bt_music_up" android:label="@string/title_activity_btmusic" android:launchMode="singleTask" android:name="com.ts.bt.BtMusicActivity" android:taskAffinity="com.ts.bt">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MYLAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <receiver android:name="com.ts.bt.BtReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BT_BOOT_BROADCAST"/>
+                <action android:name="android.bluetooth.adapter.action.STATE_CHANGED"/>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="com.autochips.bluetooth.receiver.action.SHOW_TOAST"/>
+                <action android:name="android.bluetooth.profilemanager.action.DISABLE_PROFILES"/>
+                <action android:name="android.bluetooth.profilemanager.action.PROFILE_CHANGED"/>
+                <action android:name="android.bluetooth.device.action.PAIRING_REQUEST"/>
+                <action android:name="android.bluetooth.device.action.BOND_STATE_CHANGED"/>
+                <action android:name="android.bluetooth.adapter.action.DISCOVERY_STARTED"/>
+                <action android:name="android.bluetooth.adapter.action.DISCOVERY_FINISHED"/>
+                <action android:name="android.bluetooth.adapter.action.SCAN_MODE_CHANGED"/>
+                <action android:name="com.autochips.bluetooth.avrcpct.AvrcpCtPlayerUtility.action.ACTION_PLAYBACK_DATA_UPDATE"/>
+                <action android:name="android.bluetooth.adapter.action.LINK_MODE_CHANGED"/>
+                <action android:name="com.globalconstant.BROADCAST_REQUEST_HFPSTATUS"/>
+                <action android:name="android.bluetooth.device.action.NAME_CHANGED"/>
+                <action android:name="com.autochips.bluetooth.avrcpct.AvrcpCtPlayerUtility.action.ACTION_MEDIA_DATA_UPDATE"/>
+                <action android:name="com.autochips.bluetooth.avrcpct.AvrcpCtPlayerUtility.action.ACTION_PLAYBACK_DATA_UPDATE"/>
+                <action android:name="android.bluetooth.device.action.FOUND"/>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.bluetooth.headsetclient.profile.action.AG_CALL_CHANGED"/>
+                <action android:name="android.bluetooth.device.action.PAIRING_REQUEST"/>
+                <action android:name="android.bluetooth.device.action.ACL_DISCONNECTED"/>
+            </intent-filter>
+        </receiver>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.CanVwCarInfoActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.CanGolfMainActivity"/>
+        <activity android:label="@string/can_lang_set" android:launchMode="singleTask" android:name="com.ts.can.CanGolfLangSetActivity"/>
+        <activity android:label="@string/can_driving_data" android:launchMode="singleTask" android:name="com.ts.can.CanGolfDrivingDataActivity"/>
+        <activity android:label="@string/can_vehi_status" android:launchMode="singleTask" android:name="com.ts.can.CanGolfCarStatusActivity"/>
+        <activity android:label="@string/can_conv_consumers" android:launchMode="singleTask" android:name="com.ts.can.CanGolfConvConsumersActivity"/>
+        <activity android:label="@string/can_vehi_setup" android:launchMode="singleTask" android:name="com.ts.can.CanGolfSetMainActivity"/>
+        <activity android:label="@string/can_vehi_reports" android:launchMode="singleTask" android:name="com.ts.can.CanGolfReportsActivity"/>
+        <activity android:label="@string/can_sd_profile" android:launchMode="singleTask" android:name="com.ts.can.CanGolfSDPActivity"/>
+        <activity android:label="@string/can_date" android:launchMode="singleTask" android:name="com.ts.can.CanGolfSetDateActivity"/>
+        <activity android:label="@string/can_drivet_assist" android:launchMode="singleTask" android:name="com.ts.can.CanGolfSetDriveAssActivity"/>
+        <activity android:label="@string/can_golf_seat_drive_profile" android:launchMode="singleTask" android:name="com.ts.can.CanGolfSeatDriveProfileActivity"/>
+        <activity android:label="@string/can_esc_system" android:launchMode="singleTask" android:name="com.ts.can.CanGolfSetESCSystemActivity"/>
+        <activity android:label="@string/can_factory_set" android:launchMode="singleTask" android:name="com.ts.can.CanGolfSetFactoryActivity"/>
+        <activity android:label="@string/can_light" android:launchMode="singleTask" android:name="com.ts.can.CanGolfSetLightActivity"/>
+        <activity android:label="@string/can_mfd" android:launchMode="singleTask" android:name="com.ts.can.CanGolfSetMFDActivity"/>
+        <activity android:label="@string/can_mirr_and_wiper" android:launchMode="singleTask" android:name="com.ts.can.CanGolfSetMWActivity"/>
+        <activity android:label="@string/can_open_and_close" android:launchMode="singleTask" android:name="com.ts.can.CanGolfSetOCActivity"/>
+        <activity android:label="@string/can_park_and_m" android:launchMode="singleTask" android:name="com.ts.can.CanGolfSetPMActivity"/>
+        <activity android:label="@string/can_service" android:launchMode="singleTask" android:name="com.ts.can.CanGolfSetServiceActivity"/>
+        <activity android:label="@string/can_time" android:launchMode="singleTask" android:name="com.ts.can.CanGolfSetTimeActivity"/>
+        <activity android:label="@string/can_time_date" android:launchMode="singleTask" android:name="com.ts.can.CanGolfSetTimeAndDateActivity"/>
+        <activity android:label="@string/can_tyres" android:launchMode="singleTask" android:name="com.ts.can.CanGolfSetTyresActivity"/>
+        <activity android:label="@string/can_units" android:launchMode="singleTask" android:name="com.ts.can.CanGolfSetUnitsActivity"/>
+        <activity android:label="@string/can_units" android:launchMode="singleTask" android:name="com.ts.can.CanGolfSetChairActivity"/>
+        <activity android:label="@string/can_start_stop" android:launchMode="singleTask" android:name="com.ts.can.CanGolfStartStopActivity"/>
+        <activity android:label="@string/can_tpms" android:launchMode="singleTask" android:name="com.ts.can.CanGolfTPMSActivity"/>
+        <activity android:label="@string/can_vehi_status" android:launchMode="singleTask" android:name="com.ts.can.CanGolfVehicleStatusActivity"/>
+        <activity android:label="@string/title_activity_can_ac" android:launchMode="singleTask" android:name="com.ts.can.CanGolfACActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.CanToyotaCarInfoActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.CanToyotaCarTypeActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.CanToyotaSetLangActivity"/>
+        <activity android:label="@string/can_yh_per_min" android:launchMode="singleTask" android:name="com.ts.can.CanToyotaTripPerMinActivity"/>
+        <activity android:label="@string/can_yh_history" android:launchMode="singleTask" android:name="com.ts.can.CanToyotaTripHistoryActivity"/>
+        <activity android:label="@string/can_car_gxh" android:launchMode="singleTask" android:name="com.ts.can.CanToyotaSetMainActivity"/>
+        <activity android:label="@string/can_car_lock_set" android:launchMode="singleTask" android:name="com.ts.can.CanToyotaSetLockActivity"/>
+        <activity android:label="@string/can_ac_set" android:launchMode="singleTask" android:name="com.ts.can.CanToyotaSetAcActivity"/>
+        <activity android:label="@string/can_light_set" android:launchMode="singleTask" android:name="com.ts.can.CanToyotaSetLightActivity"/>
+        <activity android:label="@string/can_rc_track_set" android:launchMode="singleTask" android:name="com.ts.can.CanToyotaSetOtherActivity"/>
+        <activity android:label="@string/can_pressure" android:launchMode="singleTask" android:name="com.ts.can.CanToyotaTpmsActivity"/>
+        <activity android:label="@string/can_hybrid_image" android:launchMode="singleTask" android:name="com.ts.can.CanToyotaHybridActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.CanHondaOldCarInfoActivity"/>
+        <activity android:label="@string/can_compass" android:launchMode="singleTask" android:name="com.ts.can.CanHondaCompassActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.CanHondaDACarInfoActivity"/>
+        <activity android:label="@string/can_consumption" android:launchMode="singleTask" android:name="com.ts.can.CanHondaDAConsumpCurrentActivity"/>
+        <activity android:label="@string/can_consumption" android:launchMode="singleTask" android:name="com.ts.can.CanHondaDAConsumpHistoryActivity"/>
+        <activity android:label="@string/title_activity_can_ac" android:launchMode="singleTask" android:name="com.ts.can.CanHondaDAAcActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.CanHondaDACarSetActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.CanHondDACarDistanceActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.CanHondaADACarDistanceIllActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.CanHondaDACarCsSetActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.CanHondDACarRemoteLockSetActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.CanHondDACarDrivAssistSetActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.CanHondDACarSystemSetActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.CanOdysseyExdActivity" android:taskAffinity="com.ts.can.device"/>
+        <activity android:icon="@drawable/mainmenu_car_dev_up" android:label="@string/title_activity_car_device" android:launchMode="singleTask" android:name="com.ts.can.CanCarDeviceActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MYLAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.CanHondaExdActivity" android:taskAffinity="com.ts.can.device"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.CanPradoCarInfoActivity"/>
+        <activity android:label="DSP" android:launchMode="singleTask" android:name="com.ts.can.CanPradoDspActivity"/>
+        <activity android:label="Park Assist" android:launchMode="singleTask" android:name="com.ts.can.CanPradoParkAssistActivity"/>
+        <activity android:icon="@drawable/mainmenu_onstar_up" android:label="@string/title_activity_onstar" android:launchMode="singleTask" android:name="com.ts.can.gm.onstar.CanOnStarMainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MYLAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/can_gps" android:launchMode="singleTask" android:name="com.ts.can.gm.onstar.CanOnStarNaviActivity"/>
+        <activity android:label="@string/can_onstar" android:launchMode="singleTask" android:name="com.ts.can.gm.onstar.CanOnStarSpkActivity"/>
+        <activity android:label="@string/can_ty" android:launchMode="singleTask" android:name="com.ts.can.gm.comm.CanGMCarInfoActivity"/>
+        <activity android:label="@string/can_ac_set" android:launchMode="singleTask" android:name="com.ts.can.gm.comm.CanGMSetACActivity"/>
+        <activity android:label="@string/can_cds" android:launchMode="singleTask" android:name="com.ts.can.gm.comm.CanGMSetCDSActivity"/>
+        <activity android:label="@string/can_sshbl" android:launchMode="singleTask" android:name="com.ts.can.gm.comm.CanGMSetConvActivity"/>
+        <activity android:label="@string/can_c4_l_light" android:launchMode="singleTask" android:name="com.ts.can.gm.comm.CanGMSetLightActivity"/>
+        <activity android:label="@string/can_car_lock_set" android:launchMode="singleTask" android:name="com.ts.can.gm.comm.CanGMSetLockActivity"/>
+        <activity android:label="@string/can_other_set" android:launchMode="singleTask" android:name="com.ts.can.gm.comm.CanGMSetOtherActivity"/>
+        <activity android:label="@string/can_car_type_select" android:launchMode="singleTask" android:name="com.ts.can.gm.comm.CanGMCarTypeActivity"/>
+        <activity android:label="@string/can_lang_set" android:launchMode="singleTask" android:name="com.ts.can.gm.comm.CanGMSetLanguageActivity"/>
+        <activity android:label="@string/title_activity_can_ac" android:launchMode="singleTask" android:name="com.ts.can.gm.comm.CanGL8ACActivity"/>
+        <activity android:label="@string/title_activity_can_ac" android:launchMode="singleTask" android:name="com.ts.can.gm.comm.CanGL8RearACActivity"/>
+        <activity android:icon="@drawable/mainmenu_ac_up" android:label="@string/title_activity_can_ac" android:launchMode="singleTask" android:name="com.ts.can.CanCarACActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MYLAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:icon="@drawable/mainmenu_radio_up" android:label="@string/title_activity_can_radio" android:launchMode="singleTask" android:name="com.ts.can.CanExRadioActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MYLAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:icon="@drawable/mainmenu_car_cd_up" android:label="@string/title_activity_can_cd" android:launchMode="singleTask" android:name="com.ts.can.CanExCDActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MYLAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/can_car_set" android:launchMode="singleTask" android:name="com.ts.can.ford.CanFordLangSetActivity"/>
+        <activity android:icon="@drawable/mainmenu_ford_up" android:label="@string/title_activity_can_sync" android:launchMode="singleTask" android:name="com.ts.can.ford.CanFordSyncActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MYLAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/title_activity_can_ac" android:launchMode="singleTask" android:name="com.ts.can.gm.comm.CanGMACActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.honda.accord.CanAccordCarInfoActivity"/>
+        <activity android:label="@string/can_car_type_select" android:launchMode="singleTask" android:name="com.ts.can.honda.accord.CanAccordCarTypeActivity"/>
+        <activity android:label="@string/can_light_setup" android:launchMode="singleTask" android:name="com.ts.can.honda.accord.CanAccordLightActivity"/>
+        <activity android:label="@string/can_car_lock_set" android:launchMode="singleTask" android:name="com.ts.can.honda.accord.CanAccordLockActivity"/>
+        <activity android:label="@string/can_screen_setup" android:launchMode="singleTask" android:name="com.ts.can.honda.accord.CanAccordScreenActivity"/>
+        <activity android:label="@string/title_activity_radio_main" android:launchMode="singleTask" android:name="com.ts.can.honda.accord.CanAccordRadioActivity"/>
+        <activity android:label="@string/title_activity_radio_main" android:launchMode="singleTask" android:name="com.ts.can.honda.accord.CanAccordCameraStatusActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.CanNissanCarInfoActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.honda.accord.CanAccordCamModeActivity"/>
+        <activity android:label="@string/title_activity_can_ac" android:launchMode="singleTask" android:name="com.ts.can.psa.CanPSAACActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.psa.CanPSACarInfoActivity"/>
+        <activity android:label="@string/can_car_set" android:launchMode="singleTask" android:name="com.ts.can.psa.CanPSACarSetActivity"/>
+        <activity android:label="@string/can_car_type_select" android:launchMode="singleTask" android:name="com.ts.can.psa.CanPSACarTypeActivity"/>
+        <activity android:label="@string/can_check_info" android:launchMode="singleTask" android:name="com.ts.can.psa.CanPSACheckInfoActivity"/>
+        <activity android:label="@string/can_xh_speed" android:launchMode="singleTask" android:name="com.ts.can.psa.CanPSACruiseSpeedActivity"/>
+        <activity android:label="@string/can_xc_info" android:launchMode="singleTask" android:name="com.ts.can.psa.CanPSADriveInfoActivity"/>
+        <activity android:label="@string/can_func_info" android:launchMode="singleTask" android:name="com.ts.can.psa.CanPSAFuncInfoActivity"/>
+        <activity android:label="@string/can_c4_l_mem_tab" android:launchMode="singleTask" android:name="com.ts.can.psa.CanPSAMemTabActivity"/>
+        <activity android:label="@string/can_speed_limit" android:launchMode="singleTask" android:name="com.ts.can.psa.CanPSASpeedLimitActivity"/>
+        <activity android:label="@string/can_warn_info" android:launchMode="singleTask" android:name="com.ts.can.psa.CanPSAWarnInfoActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.psa.CanPSAKeySetActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.ts.CanTSPhoneActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.ford.CanFordCarInfoActivity"/>
+        <activity android:label="@string/can_car_set" android:launchMode="singleTask" android:name="com.ts.can.ford.CanFordCarSetActivity"/>
+        <activity android:label="@string/can_car_type_select" android:launchMode="singleTask" android:name="com.ts.can.ford.CanFordCarTypeActivity"/>
+        <activity android:label="@string/can_eco_mode" android:launchMode="singleTask" android:name="com.ts.can.ford.CanFordEcoModeActivity"/>
+        <activity android:label="@string/can_warn_msg" android:launchMode="singleTask" android:name="com.ts.can.ford.CanFordWarnInfoActivity"/>
+        <activity android:label="@string/title_activity_can_ac" android:launchMode="singleTask" android:name="com.ts.can.ford.CanFordACActivity"/>
+        <activity android:icon="@drawable/mainmenu_ford_up" android:label="SYNC" android:launchMode="singleTask" android:name="com.ts.can.ford.CanFordSyncUIActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.saic.baojun.CanBaojunCarInfoActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.gac.trumpchi.CanGqcqCarInfoActivity"/>
+        <activity android:label="@string/can_car_set" android:launchMode="singleTask" android:name="com.ts.can.gac.trumpchi.CanGqcqCarSetActivity"/>
+        <activity android:label="Link &amp; Sos" android:launchMode="singleTask" android:name="com.ts.can.gac.trumpchi.CanGqcqLinkSosActivity"/>
+        <activity android:label="@string/can_ac_set" android:launchMode="singleTask" android:name="com.ts.can.gac.trumpchi.CanGqcqSetACActivity"/>
+        <activity android:label="@string/can_attachment" android:launchMode="singleTask" android:name="com.ts.can.gac.trumpchi.CanGqcqSetAttachActivity"/>
+        <activity android:label="@string/can_chair_set" android:launchMode="singleTask" android:name="com.ts.can.gac.trumpchi.CanGqcqSetChairActivity"/>
+        <activity android:label="@string/can_jsfz" android:launchMode="singleTask" android:name="com.ts.can.gac.trumpchi.CanGqcqSetDrvAssActivity"/>
+        <activity android:label="@string/can_light_set" android:launchMode="singleTask" android:name="com.ts.can.gac.trumpchi.CanGqcqSetLightActivity"/>
+        <activity android:label="@string/can_other_set" android:launchMode="singleTask" android:name="com.ts.can.gac.trumpchi.CanGqcqSetOtherActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.saic.roewe.CanRW550CarInfoActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.saic.roewe.CanRoeweCarInfoActivity"/>
+        <activity android:label="@string/title_activity_radio_main" android:launchMode="singleTask" android:name="com.ts.can.honda.crosstour.CanCrstourRadioActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.mzd.CanMZDCarInfoActivity"/>
+        <activity android:label="@string/can_key_set" android:launchMode="singleTask" android:name="com.ts.can.mzd.CanMZDKeyActivity"/>
+        <activity android:label="@string/can_key_set" android:launchMode="singleTask" android:name="com.ts.can.mzd.CanOpelKeyActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.faw.CanB70_14CarInfoActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.faw.CanB70_14PhoneActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.saic.rw950.CanRW950CarInfoActivity"/>
+        <activity android:label="@string/can_c4_l_light" android:launchMode="singleTask" android:name="com.ts.can.saic.rw950.CanRW950LightSetActivity"/>
+        <activity android:label="@string/can_lock_center" android:launchMode="singleTask" android:name="com.ts.can.saic.rw950.CanRW950DoorLockActivity"/>
+        <activity android:label="@string/can_lock_remote" android:launchMode="singleTask" android:name="com.ts.can.saic.rw950.CanRW950RmtLockActivity"/>
+        <activity android:label="@string/can_ac_set" android:launchMode="singleTask" android:name="com.ts.can.saic.rw950.CanRW950ACSetActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.saic.mg.CanMGGSCarInfoActivity"/>
+        <activity android:label="@string/can_car_lock_set" android:launchMode="singleTask" android:name="com.ts.can.saic.mg.CanMGGSLockActivity"/>
+        <activity android:label="@string/can_xcd" android:launchMode="singleTask" android:name="com.ts.can.saic.mg.CanMGGSFindLightActivity"/>
+        <activity android:label="@string/can_bwhj_light" android:launchMode="singleTask" android:name="com.ts.can.saic.mg.CanMGGSHomeLightActivity"/>
+        <activity android:label="@string/title_activity_can_ac" android:launchMode="singleTask" android:name="com.ts.can.saic.mg.CanMGGSACActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.jac.CanJACRefineTpmsActivity"/>
+        <activity android:label="RDS Setting" android:launchMode="singleTask" android:name="com.ts.can.radio.CanRadioRdsSetActivity"/>
+        <activity android:label="@string/title_activity_can_ac" android:launchMode="singleTask" android:name="com.ts.can.chrysler.CanChrOthACActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.chrysler.CanChrOthCarInfoActivity"/>
+        <activity android:label="@string/can_car_type_select" android:launchMode="singleTask" android:name="com.ts.can.chrysler.CanChrOthCarTypeActivity"/>
+        <activity android:label="cd" android:launchMode="singleTask" android:name="com.ts.can.chrysler.CanChrOthCDActivity" android:taskAffinity="com.ts.can.device"/>
+        <activity android:label="@string/can_zdkqssxt" android:launchMode="singleTask" android:name="com.ts.can.chrysler.CanChrOthSetAutoRmtBootActivity"/>
+        <activity android:label="@string/can_set_brake" android:launchMode="singleTask" android:name="com.ts.can.chrysler.CanChrOthSetBrakeActivity"/>
+        <activity android:label="@string/can_compass" android:launchMode="singleTask" android:name="com.ts.can.chrysler.CanChrOthSetCompassActivity"/>
+        <activity android:label="@string/can_display" android:launchMode="singleTask" android:name="com.ts.can.chrysler.CanChrOthSetDiaplayActivity"/>
+        <activity android:label="@string/can_fdjgbxx" android:launchMode="singleTask" android:name="com.ts.can.chrysler.CanChrOthSetEngOffActivity"/>
+        <activity android:label="@string/can_light_setup" android:launchMode="singleTask" android:name="com.ts.can.chrysler.CanChrOthSetLightActivity"/>
+        <activity android:label="@string/can_door_lock_set" android:launchMode="singleTask" android:name="com.ts.can.chrysler.CanChrOthSetLockActivity"/>
+        <activity android:label="@string/can_aqhjsfz" android:launchMode="singleTask" android:name="com.ts.can.chrysler.CanChrOthSetSafeAssistActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.zotye.CanZtY100CarInfoActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.zotye.CanZtY100BmsActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.zotye.CanZtY100BatteryActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.zotye.CanZtY100SlowActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.zotye.CanZtY100QuickActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.fiat.CanFiatAllExdActivity" android:taskAffinity="com.ts.can.device"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.fiat.CanFiatBravoExdActivity" android:taskAffinity="com.ts.can.device"/>
+        <activity android:label="@string/title_activity_can_ac" android:launchMode="singleTask" android:name="com.ts.can.chrysler.rz.CanRZygACActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.chrysler.rz.CanRZygCarInfoActivity"/>
+        <activity android:label="@string/can_car_type_select" android:launchMode="singleTask" android:name="com.ts.can.chrysler.rz.CanRZygCarTypeActivity"/>
+        <activity android:label="cd" android:launchMode="singleTask" android:name="com.ts.can.chrysler.rz.CanRZygCDActivity" android:taskAffinity="com.ts.can.device"/>
+        <activity android:label="@string/can_zdkqssxt" android:launchMode="singleTask" android:name="com.ts.can.chrysler.rz.CanRZygSetAutoRmtBootActivity"/>
+        <activity android:label="@string/can_set_brake" android:launchMode="singleTask" android:name="com.ts.can.chrysler.rz.CanRZygSetBrakeActivity"/>
+        <activity android:label="@string/can_compass" android:launchMode="singleTask" android:name="com.ts.can.chrysler.rz.CanRZygSetCompassActivity"/>
+        <activity android:label="@string/can_display" android:launchMode="singleTask" android:name="com.ts.can.chrysler.rz.CanRZygSetDiaplayActivity"/>
+        <activity android:label="@string/can_fdjgbxx" android:launchMode="singleTask" android:name="com.ts.can.chrysler.rz.CanRZygSetEngOffActivity"/>
+        <activity android:label="@string/can_light_setup" android:launchMode="singleTask" android:name="com.ts.can.chrysler.rz.CanRZygSetLightActivity"/>
+        <activity android:label="@string/can_door_lock_set" android:launchMode="singleTask" android:name="com.ts.can.chrysler.rz.CanRZygSetLockActivity"/>
+        <activity android:label="@string/can_aqhjsfz" android:launchMode="singleTask" android:name="com.ts.can.chrysler.rz.CanRZygSetSafeAssistActivity"/>
+        <activity android:label="list" android:launchMode="singleTask" android:name="com.ts.can.chrysler.rz.CanRZygFileListActivity"/>
+        <activity android:label="@string/can_eq" android:launchMode="singleTask" android:name="com.ts.can.chrysler.rz.CanRZygSetAmpActivity"/>
+        <activity android:label="cd" android:launchMode="singleTask" android:name="com.ts.can.mzd.axela.CanMzd3CDActivity" android:taskAffinity="com.ts.can.device"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.bmw.e90.CanE90CarInfoActivity"/>
+        <activity android:label="@string/can_driving_data" android:launchMode="singleTask" android:name="com.ts.can.bmw.e90.CanE90DriveInfoActivity"/>
+        <activity android:label="@string/can_units" android:launchMode="singleTask" android:name="com.ts.can.bmw.e90.CanE90SetUnitsActivity"/>
+        <activity android:label="@string/can_other_set" android:launchMode="singleTask" android:name="com.ts.can.bmw.e90.CanE90SetOtherActivity"/>
+        <activity android:icon="@drawable/mainmenu_tpms_up" android:label="@string/title_activity_tpmsmain" android:launchMode="singleTask" android:name="com.ts.main.tpms.TPMSMainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MyLAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/title_activity_tpmsmain" android:launchMode="singleTask" android:name="com.ts.main.tpms.TPMSSetMainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MyLAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/title_activity_can_ac" android:launchMode="singleTask" android:name="com.ts.can.psa.hc.CanBZACActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.psa.hc.CanBZCarInfoActivity"/>
+        <activity android:label="@string/can_car_set" android:launchMode="singleTask" android:name="com.ts.can.psa.hc.CanBZCarSetActivity"/>
+        <activity android:label="@string/can_car_type_select" android:launchMode="singleTask" android:name="com.ts.can.psa.hc.CanBZCarTypeActivity"/>
+        <activity android:label="@string/can_check_info" android:launchMode="singleTask" android:name="com.ts.can.psa.hc.CanBZCheckInfoActivity"/>
+        <activity android:label="@string/can_xh_speed" android:launchMode="singleTask" android:name="com.ts.can.psa.hc.CanBZCruiseSpeedActivity"/>
+        <activity android:label="@string/can_xc_info" android:launchMode="singleTask" android:name="com.ts.can.psa.hc.CanBZDriveInfoActivity"/>
+        <activity android:label="@string/can_func_info" android:launchMode="singleTask" android:name="com.ts.can.psa.hc.CanBZFuncInfoActivity"/>
+        <activity android:label="@string/can_c4_l_mem_tab" android:launchMode="singleTask" android:name="com.ts.can.psa.hc.CanBZMemTabActivity"/>
+        <activity android:label="@string/can_speed_limit" android:launchMode="singleTask" android:name="com.ts.can.psa.hc.CanBZSpeedLimitActivity"/>
+        <activity android:label="@string/can_warn_info" android:launchMode="singleTask" android:name="com.ts.can.psa.hc.CanBZWarnInfoActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.psa.hc.CanBZKeySetActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.psa.pg3008.CanPg3008ScrKeyActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.df.CanT70CarInfoActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.faw.CanB50_13PhoneActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.baic.senova.CanSenovaCarInfoActivity"/>
+        <activity android:label="@string/title_activity_can_ac" android:launchMode="singleTask" android:name="com.ts.can.baic.senova.m50f.CanM50FCarACActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.jiangling.CanJlBaseActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.jiangling.CanJlBatteryActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.jiangling.CanJlBmsActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.jiangling.CanJlCarInfoActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.ford.fiesta.CanOldFiestaCarInfoActivity"/>
+        <activity android:label="@string/can_car_set" android:launchMode="singleTask" android:name="com.ts.can.ford.fiesta.CanOldFiestaSetActivity"/>
+        <activity android:label="@string/can_info_title" android:launchMode="singleTask" android:name="com.ts.can.ford.fiesta.CanOldFiestaLogActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.chery.tiggo.CanCheryTiggoCarInfoActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.renault.kadjar.CanKadjarCarInfoActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.renault.kadjar.CanKadjarEcuActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.renault.kadjar.CanKadjarKqzlActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.renault.kadjar.CanKadjarLzfsqActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.renault.kadjar.CanKadjarParkAssActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.renault.kadjar.CanKadjarSystemActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.renault.kadjar.CanKadjarTakeCareActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.renault.kadjar.CanKadjarUserSetActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.renault.kadjar.CanKadjarSosActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.renault.kadjar.CanKadjarCarTypeActivity"/>
+        <activity android:label="@string/title_activity_can_ac" android:launchMode="singleTask" android:name="com.ts.can.renault.kadjar.koleos.CanKoleosACActivity"/>
+        <activity android:icon="@drawable/mainmenu_obd_up" android:label="OBD" android:launchMode="singleTask" android:name="com.ts.can.btobd.CanBtOBDActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MYLAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.mitsubishi.outlander.CanMitSubiShiOutLanderAMPSetActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.mitsubishi.outlander.CanMitSubiShiOutLanderCarInfoActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.chery.airuize.CanCheryAiRuizeCarInfoActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.hm.CanHmCarTypeActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.hm.CanHmV70AcActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.bmw.x1.CanX1CarInfoActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.bmw.x1.CanX1DriveInfoActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.fiat.doblo.CanFlatDobloCarInfoActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.fiat.doblo.CanFlatDobloSetDisplayActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.fiat.doblo.CanFlatDobloSetLightActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.fiat.doblo.CanFlatDobloSetLockActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.fiat.doblo.CanFlatDobloSetTimeActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.zotye.x5.CanZotyetX5CarInfoActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.zotye.x5.CanZotyeX5CarTypeActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.zotye.x5.CanZotyeX5TmpsActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.hyundai.CanHyunDaiCarTypeActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.bmw.mini.CanBMWMiniCarInfoActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.bmw.mini.CanBMWMiniCarCmpActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.bmw.mini.CanBMWMiniCarStatusActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.bmw.mini.CanBMWMiniCarSettingsActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.bmw.mini.CanBMWMiniSetDisplayActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.bmw.mini.CanBMWMiniSetDateActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.bmw.mini.CanBMWMiniSetUnitsActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.bmw.mini.CanBMWMiniSetLightActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.bmw.mini.CanBMWMiniSetDoorActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.bmw.mini.CanBMWMiniSetSpeedActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.bmw.mini.CanBMWMiniStatusRPAActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.bmw.mini.CanBMWMiniStatusOilActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.bmw.mini.CanBMWMiniStatusServiceActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.bmw.mini.CanBMWMiniStatusCheckActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.bmw.mini.CanBMWMiniServiceDetailActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.df.er70.CanDFQCCarInfoActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.df.er70.CanDFQCBatteryActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.df.er70.CanDFQCACActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.df.er70.CanDFQCMotorActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.df.er70.CanDFQCErrorActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.df.er70.CanDFQCControlActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.df.er70.CanDFQCVersionActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.mzd.cx4.CanMzdCx4CarInfoActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.mzd.cx4.CanMzdCx4CarSetupActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.mzd.cx4.CanMzdCx4CarOilActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.mzd.cx4.CanMzdCx4CarDoorActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.mzd.cx4.CanMzdCx4CarTurnActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.mzd.cx4.CanMzdCx4CarLightActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.mzd.cx4.CanMzdCx4DriveDisplayActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.mzd.cx4.CanMzdCx4OtherSetupActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.mzd.cx4.CanMzdCx4CDActivity" android:taskAffinity="com.ts.can.device"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.cc.h6.CanCCH6CarInfoActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.chana.cs75.CanCs75CarInfoActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.chana.cs75.CanCs75CarDisplayInfoActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.chery.airuize.CanTigger7AcActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.lifan.CanLiFanCarInfoActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.mzd.cx7.CanMZDCX7KeyActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.faw.CanB50_17CarInfoActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.saic.rx5.CanRWRx5CarInfoActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.saic.rx5.CanRWRx5SetLightActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.saic.rx5.CanRWRx5SetLockActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.saic.rx5.CanRWRx5SetOtherActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.bmw.mini.fstt.CanBmwMiniFsttCarInfoActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.ht.x7.CanHTX7CarInfoActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.gm.sb.CanGMSBCarInfoActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.gm.sb.CanGMSBCarTypeActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.gm.sb.CanGMSBSetLockActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.gm.sb.CanGMSBSetACActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.gm.sb.CanGMSBSetLightActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.gm.sb.CanGMSBSetConvActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.gm.sb.CanGMSBSetCDSActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.gm.sb.CanGMSBSetModeActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.gm.sb.CanGMSBSetOtherActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.gm.sb.CanGMSBCarStatusActivity"/>
+        <activity android:label="@string/title_activity_can_ac" android:launchMode="singleTask" android:name="com.ts.can.gm.sb.CanGMSBACActivity"/>
+        <activity android:label="@string/title_activity_can_ac" android:launchMode="singleTask" android:name="com.ts.can.gm.sb.CanSBGL8ACActivity"/>
+        <activity android:label="@string/title_activity_can_ac" android:launchMode="singleTask" android:name="com.ts.can.gm.sb.CanSBGL8RearACActivity"/>
+        <activity android:label="@string/title_activity_can_ac" android:launchMode="singleTask" android:name="com.ts.can.kaiyi.x3.CanKY3XACActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.kaiyi.x3.CanKY3XCarInfoActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.kaiyi.x3.CanKY3XSetLockActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.kaiyi.x3.CanKY3XSetOilActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.kaiyi.x3.CanKY3XSetOtherActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.geely.boy.CanGeelyBoyCarInfoActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.geely.boy.CanGeelyBoySetLockActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.geely.boy.CanGeelyBoySetViewActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.geely.boy.CanGeelyBoySetOtherActivity"/>
+        <activity android:label="@string/title_activity_can_ac" android:launchMode="singleTask" android:name="com.ts.can.geely.boy.CanGeelyBoyCarACActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.df.jyx5.CanJYX5CarInfoActivity"/>
+        <activity android:label="@string/title_activity_can_ac" android:launchMode="singleTask" android:name="com.ts.can.df.t90.CanT90CarACActivity"/>
+        <activity android:label="@string/title_activity_can_ac" android:launchMode="singleTask" android:name="com.ts.can.hm.fml17.CanHmFml17CarInfoActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.honda.accord_xbs.CanAccordXbsCarInfoActivity"/>
+        <activity android:label="@string/can_light_setup" android:launchMode="singleTask" android:name="com.ts.can.honda.accord_xbs.CanAccordXbsLightActivity"/>
+        <activity android:label="@string/can_car_lock_set" android:launchMode="singleTask" android:name="com.ts.can.honda.accord_xbs.CanAccordXbsLockActivity"/>
+        <activity android:label="@string/can_screen_setup" android:launchMode="singleTask" android:name="com.ts.can.honda.accord_xbs.CanAccordXbsDistanceActivity"/>
+        <activity android:label="@string/title_activity_radio_main" android:launchMode="singleTask" android:name="com.ts.can.honda.accord_xbs.CanAccordXbsRadioActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.honda.accord_xbs.CanAccordXbsScreenActivity"/>
+        <activity android:label="@string/title_activity_radio_main" android:launchMode="singleTask" android:name="com.ts.can.honda.accord_xbs.CanAccordXbsSetDriveAssActivity"/>
+        <activity android:label="@string/title_activity_can_ac" android:launchMode="singleTask" android:name="com.ts.can.gac.trumpchi.CanGs8AcActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.baic.ec180.CanBaicEc180CarInfoActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.baic.ec180.CanBaicEC180DriveInfoActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.baic.ec180.CanBaicEC180PwrInfoActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.geely.comm.CanGeelyCarTypeActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.blsu.comm.CanBlsuCarTypeActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.psa.pg408.CanPg408KeySetActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.psa.pg408.CanPg408ExdActivity" android:taskAffinity="com.ts.can.device"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.cc.h2.CanCcCarTypeActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.saic.mg.CanMGCarTypeActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.saic.mg.CanMGConvActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.CanTeramontSeatDriveProfileActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.CanTeramontDriveProfileSetActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.CanTeramontEcoProfileSetActivity"/>
+        <activity android:label="@string/title_activity_can_ac" android:launchMode="singleTask" android:name="com.ts.can.CanTeramontACActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.zh.h3.CanZhH3CarInfoActivity"/>
+        <activity android:label="@string/title_activity_can_ac" android:launchMode="singleTask" android:name="com.ts.can.cc.h2s.CanCcH2sCarACActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.psa.pg206.CanPg206CarInfoActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.jac.CanJACCarTypeActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.df.ax7.CanDFCarTypeActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.saic.mg.CanMGRx5ConvActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.hm.m3.CanHmM3CarTypeActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.nissan.CanNissanOldDeviceActivity" android:taskAffinity="com.ts.can.device"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.zotye.x5.CanZotyeX5NewTmpsActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.geely.yjx1.CanGeelyYjX1CarInfoActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.geely.yjx1.CanGeelyYjX1ACActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.psa.pg307.CanPg307CarInfoActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.zotye.x7.CanZotyetX7CarInfoActivity"/>
+        <activity android:label="@string/title_activity_can_ac" android:launchMode="singleTask" android:name="com.ts.can.zotye.x7.CanZotyetX7ACActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.saic.dt.CanDtT60CarInfoActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.jac.wc.CanJACRefineWcTpmsActivity"/>
+        <activity android:label="@string/can_car_device" android:launchMode="singleTask" android:name="com.ts.can.gm.xt5.CanCadillacXt5ExdActivity" android:taskAffinity="com.ts.can.device"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.gm.xt5.CanCadillacXt5CarInfoActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.gm.xt5.CanCadillacXt5CarTypeActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.gm.xt5.CanCadillacXt5CarStatusActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.gm.xt5.CanCadillacXt5UpdateActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.mzd.cx5.CanMzdCx5CarInfoActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.mzd.cx5.CanMzdCx5LockActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.mzd.cx5.CanMzdCx5LightActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.mzd.cx5.CanMzdCx5ConvActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.mzd.cx5.CanMzdCx5LanguageActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.toyota.spy.CanToyotaSpyBaseInfoActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.toyota.spy.CanToyotaSpyCarInfoActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.toyota.spy.CanToyotaSpyHybridActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.toyota.spy.CanToyotaSpyTripHistoryActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.toyota.spy.CanToyotaSpyTripPerMinActivity"/>
+        <activity android:label="@string/title_activity_can_ac" android:launchMode="singleTask" android:name="com.ts.can.chrysler.xbs.CanXbsygACActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.chrysler.xbs.CanXbsygBaseActivity"/>
+        <activity android:label="@string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.chrysler.xbs.CanXbsygCarInfoActivity"/>
+        <activity android:label="@string/can_car_type_select" android:launchMode="singleTask" android:name="com.ts.can.chrysler.xbs.CanXbsygCarTypeActivity"/>
+        <activity android:label="cd" android:launchMode="singleTask" android:name="com.ts.can.chrysler.xbs.CanXbsygCDActivity" android:taskAffinity="com.ts.can.device"/>
+        <activity android:label="list" android:launchMode="singleTask" android:name="com.ts.can.chrysler.xbs.CanXbsygFileListActivity"/>
+        <activity android:label=" @string/can_eq " android:launchMode="singleTask" android:name="com.ts.can.chrysler.xbs.CanXbsygSetAmpActivity"/>
+        <activity android:label="@string/can_zdkqssxt" android:launchMode="singleTask" android:name="com.ts.can.chrysler.xbs.CanXbsygSetAutoRmtBootActivity"/>
+        <activity android:label="@string/can_set_brake" android:launchMode="singleTask" android:name="com.ts.can.chrysler.xbs.CanXbsygSetBrakeActivity"/>
+        <activity android:label="@string/can_compass" android:launchMode="singleTask" android:name="com.ts.can.chrysler.xbs.CanXbsygSetCompassActivity"/>
+        <activity android:label="@string/can_display" android:launchMode="singleTask" android:name="com.ts.can.chrysler.xbs.CanXbsygSetDiaplayActivity"/>
+        <activity android:label="@string/can_fdjgbxx" android:launchMode="singleTask" android:name="com.ts.can.chrysler.xbs.CanXbsygSetEngOffActivity"/>
+        <activity android:label="@string/can_light_setup" android:launchMode="singleTask" android:name="com.ts.can.chrysler.xbs.CanXbsygSetLightActivity"/>
+        <activity android:label="@string/can_door_lock_set" android:launchMode="singleTask" android:name="com.ts.can.chrysler.xbs.CanXbsygSetLockActivity"/>
+        <activity android:label=" @string/can_aqhjsfz" android:launchMode="singleTask" android:name="com.ts.can.chrysler.xbs.CanXbsygSetSafeAssistActivity"/>
+        <activity android:label=" @string/can_aqhjsfz" android:launchMode="singleTask" android:name="com.ts.can.chrysler.xbs.CanXbsygSetXjActivity"/>
+        <activity android:label=" @string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.CanHondDACarMotoRearDoorActivity"/>
+        <activity android:label=" @string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.jiangling.CanJlCarSetActivity" android:taskAffinity="com.ts.can.device"/>
+        <activity android:label=" @string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.lexus.is250.CanLexusIs250CarDevActivity" android:taskAffinity="com.ts.can.device"/>
+        <activity android:label=" @string/can_car_info" android:launchMode="singleTask" android:name="com.ts.can.lexus.is250.CanLexusIs250CarACActivity"/>
+        <activity android:icon="@drawable/mainmenu_btswc_up" android:label="@string/title_activity_weather" android:launchMode="singleTask" android:name="com.ts.main.weather.WeatherActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MyLAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.ts.main.auth.FactoryMainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MYLAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.ts.main.auth.FactorytestarmActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MYLAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.ts.main.auth.FactorytestvideoActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MYLAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.ts.main.auth.FactorytestAudioActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MYLAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

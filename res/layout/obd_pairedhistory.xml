@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/obd_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0dip" android:textColor="#ffffffff" android:gravity="center_vertical" android:id="@id/paired_devices_title" android:paddingLeft="45.0px" android:layout_width="512.0px" android:layout_height="80.0px" android:layout_marginLeft="0.0px" android:layout_marginTop="0.0px" android:text="@string/obd_paired" />
+    <TextView android:textSize="16.0dip" android:textColor="#ffffffff" android:gravity="center_vertical" android:id="@id/usable_devices_title" android:paddingLeft="45.0px" android:layout_width="512.0px" android:layout_height="80.0px" android:layout_marginLeft="512.0px" android:layout_marginTop="0.0px" android:text="@string/obd_unpaired" />
+    <ImageView android:id="@id/iv_searching" android:background="@drawable/obd_searching" android:visibility="gone" android:layout_width="30.0px" android:layout_height="30.0px" android:layout_marginLeft="750.0px" android:layout_marginTop="25.0px" />
+    <ListView android:id="@id/bluetooth_paired_devices" android:layout_width="460.0px" android:layout_height="320.0px" android:layout_marginLeft="27.0px" android:layout_marginTop="80.0px" android:listSelector="@android:color/transparent" android:divider="@drawable/obd_line_up" android:dividerHeight="2.0px" android:choiceMode="singleChoice" />
+    <ListView android:id="@id/bluetooth_usable_devices" android:layout_width="460.0px" android:layout_height="320.0px" android:layout_marginLeft="537.0px" android:layout_marginTop="80.0px" android:listSelector="@android:color/transparent" android:divider="@drawable/obd_line_up" android:dividerHeight="2.0px" android:choiceMode="singleChoice" />
+    <ImageButton android:id="@id/btn_scan_bt" android:background="@drawable/btn_search_selected" android:layout_width="469.0px" android:layout_height="77.0px" android:layout_marginLeft="530.0px" android:layout_marginTop="442.0px" />
+    <ImageButton android:id="@id/btn_unpair_bt" android:background="@drawable/btn_dele_selected" android:layout_width="469.0px" android:layout_height="77.0px" android:layout_marginLeft="26.0px" android:layout_marginTop="442.0px" />
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingTop="4.0px" android:layout_width="fill_parent" android:layout_height="46.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/fs_main_btn_text_size" android:textColor="@android:color/white" android:gravity="center|left" android:id="@id/fssw_title" android:layout_width="200.0px" android:layout_height="45.0px" android:layout_marginLeft="30.0px" android:text="标题" />
+    <com.ts.other.ParamButton android:textSize="@dimen/fs_subtv_btn_text_size" android:textColor="@color/fs_btn_text_color" android:id="@id/fssw_sw0" android:background="@drawable/fs_btn_sw" android:paddingLeft="44.0px" android:layout_width="189.0px" android:layout_height="45.0px" android:layout_marginLeft="244.0px" />
+    <com.ts.other.ParamButton android:textSize="@dimen/fs_subtv_btn_text_size" android:textColor="@color/fs_btn_text_color" android:id="@id/fssw_sw1" android:background="@drawable/fs_btn_sw" android:paddingLeft="44.0px" android:layout_width="189.0px" android:layout_height="45.0px" android:layout_marginLeft="481.0px" />
+    <com.ts.other.ParamButton android:textSize="@dimen/fs_subtv_btn_text_size" android:textColor="@color/fs_btn_text_color" android:id="@id/fssw_sw2" android:background="@drawable/fs_btn_sw" android:paddingLeft="44.0px" android:layout_width="189.0px" android:layout_height="45.0px" android:layout_marginLeft="718.0px" />
+    <ImageView android:background="@drawable/factory_long_line" android:layout_width="947.0px" android:layout_height="2.0px" android:layout_marginLeft="0.0px" android:layout_marginTop="48.0px" />
+</RelativeLayout>

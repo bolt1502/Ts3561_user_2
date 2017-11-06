@@ -1,0 +1,910 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="set_main_options">
+        <item>Ortak</item>
+        <item>Ekran</item>
+        <item>Ses Ayarı</item>
+        <item>Ses</item>
+        <item>Video</item>
+        <item>Navigasyon</item>
+        <item>Bluetooth</item>
+        <item>SWC</item>
+        <item>Cihaz Hakkında</item>
+    </string-array>
+    <string-array name="set_genera_options">
+        <item>bekleme süresi</item>
+        <item>Speech Recognition</item>
+        <item>Yardımcı Panel</item>
+        <item>Ters Ses geri bildirimi</item>
+        <item>Boot Ekranı</item>
+        <item>Virtual CD Storage Device</item>
+        <item>Tüm Ayarları Sıfırla</item>
+        <item>Tüm İçerik silme</item>
+    </string-array>
+    <string-array name="set_display_options">
+        <item>Gündüz Arka Işık Ayarı</item>
+        <item>Gece Arka Işık Ayarı</item>
+        <item>Otomatik Mod</item>
+        <item>Tuş Işık Rengi</item>
+    </string-array>
+    <string-array name="set_volume_options">
+        <item>Medya Ses Ayarı</item>
+        <item>Navigasyon Ses Ayarı</item>
+        <item>Bt Ses Ayarı</item>
+        <item>Zil Ses Ayarı</item>
+        <item>Alarm Ses Ayarı</item>
+        <item>System Ses Ayarı</item>
+    </string-array>
+    <string-array name="set_video_options">
+        <item>Sürüş Sırasında Video İzlemek</item>
+        <item>Geri Asistan</item>
+        <item>Park Çizgileri</item>
+        <item>Ayna Arka Kamera</item>
+        <item>Klima</item>
+        <item>Arka Video</item>
+    </string-array>
+    <string-array name="set_navi_options">
+        <item>Autostart Navigation</item>
+        <item>Navigasyon Seçme</item>
+    </string-array>
+    <string-array name="set_bt_options">
+        <item>PIN kodu</item>
+        <item>Otomatik Bağlan</item>
+        <item>Otomatik cevap</item>
+    </string-array>
+    <string-array name="set_eqpment_options">
+        <item>HMI</item>
+        <item>MCU</item>
+        <item>MEDIA</item>
+        <item>NKV</item>
+        <item>BTV</item>
+        <item>DVDROM</item>
+    </string-array>
+    <string-array name="str_fs_rev_volarr">
+        <item>No</item>
+        <item>Weak</item>
+        <item>Mid</item>
+        <item>Strong</item>
+    </string-array>
+    <string-array name="str_fsrad_zonearray">
+        <item>Asia</item>
+        <item>Europ</item>
+        <item>USA1</item>
+        <item>USA2</item>
+        <item>Brazil</item>
+        <item>Japan</item>
+    </string-array>
+    <string-array name="str_fsdoor_title">
+        <item>Swap F-Door</item>
+        <item>Swap R-Door</item>
+        <item>Trunk</item>
+        <item>Hood</item>
+        <item>∧∨ Key</item>
+    </string-array>
+    <string-array name="str_fsother_title">
+        <item>Brake</item>
+        <item>Ext UART</item>
+        <item>DVR type</item>
+        <item>DTV type</item>
+        <item>Capacitive scr.</item>
+        <item>Park mute</item>
+        <item>Camera detect</item>
+        <item>Camera mirror</item>
+        <item>Auto NAVI</item>
+        <item>Color light</item>
+        <item>Logo option</item>
+        <item>SWC option</item>
+        <item>Boot warn</item>
+        <item>Last memory</item>
+        <item>USB1 speed</item>
+        <item>USB2 speed</item>
+        <item>USB2 Debug</item>
+        <item>Ecd swap</item>
+        <item>Debug output</item>
+        <item>Video out</item>
+        <item>BT name</item>
+        <item>SD swap</item>
+        <item>GPS mode</item>
+    </string-array>
+    <string-array name="str_fsother_arrayoff">
+        <item>Not detect</item>
+        <item>Nomarl</item>
+        <item>Off</item>
+        <item>Disable</item>
+        <item>Disable</item>
+        <item>Disable</item>
+        <item>Disable</item>
+        <item>Unremember</item>
+        <item>high</item>
+        <item>high</item>
+        <item>Off</item>
+        <item>Not swap</item>
+        <item>Off</item>
+        <item>NTSC</item>
+        <item>BT name</item>
+        <item>Not swap</item>
+        <item>GPS+BD</item>
+    </string-array>
+    <string-array name="str_fsother_arrayon">
+        <item>Detect</item>
+        <item>Mirror</item>
+        <item>On</item>
+        <item>Enable</item>
+        <item>Enable</item>
+        <item>Enable</item>
+        <item>Enable</item>
+        <item>Remember</item>
+        <item>low</item>
+        <item>low</item>
+        <item>Enable</item>
+        <item>Swap</item>
+        <item>Enable</item>
+        <item>PAL</item>
+        <item>BT name</item>
+        <item>Swap</item>
+        <item>GPS+GNS</item>
+    </string-array>
+    <string-array name="str_fsother_arraybrake">
+        <item>User off</item>
+        <item>Force off</item>
+        <item>Force on</item>
+        <item>User on</item>
+    </string-array>
+    <string-array name="str_fsother_arrparkmute">
+        <item>No</item>
+        <item>Weak</item>
+        <item>Mid</item>
+        <item>Strong</item>
+    </string-array>
+    <string-array name="menu_ico_arr">
+        <item>NAVI</item>
+        <item>Radio</item>
+        <item>DVD</item>
+        <item>Ext DVD</item>
+        <item>Video</item>
+        <item>Audio</item>
+        <item>BT Music</item>
+        <item>CMMB</item>
+        <item>ATV</item>
+        <item>AVIN</item>
+        <item>Link</item>
+        <item>IPOD</item>
+        <item>POD</item>
+        <item>CD Memory</item>
+        <item>Car Device</item>
+        <item>Car Radio</item>
+        <item>Car CD</item>
+        <item>Bluetooth</item>
+        <item>Setup</item>
+        <item>OnStar</item>
+        <item>SYNC</item>
+        <item>Car Info</item>
+        <item>TPMS</item>
+        <item>DVR</item>
+        <item>360 Camera</item>
+        <item>Air Condition</item>
+        <item>Driver Assist</item>
+        <item>E-dog</item>
+        <item>Weather</item>
+    </string-array>
+    <string-array name="can_type_array">
+        <item>NULL</item>
+        <item>Volkswagen</item>
+        <item>VW(MQB System)</item>
+        <item>Toyota</item>
+        <item>Civic、CRV2012</item>
+        <item>Honda DA System</item>
+        <item>Nissan</item>
+        <item>Prado 2014</item>
+        <item>GM</item>
+        <item>Accord 9</item>
+        <item>Sail 3</item>
+        <item>PSA</item>
+        <item>TS</item>
+        <item>Ford</item>
+        <item>Hyundai</item>
+        <item>Chrysler</item>
+        <item>Baojun</item>
+        <item>Trumpchi</item>
+        <item>Roewe 550</item>
+        <item>Roewe(RZ)</item>
+        <item>Crosstour 2014</item>
+        <item>Old MZD, Opel</item>
+        <item>B70 2011</item>
+        <item>B70 2014</item>
+        <item>X80</item>
+        <item>Roewe 950</item>
+        <item>MG GS 15</item>
+        <item>Refine S2,S3</item>
+        <item>Jiangling</item>
+        <item>Cherokee 2016</item>
+        <item>ZTY 100</item>
+    </string-array>
+    <string-array name="fs_vol_item_arr">
+        <item>Radio</item>
+        <item>DISC</item>
+        <item>USB</item>
+        <item>SD</item>
+        <item>BT Music</item>
+        <item>CMMB</item>
+        <item>ATV</item>
+        <item>AUX1</item>
+        <item>AUX2</item>
+        <item>IPOD</item>
+        <item>VMCD</item>
+        <item>Car Audio</item>
+        <item>Navi default</item>
+        <item>Phone default</item>
+        <item>Boot max vol</item>
+        <item>BT mic gain</item>
+    </string-array>
+    <string-array name="tpms_general_disp">
+        <item>TEMP Unit</item>
+        <item>Pressure Unit</item>
+        <item>MAX TEMP</item>
+        <item>MAX Pressure</item>
+        <item>MIN Pressure</item>
+    </string-array>
+    <string-array name="tpms_general_error">
+        <item>Flat Tire</item>
+        <item>Low Voltage</item>
+        <item>No Signal</item>
+        <item>Low Pressure</item>
+        <item>High Pressure</item>
+        <item>Start study</item>
+        <item>Studying</item>
+    </string-array>
+    <string-array name="mcu_update_msg">
+        <item>No upgrade process</item>
+        <item>Failed to update file!</item>
+        <item>Upgrade, please do not power off before complete!</item>
+        <item>Chip encryption!</item>
+        <item>Chip erase failure!</item>
+        <item>Chip erase success!</item>
+        <item>Upgrade successfully, please restart the device!</item>
+    </string-array>
+    <string-array name="can_cam_yh_title">
+        <item>AVG speed</item>
+        <item>Trip time</item>
+        <item>Trip mileage</item>
+    </string-array>
+    <string-array name="can_car_play_sta">
+        <item>Off/Stop</item>
+        <item>Loading</item>
+        <item>Not connected</item>
+        <item>Connected</item>
+        <item>Playing</item>
+        <item>Pause</item>
+        <item>Other status</item>
+    </string-array>
+    <string-array name="can_fist_set_title">
+        <item>Mileage unit</item>
+        <item>Turn signal flashing indicator</item>
+        <item>warning reminding</item>
+        <item>information reminding</item>
+        <item>Ambient light setting</item>
+    </string-array>
+    <string-array name="can_fist_l_c">
+        <item>KM</item>
+        <item>Mile</item>
+    </string-array>
+    <string-array name="can_fist_zxd">
+        <item>Flash 1 time</item>
+        <item>Flash 3 times</item>
+    </string-array>
+    <string-array name="can_conv_tips">
+        <item></item>
+        <item>Air conditioning</item>
+        <item>Auxiliary heater</item>
+        <item>Rear window heating</item>
+        <item>Left seat heating</item>
+        <item>Right seat heating</item>
+        <item>Left seat ventilation</item>
+        <item>Right head area heating</item>
+        <item>Left head area heating</item>
+        <item>Right head area heating</item>
+        <item>Front fog light</item>
+        <item>Rear fog light</item>
+        <item>Windscreen heating</item>
+        <item>Steering wheel heating</item>
+        <item>Mirror heating</item>
+        <item>Rear seat heating</item>
+        <item>Rear seat ventilation</item>
+        <item>Socket</item>
+        <item>Drink holder</item>
+    </string-array>
+    <string-array name="can_start_stop_msg">
+        <item>Trailer mode</item>
+        <item>Windscreen could become fogged</item>
+        <item>Operating temperature not maintained</item>
+        <item>No driver detected</item>
+        <item>Gearbox requires engine to be running</item>
+        <item>Power consumption is high</item>
+        <item>Starting start-stop system</item>
+        <item>Engine must be running</item>
+        <item>Gradient too steep</item>
+        <item>Start-stop system is currently not available</item>
+        <item>Emergency brake function intervention</item>
+        <item>Brake requires engine to be running</item>
+        <item>Power consumption is high</item>
+        <item>Air conditioning requires engine to be running</item>
+        <item>Steering angle too great</item>
+        <item>Manoeuvering mode</item>
+        <item>Defrost function is switched on</item>
+        <item>Driver seatbelt not fastened</item>
+        <item>Driver door open</item>
+        <item>Accelerator is depressed</item>
+        <item>Windscreen heating is switched on</item>
+        <item>Maximum air conditioning requires engine to be running</item>
+        <item>Bonnet has been opened</item>
+        <item>Engine stop currently not possible</item>
+        <item>Off- road mode is activated</item>
+        <item>System protection intervention Button/lever activated too often</item>
+        <item>Gear is engaged</item>
+        <item>Start-stop button pressed</item>
+        <item>Air conditioning requires engine to be running</item>
+        <item>ACC intervention</item>
+        <item>Park Assist is activated</item>
+        <item>ESC is switched off</item>
+        <item>Power consumption is high</item>
+        <item>Start-stop system requires engine to be running</item>
+    </string-array>
+    <string-array name="can_start_stop_other_msg">
+        <item>Start-stop system is activated</item>
+        <item>The Start-stop system is available</item>
+        <item>Engine stop is active</item>
+        <item>Driver door open.Driver not present</item>
+        <item>Please press gas pedal</item>
+        <item>Release clutch to stop engine</item>
+        <item>Start-stop system deactivated</item>
+        <item>Error: Start-Stop system is not available</item>
+        <item>The Start-stop system is not available</item>
+    </string-array>
+    <string-array name="can_jyx5_car_type_array">
+        <item>高配</item>
+        <item>低配、中配</item>
+    </string-array>
+    <string-array name="can_kadjar_car_type_array">
+        <item>其他车型</item>
+        <item>科雷傲（低配）</item>
+    </string-array>
+    <string-array name="can_qc_t70_car_type_array">
+        <item>2015款 T70</item>
+        <item>2016款 T70</item>
+        <item>2017款 T90</item>
+    </string-array>
+    <string-array name="can_df_jyx5_jdsj">
+        <item>10分钟</item>
+        <item>20分钟</item>
+        <item>30分钟</item>
+    </string-array>
+    <string-array name="can_df_jyx5_ddys">
+        <item>无</item>
+        <item>10s</item>
+        <item>20s</item>
+        <item>30s</item>
+    </string-array>
+    <string-array name="can_geely_boy_mode">
+        <item>舒适</item>
+        <item>运动</item>
+    </string-array>
+    <string-array name="can_geely_boy_yklsfk">
+        <item>喇叭不响</item>
+        <item>喇叭响</item>
+    </string-array>
+    <string-array name="can_kaiyi_3x_tdjd">
+        <item>角度 0</item>
+        <item>角度 1</item>
+        <item>角度 2</item>
+        <item>角度 3</item>
+    </string-array>
+    <string-array name="can_kaiyi_3x_aqkz">
+        <item>经济型</item>
+        <item>舒适型</item>
+        <item>运动型</item>
+    </string-array>
+    <string-array name="can_kaiyi_3x_bdsg">
+        <item>关</item>
+        <item>3 次</item>
+        <item>5 次</item>
+        <item>7 次</item>
+    </string-array>
+    <string-array name="can_h6_car_type_array">
+        <item>其他车型</item>
+        <item>2016款 Coupe</item>
+    </string-array>
+    <string-array name="can_ht_car_type_array">
+        <item>Others Type</item>
+        <item>HT X7（Low）</item>
+    </string-array>
+    <string-array name="can_b50_car_type_array">
+        <item>Others Type</item>
+        <item>X80 2017 Low</item>
+    </string-array>
+    <string-array name="can_cch6_dd_delay_array">
+        <item>3s</item>
+        <item>10s</item>
+        <item>20s</item>
+        <item>60s</item>
+    </string-array>
+    <string-array name="can_cch6_hj_delay_array">
+        <item>30s</item>
+        <item>1min</item>
+        <item>2min</item>
+        <item>3min</item>
+    </string-array>
+    <string-array name="can_cch6_jd_setup_array">
+        <item>10min</item>
+        <item>20min</item>
+        <item>30min</item>
+    </string-array>
+    <string-array name="can_tigger7_car_type_array">
+        <item>艾瑞泽5</item>
+        <item>瑞虎7 2016</item>
+        <item>tigger3x 2017</item>
+        <item>tigger3 2017</item>
+        <item>艾瑞泽7 2016</item>
+    </string-array>
+    <string-array name="can_tigger7_language_array">
+        <item>中文</item>
+        <item>English</item>
+    </string-array>
+    <string-array name="can_tigger7_tip_array">
+        <item>喇叭</item>
+        <item>灯光</item>
+        <item>灯光和喇叭</item>
+    </string-array>
+    <string-array name="can_tigger7_car_line_array">
+        <item>关</item>
+        <item>静态</item>
+        <item>静态+动态</item>
+    </string-array>
+    <string-array name="can_service_notice_array">
+        <item>保养提示</item>
+        <item>即将到期</item>
+        <item>检查日期已过</item>
+        <item>请尽快保养</item>
+    </string-array>
+    <string-array name="can_by_service_array">
+        <item>机油</item>
+        <item>车辆检查</item>
+        <item>制动液</item>
+        <item>法定尾气检查</item>
+        <item>法定车辆检查</item>
+        <item>前部制动摩擦片</item>
+        <item>后部制动摩擦片</item>
+        <item>变速汽油</item>
+        <item>磨合检查</item>
+    </string-array>
+    <string-array name="can_psa_check">
+        <item>Check the side lamps</item>
+        <item>Puncture:Replace or repair the wheel</item>
+        <item>Puncture:Replace or repair the wheel</item>
+        <item>Puncture:Replace or repair the wheel</item>
+        <item>Puncture:Replace or repair the wheel</item>
+        <item>保留</item>
+        <item>保留</item>
+        <item>保留</item>
+        <item>Check the rear right brake lamp</item>
+        <item>Check the main beam lamps</item>
+        <item>Check the main beam lamps</item>
+        <item>Check the dipped beam lamps</item>
+        <item>Check the dipped beam lamps</item>
+        <item>Check the side lamps</item>
+        <item>Check the side lamps</item>
+        <item>Check the side lamps</item>
+        <item>Check the direction indicators</item>
+        <item>Check the direction indicators</item>
+        <item>Check the direction indicators</item>
+        <item>Check the rear fog lamps</item>
+        <item>Check the rear fog lamps</item>
+        <item>Check the front fog lamps</item>
+        <item>Check the front fog lamps</item>
+        <item>Check the rear left breake lamp</item>
+        <item>保留</item>
+        <item>保留</item>
+        <item>保留</item>
+        <item>保留</item>
+        <item>保留</item>
+        <item>Check the reversing lamp(s)</item>
+        <item>Check the reversing lamp(s)</item>
+        <item>Check the direction indicators</item>
+        <item>Adjust the pressure of the tyres</item>
+        <item>Adjust the pressure of the tyres</item>
+        <item>保留</item>
+        <item>保留</item>
+        <item>Parking assistance system fault</item>
+        <item>保留</item>
+        <item>保留</item>
+        <item>保留</item>
+        <item>保留</item>
+        <item>Emissions fault</item>
+        <item>Emissions fault:starting prevented</item>
+        <item>Emissions fault</item>
+        <item>保留</item>
+        <item>Switch off the lamps</item>
+        <item>Adjust the pressure of the tyres</item>
+        <item>Adjust the pressure of the tyres</item>
+        <item>Rear left hand door open</item>
+        <item>Rear right hand door open</item>
+        <item>Front left hand door open</item>
+        <item>Front right hand door open</item>
+        <item>Risk of ice</item>
+        <item>Place automatic gearbox in position P</item>
+        <item>保留</item>
+        <item>保留</item>
+        <item>保留</item>
+        <item>保留</item>
+        <item>保留</item>
+        <item>保留</item>
+        <item>保留</item>
+        <item>Rear screen open</item>
+        <item>Collision risk detection open</item>
+        <item>Boot open</item>
+        <item>保留</item>
+        <item>Directional headlamps fault</item>
+        <item>Automatic braking system fault</item>
+        <item>Adjustable wing fault,Speed restricted.see handbook</item>
+        <item>Parking brake fault:Have the vehicle repaired</item>
+        <item>保留</item>
+        <item>保留</item>
+        <item>保留</item>
+        <item>保留</item>
+        <item>保留</item>
+        <item>Gearbox fault:Repair needed</item>
+        <item>保留</item>
+        <item>保留</item>
+        <item>保留</item>
+        <item>保留</item>
+        <item>保留</item>
+        <item>保留</item>
+        <item>Suspension fault:Limit your speed to 90 km/h</item>
+        <item>Engine fault:Repair needed</item>
+        <item>保留</item>
+        <item>保留</item>
+        <item>保留</item>
+        <item>保留</item>
+        <item>保留</item>
+        <item>Sensor fault:Rear left tyre pressure not monitored</item>
+        <item>Sensor fault:Rear right tyre pressure not monitored</item>
+        <item>Sensor fault:Front right tyre pressure not monitored</item>
+        <item>Sensor fault:Front left tyre pressure not monitored</item>
+        <item>保留</item>
+        <item>保留</item>
+        <item>保留</item>
+        <item>保留</item>
+        <item>Tyre under-intflagtion detection fault</item>
+        <item>保留</item>
+        <item>Engine fault:Stop the vehicle</item>
+        <item>Inter-vehicles time measuring fault</item>
+        <item>保留</item>
+        <item>保留</item>
+        <item>Power steering fault:Have the vehicle repaired</item>
+        <item>Suspension fault:Hanve the vehicle repaired</item>
+        <item>Refill emissions additive:Staring prevented</item>
+        <item>Refill emissions additive</item>
+        <item>Refill emissions additive</item>
+        <item>保留</item>
+        <item>Left hand front tyre under-inflated:adjust tyre pressures,then reinitialise</item>
+        <item>Right hand front tyre under-inflated:adjust tyre pressures,then reinitialise</item>
+        <item>Left hand rear tyre under-inflated:adjust tyre pressures,then reinitialise</item>
+        <item>Right hand rear tyre under-inflated:adjust tyre pressures,then reinitialise</item>
+        <item>保留</item>
+        <item>Top up coolant level</item>
+        <item>Power steering fault:Stop the vehicle</item>
+        <item>保留</item>
+        <item>Braking system fault:Stop the vehicle</item>
+        <item>保留</item>
+        <item>Engine temperature fault:Stop the vehicle</item>
+        <item>Engine oil pressure fault:Stop the vehicle</item>
+        <item>Boot open</item>
+        <item>保留</item>
+        <item>Rear right hand door open</item>
+        <item>Rear left hand door open</item>
+        <item>Front right hand door open</item>
+        <item>Front left hand door open</item>
+        <item>保留</item>
+        <item>Top up engine oil level</item>
+        <item>Air bag(s) or pretensioning seat belt(s) fault</item>
+        <item>fule level too low</item>
+        <item>Have the brake pads changed</item>
+        <item>Presence of water in diesel filter:Repair needed</item>
+        <item>保留</item>
+        <item>Battery charge fault:Stop the vehicle</item>
+        <item>ESP/ASR system fault:Have the vehicle repaired</item>
+        <item>Rear screen open</item>
+        <item>Suspension fault:Hanve the vehicle repaired</item>
+        <item>保留</item>
+        <item>Particle filter additive level too low:Repair needed</item>
+        <item>保留</item>
+        <item>Risk of particle filter clogging:See handbook</item>
+        <item>ABS fault:Have the vehicle repaired</item>
+        <item>Engine fault:Repair needed</item>
+        <item>保留</item>
+        <item>Roof manoeuvre impossible:System temperature too high</item>
+        <item>保留</item>
+        <item>Electronic engine immobiliser fault</item>
+        <item>Steering lock fault:Have the vehicle repaired</item>
+        <item>Retractabie roof mechanism fault</item>
+        <item>Check the central STOP lamp</item>
+        <item>Pre-heating/per-ventilation deactivated:Fuel level low</item>
+        <item>Pre-heating/per-ventilation deactivated:Battery charge low</item>
+        <item>Replace the rmote control battery</item>
+        <item>Top up the screenwash</item>
+        <item>Hybrid system fault:Speed restricted,repair needed</item>
+        <item>Hybrid system fault:Repair needed</item>
+        <item>Automatic headlamp height adjustment fault</item>
+        <item>Hybrid system fault:Stop the vehicle,see handbook</item>
+        <item>Roof manoeuvre impossble:Apply the handbrake</item>
+        <item>Roof manoeuvre impossble:Start the engine</item>
+        <item>保留</item>
+        <item>保留</item>
+        <item>保留</item>
+        <item>Tyre under-inflation monitoring fault</item>
+        <item>保留</item>
+        <item>Trailer connection fault:Repair needed</item>
+        <item>Pre-heating/pre-ventilation deactivated:Set the clock</item>
+        <item>保留</item>
+    </string-array>
+    <string-array name="can_psa_warn">
+        <item>Engine temperature fault:Stop the vehicle</item>
+        <item>Top up coolant level</item>
+        <item>Top up engine oil level</item>
+        <item>Engine oil pressure fault:Stop the vehicle</item>
+        <item>Braking system fault:Stop the vehicle</item>
+        <item>Risk of particle filter clogging:See handbook</item>
+        <item>Suspension fault:Limit your speed to 90 km/h</item>
+        <item>Power steering fault:Have the vehicle repaired</item>
+        <item>Parking brake fault:Have the vehicle repaired</item>
+        <item>Have the brake pads changed</item>
+        <item>Parking brake fault:Have the vehicle repaired</item>
+        <item>Adjustable wing fault,Speed restricted.see handbook</item>
+        <item>ABS fault:Have the vehicle repaired</item>
+        <item>ESP/ASR system fault:Have the vehicle repaired</item>
+        <item>Suspension fault:Hanve the vehicle repaired</item>
+        <item>Power steering fault:Have the vehicle repaired</item>
+        <item>Automatic headlamp height adjustment fault</item>
+        <item>Directional headlamps fault</item>
+        <item>Air bag(s) or pretensioning seat belt(s) fault</item>
+        <item>Engine cover open sensor fault</item>
+        <item>Gearbox fault:Repair needed</item>
+        <item>Start engine,place automatic gearbox in position P</item>
+        <item>Presence of water in diesel filter:Repair needed</item>
+        <item>Presence of water in diesel filter:Repair needed</item>
+        <item>NULL</item>
+        <item>Particle filter additive level too low:Repair needed</item>
+        <item>Parking assistance system fault</item>
+        <item>Battery charge fault:Stop the vehicle</item>
+        <item>车辆靠近</item>
+        <item>行车间距不可测量，巡航功能已激活</item>
+        <item>Can not activate</item>
+        <item>巡航功能暂停，重新检测</item>
+        <item>速度>150km/h，速度调节关闭</item>
+        <item>记录胎压</item>
+        <item>Tyre under-intflagtion detection fault</item>
+        <item>请关门，以便启动自动释放手刹功能</item>
+        <item>请刹车！</item>
+        <item>Automatic braking system fault</item>
+        <item>加注添加剂，在0km内禁止开始</item>
+        <item>NULL</item>
+        <item>Refill emissions additive:Staring prevented</item>
+        <item>Emissions fault</item>
+        <item>排放控制故障，在0km内禁止开始</item>
+        <item>Emissions fault:starting prevented</item>
+        <item>发动机启停功能停用，环境温度不适</item>
+        <item>行驶时无法重新初始化</item>
+        <item>动态模式关闭</item>
+        <item>无动态模式</item>
+        <item>Switch off the lamps</item>
+        <item>Pull out key</item>
+        <item>定速巡航系统不能启用，速度过低</item>
+        <item>定速巡航系统不能启用，设定车速</item>
+        <item>Place automatic gearbox in position P</item>
+        <item>Risk of ice</item>
+        <item>松开手刹</item>
+        <item>请调整玻璃清洗液</item>
+        <item>Fule level too low</item>
+        <item>供油切断</item>
+        <item>Replace the rmote control battery</item>
+        <item>Place automatic gearbox in position N</item>
+        <item>按下手刹停车按钮时请踩住制动踏板</item>
+        <item>Roof manoeuvre impossible:Out temperature too high</item>
+        <item>Roof manoeuvre impossible:Speed too high</item>
+        <item>Roof manoeuvre impossible:Boot open</item>
+        <item>无法开启硬顶，隔板未放</item>
+        <item>Roof manoeuvre impossible control complete</item>
+        <item>Stop Roof manoeuvre operation right now</item>
+        <item>Retractabie roof mechanism fault</item>
+        <item>操作失败，后风窗未关</item>
+        <item>防倒退系统故障</item>
+        <item>行车间距不可测量，能见度过低</item>
+        <item>行车间距不可测量，正在初始化</item>
+        <item>预热/预通风停用，调节时钟</item>
+        <item>Pre-heating/per-ventilation deactivated:Fuel level low</item>
+        <item>Pre-heating/per-ventilation deactivated:Battery charge low</item>
+        <item>转动方向盘以解锁</item>
+        <item>钥匙已拔出，请长按关闭发动机</item>
+        <item>为关闭发动机，请将换挡杆置于P位置</item>
+        <item>为启动发动机，请将钥匙插入</item>
+        <item>为启动发动机，请踩住制动踏板+按START</item>
+        <item>为启动发动机，请踩住离合踏板+按START</item>
+        <item>未检测到钥匙</item>
+        <item>取出钥匙</item>
+        <item>无车钥匙</item>
+        <item>为松开手刹，请踩住制动踏板</item>
+        <item>定速巡航功能暂停</item>
+        <item>定速巡航故障</item>
+        <item>请完全踩下离合器</item>
+        <item>测算中，最大车速20km/h</item>
+        <item>通过转向灯选择方向</item>
+        <item>方向盘故障，请维修车辆</item>
+        <item>请将手刹拉至最大位置</item>
+        <item>电路故障，请维修车辆</item>
+        <item>拉紧手刹</item>
+        <item>Electronic engine immobiliser fault</item>
+        <item>Engine fault:Stop the vehicle</item>
+        <item>Roof manoeuvre impossible:System temperature too high</item>
+        <item>Roof manoeuvre impossble:Start the engine</item>
+        <item>Roof manoeuvre impossble:Apply the handbrake</item>
+        <item>Hybrid system fault:Stop the vehicle,see handbook</item>
+        <item>Hybrid system fault:Repair needed</item>
+        <item>Hybrid system fault:Speed restricted,repair needed</item>
+        <item>Place automatic gearbox in position N and disconnect key</item>
+        <item>Hybrid system activate</item>
+        <item>电动力模式暂时无法切换</item>
+        <item>Trailer connection fault:Repair needed</item>
+        <item>Reset manualy</item>
+    </string-array>
+    <string-array name="can_psa_func">
+        <item>Parking brake deactivated</item>
+        <item>Parking brake activated</item>
+        <item>Automatic screen wipe activated</item>
+        <item>Automatic screen wipe deactivated</item>
+        <item>Automatic headlamp lighting activated</item>
+        <item>Automatic headlamp lighting deactivated</item>
+        <item>Automatic door locking activated</item>
+        <item>Automatic door locking deactivated</item>
+        <item>Child safety activated</item>
+        <item>Child safety deactivated</item>
+        <item>ESP system activated</item>
+        <item>ESP system deactivated</item>
+        <item>驱动防滑系统：正常模式</item>
+        <item>驱动防滑系统：泥地模式</item>
+        <item>驱动防滑系统：雪地模式</item>
+        <item>驱动防滑系统：沙地模式</item>
+        <item>Start-Stop system activated</item>
+        <item>Start-Stop system deactivated</item>
+        <item>Traction control system on</item>
+        <item>Traction control system off</item>
+    </string-array>
+    <string-array name="can_ford_warn_text">
+        <item>NULL</item>
+        <item>Transmission overtemperature, Stop safely.</item>
+        <item>Transmission malfunction, Service now.</item>
+        <item>Engine malfunction, Service now.</item>
+        <item>Dlesel filter overloaded refer to manual.</item>
+        <item>Engine oil change due service required.</item>
+        <item>Engine oil pressure low, Stop safely.</item>
+        <item>Hill start assist not available.</item>
+        <item>Airbag malfunction, Service now.</item>
+        <item>Brake system malfunction, Stop safely.</item>
+        <item>Brake fluid level low, Service now.</item>
+        <item>ABS malfunciton, Service now.</item>
+        <item>ESP off.</item>
+        <item>ESP malfunction, Next service.</item>
+        <item>Power steering malfunction, Service now.</item>
+        <item>NULL</item>
+        <item>Boot open.</item>
+        <item>Bonnet open.</item>
+        <item>Passenger side rear door open.</item>
+        <item>Driver side rear door open.</item>
+        <item>Passenger door open.</item>
+        <item>Driver door open.</item>
+        <item>NULL</item>
+        <item>Auto startstop engine starting.</item>
+        <item>Left indicator malfunction, Change bulb.</item>
+        <item>Right indicator malfunction, Change bulb.</item>
+        <item>Bonnet open.</item>
+        <item>Boot open.</item>
+        <item>Passenger side rear door open.</item>
+        <item>Driver side rear door open.</item>
+        <item>Passenger door open.</item>
+        <item>Driver door open.</item>
+        <item>Press clutch to start.</item>
+        <item>Press brake to start.</item>
+        <item>Key battery low, Replace battery.</item>
+        <item>Auto startstop, Press a pedal to start engine.</item>
+        <item>Alarm system malfunction, Service required.</item>
+        <item>Key battery low, Replace battery.</item>
+        <item>Interior scan deactivated.</item>
+        <item>Auto wiper/lights malfunction, Service required.</item>
+        <item>Auto startstop, Manual start required.</item>
+        <item>Close boot or use spare key.</item>
+        <item>Steering lock engaged, Turn steering wheel.</item>
+        <item>Steering lock malfunction, Stop safely.</item>
+        <item>Steering lock malfunction, Service now.</item>
+        <item>Key outside car.</item>
+        <item>Key not detected.</item>
+        <item>Turn ignition off, Use POWER button.</item>
+        <item>Door open apply brake.</item>
+        <item>Select N to start.</item>
+        <item>Press brake to start.</item>
+        <item>Auto StartStop, Select neutral.</item>
+        <item>Select N or P to start.</item>
+        <item>Vehicle not in Park, Select P.</item>
+        <item>Auto StartStop, Switch ignition off.</item>
+        <item>Immobiliser malfunction, Service now.</item>
+        <item>Alarm triggered, Check vehicle.</item>
+        <item>Alarm triggered, Check vehicle.</item>
+        <item>Alarm triggered, Check vehicle.</item>
+        <item>Alarm triggered, Check vehicle.</item>
+        <item>Transmission hot, Stop or speed up.</item>
+        <item>Transmission hot, Stop or speed up.</item>
+        <item>Transmission ready.</item>
+        <item>Transmission hot, Wait 4 mins.</item>
+        <item>Press brake and clutch to start.</item>
+        <item>Press brake to start.</item>
+        <item>Press clutch to start.</item>
+        <item>Active City Stop, Auto braking.</item>
+        <item>Active City Stop not available.</item>
+        <item>Active City Stop sensor blocked, Clean screen</item>
+        <item>Check tyre pressures.</item>
+        <item>Tyre pressures sys malfunction, Service required.</item>
+        <item>Engine runing.</item>
+        <item>MyKey active, Drive safely.</item>
+        <item>MyKey speed limited to 160 km/h.</item>
+        <item>MyKey vehicle at top speed.</item>
+        <item>NULL</item>
+        <item>NULL</item>
+        <item>NULL</item>
+        <item>NULL</item>
+        <item>MyKey check speed, Drive safely.</item>
+        <item>NULL</item>
+        <item>NULL</item>
+        <item>NULL</item>
+        <item>NULL</item>
+        <item>NULL</item>
+        <item>NULL</item>
+        <item>NULL</item>
+        <item>MyKey park ald cannot be deactivated.</item>
+        <item>MyKey ESC cannot be deactivated.</item>
+        <item>NULL</item>
+        <item>NULL</item>
+        <item>NULL</item>
+        <item>NULL</item>
+        <item>NULL</item>
+        <item>NULL</item>
+        <item>Press brake to unlock selecor lever.</item>
+        <item>Cranking time exceeded.</item>
+        <item>NULL</item>
+        <item>NULL</item>
+        <item>NULL</item>
+        <item>NULL</item>
+        <item>NULL</item>
+        <item>NULL</item>
+        <item>NULL</item>
+        <item>NULL</item>
+        <item>NULL</item>
+        <item>NULL</item>
+        <item>NULL</item>
+        <item>NULL</item>
+        <item>Transmission not in Park.</item>
+        <item>Selector lever unlocked.</item>
+        <item>Park brake applied.</item>
+        <item>NULL</item>
+        <item>NULL</item>
+        <item>NULL</item>
+        <item>NULL</item>
+        <item>NULL</item>
+        <item>NULL</item>
+        <item>NULL</item>
+        <item>NULL</item>
+        <item>NULL</item>
+        <item>NULL</item>
+        <item>NULL</item>
+        <item>NULL</item>
+        <item>MyKey vehicle near top speed.</item>
+        <item>NULL</item>
+        <item>Park brake applied.</item>
+    </string-array>
+</resources>

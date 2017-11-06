@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/setup_dialog_box_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textSize="26.0px" android:textColor="@drawable/general_color" android:id="@id/setting_general_btn_ok" android:background="@drawable/setup_dialog_btn" android:layout_width="134.0px" android:layout_height="64.0px" android:layout_marginLeft="53.0px" android:layout_marginTop="140.0px" />
+    <Button android:textSize="26.0px" android:textColor="@drawable/general_color" android:id="@id/setting_general_btn_cancel" android:background="@drawable/setup_dialog_btn" android:layout_width="134.0px" android:layout_height="64.0px" android:layout_marginLeft="251.0px" android:layout_marginTop="140.0px" />
+    <ImageView android:background="@drawable/setup_dialog_warn" android:layout_width="73.0px" android:layout_height="59.0px" android:layout_marginLeft="60.0px" android:layout_marginTop="40.0px" />
+    <TextView android:textSize="28.0px" android:textColor="@android:color/black" android:id="@id/setting_general_showinfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="160.0px" android:layout_marginTop="45.0px" android:text="" />
+</RelativeLayout>

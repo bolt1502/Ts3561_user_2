@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/factory_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/fs_top_item" />
+    <ListView android:scrollbarStyle="outsideOverlay" android:id="@id/fs_rad_list" android:paddingRight="20.0px" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="39.0px" android:layout_marginTop="84.0px" android:layout_marginRight="39.0px" android:listSelector="@android:color/transparent" />
+</RelativeLayout>

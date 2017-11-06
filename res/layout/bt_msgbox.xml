@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/bt_calling_box" android:layout_width="660.0px" android:layout_height="183.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/btn_calling_answer" android:background="@drawable/bt_calling_call" android:visibility="gone" android:layout_width="92.0px" android:layout_height="92.0px" android:layout_marginLeft="29.0px" android:layout_marginTop="44.0px" />
+    <Button android:id="@id/btn_calling_kb" android:background="@drawable/bt_calling_kb" android:layout_width="92.0px" android:layout_height="92.0px" android:layout_marginLeft="29.0px" android:layout_marginTop="44.0px" />
+    <Button android:id="@id/btn_calling_hang" android:background="@drawable/bt_calling_hang" android:layout_width="92.0px" android:layout_height="92.0px" android:layout_marginLeft="538.0px" android:layout_marginTop="44.0px" />
+    <TextView android:textSize="30.0px" android:textColor="@android:color/white" android:gravity="center" android:id="@id/bt_calling_name" android:layout_width="416.0px" android:layout_height="44.0px" android:layout_marginLeft="133.0px" android:layout_marginTop="11.0px" android:text="name" />
+    <TextView android:textSize="35.0px" android:textColor="@android:color/white" android:ellipsize="end" android:gravity="center" android:id="@id/bt_calling_no" android:layout_width="416.0px" android:layout_height="55.0px" android:layout_marginLeft="133.0px" android:layout_marginTop="60.0px" android:text="no" android:singleLine="true" />
+    <TextView android:textSize="30.0px" android:textColor="@android:color/white" android:gravity="center" android:id="@id/bt_calling_state" android:layout_width="416.0px" android:layout_height="44.0px" android:layout_marginLeft="133.0px" android:layout_marginTop="120.0px" android:text="state" />
+</RelativeLayout>

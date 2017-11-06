@@ -1,0 +1,1063 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="set_main_options">
+        <item>通用设置</item>
+        <item>显示设置</item>
+        <item>音量设置</item>
+        <item>音效选项</item>
+        <item>视频选项</item>
+        <item>导航设置</item>
+        <item>蓝牙设置</item>
+        <item>方控学习</item>
+        <item>关于设备</item>
+    </string-array>
+    <string-array name="set_genera_options">
+        <item>待机时间</item>
+        <item>语音识别</item>
+        <item>悬浮球</item>
+        <item>倒车音量抑制</item>
+        <item>开机图片</item>
+        <item>语音灵敏度</item>
+        <item>恢复出厂设置</item>
+        <item>系统还原</item>
+    </string-array>
+    <string-array name="set_display_options">
+        <item>白天亮度</item>
+        <item>夜晚亮度</item>
+        <item>大灯自动检测</item>
+        <item>七彩灯</item>
+    </string-array>
+    <string-array name="set_volume_options">
+        <item>媒体音量</item>
+        <item>导航音量</item>
+        <item>蓝牙音量</item>
+        <item>铃声音量</item>
+        <item>闹钟音量</item>
+        <item>系统音量</item>
+    </string-array>
+    <string-array name="set_video_options">
+        <item>行车视频</item>
+        <item>倒车轨迹线</item>
+        <item>倒车警告线</item>
+        <item>倒车镜像</item>
+        <item>空调显示</item>
+        <item>后视输出</item>
+    </string-array>
+    <string-array name="set_navi_options">
+        <item>开机自动进入导航</item>
+        <item>导航程序选择</item>
+    </string-array>
+    <string-array name="set_bt_options">
+        <item>配对码</item>
+        <item>自动连接</item>
+        <item>自动接听</item>
+    </string-array>
+    <string-array name="set_eqpment_options">
+        <item>界面软件版本</item>
+        <item>主控软件版本</item>
+        <item>媒体软件版本</item>
+        <item>内核软件版本</item>
+        <item>蓝牙模块版本</item>
+        <item>DVDROM</item>
+    </string-array>
+    <string-array name="str_fs_rev_volarr">
+        <item>无</item>
+        <item>弱</item>
+        <item>中</item>
+        <item>强</item>
+    </string-array>
+    <string-array name="str_fsrad_zonearray">
+        <item>亚洲</item>
+        <item>欧洲</item>
+        <item>美洲1</item>
+        <item>美洲2</item>
+        <item>巴西</item>
+        <item>日本</item>
+    </string-array>
+    <string-array name="str_fsdoor_title">
+        <item>前门反</item>
+        <item>后门反</item>
+        <item>后备箱</item>
+        <item>前盖</item>
+        <item>方控上下曲</item>
+    </string-array>
+    <string-array name="str_fsother_title">
+        <item>显示屏类型</item>
+        <item>手刹设置</item>
+        <item>外部UART</item>
+        <item>DVR类型</item>
+        <item>DTV类型</item>
+        <item>电容屏类型</item>
+        <item>倒车音量抑制</item>
+        <item>倒车检测</item>
+        <item>倒车镜像</item>
+        <item>开机启动导航</item>
+        <item>多彩灯选项</item>
+        <item>开机画面选项</item>
+        <item>方控学习选项</item>
+        <item>开机警告画面</item>
+        <item>插拔记忆</item>
+        <item>USB1速度</item>
+        <item>USB2速度</item>
+        <item>USB2调试</item>
+        <item>编码器左右交换</item>
+        <item>调试信息输出</item>
+        <item>电视输出格式</item>
+        <item>蓝牙名字</item>
+        <item>SD交换</item>
+        <item>卫星定位模式</item>
+    </string-array>
+    <string-array name="str_fsother_arrayoff">
+        <item>不检测</item>
+        <item>不镜像</item>
+        <item>不启动</item>
+        <item>无</item>
+        <item>无</item>
+        <item>无</item>
+        <item>无</item>
+        <item>不记忆</item>
+        <item>high</item>
+        <item>high</item>
+        <item>关闭</item>
+        <item>不交换</item>
+        <item>关闭</item>
+        <item>NTSC</item>
+        <item>蓝牙名字</item>
+        <item>不交换</item>
+        <item>GPS+BD</item>
+    </string-array>
+    <string-array name="str_fsother_arrayon">
+        <item>检测</item>
+        <item>镜像</item>
+        <item>启动</item>
+        <item>有</item>
+        <item>有</item>
+        <item>有</item>
+        <item>有</item>
+        <item>记忆</item>
+        <item>low</item>
+        <item>low</item>
+        <item>开启</item>
+        <item>交换</item>
+        <item>开启</item>
+        <item>PAL</item>
+        <item>蓝牙名字</item>
+        <item>交换</item>
+        <item>GPS+GNS</item>
+    </string-array>
+    <string-array name="str_fsother_arraylcmstype">
+        <item>10-IPS</item>
+        <item>7-IPS</item>
+        <item>9-IPS</item>
+        <item>LVDS</item>
+    </string-array>
+    <string-array name="str_fsother_arraybrake">
+        <item>用户选择默认关</item>
+        <item>强制忽略</item>
+        <item>强制开启</item>
+        <item>用户选择默认开</item>
+    </string-array>
+    <string-array name="str_fsother_arrparkmute">
+        <item>无</item>
+        <item>弱</item>
+        <item>中</item>
+        <item>强</item>
+    </string-array>
+    <string-array name="menu_ico_arr">
+        <item>导航</item>
+        <item>收音机</item>
+        <item>DVD</item>
+        <item>外挂DVD</item>
+        <item>视频</item>
+        <item>音频</item>
+        <item>蓝牙音乐</item>
+        <item>数字电视</item>
+        <item>模拟电视</item>
+        <item>AVIN</item>
+        <item>OBD</item>
+        <item>IPOD</item>
+        <item>POD</item>
+        <item>虚拟六碟</item>
+        <item>原车设备</item>
+        <item>原车收音</item>
+        <item>原车CD</item>
+        <item>蓝牙</item>
+        <item>设置</item>
+        <item>安吉星</item>
+        <item>SYNC</item>
+        <item>车辆信息</item>
+        <item>胎压</item>
+        <item>行车记录</item>
+        <item>360全景</item>
+        <item>空调</item>
+        <item>驾驶辅助</item>
+        <item>电话</item>
+        <item>蓝牙方控</item>
+    </string-array>
+    <string-array name="can_type_array">
+        <item>无协议</item>
+        <item>大众</item>
+        <item>高尔夫</item>
+        <item>丰田</item>
+        <item>12款思域、CRV</item>
+        <item>本田DA系统(杰德、凌派、缤智...)</item>
+        <item>日产天籁，奇骏，楼兰</item>
+        <item>14款霸道</item>
+        <item>通用全系</item>
+        <item>雅阁9代</item>
+        <item>赛欧3（睿志诚）</item>
+        <item>标雪</item>
+        <item>TS全系</item>
+        <item>福特全系</item>
+        <item>现代全系</item>
+        <item>克莱斯勒车系</item>
+        <item>宝骏</item>
+        <item>广汽传祺系列</item>
+        <item>荣威550</item>
+        <item>荣威系列</item>
+        <item>14款歌诗图</item>
+        <item>老马自达，欧宝</item>
+        <item>11款B70</item>
+        <item>14款B70</item>
+        <item>奔腾X80</item>
+        <item>荣威950</item>
+        <item>15款名爵锐腾</item>
+        <item>江淮瑞风S2,S3</item>
+        <item>江铃</item>
+        <item>16款吉普自由光</item>
+        <item>众泰云100</item>
+    </string-array>
+    <string-array name="fs_vol_item_arr">
+        <item>收音机</item>
+        <item>DISC</item>
+        <item>USB</item>
+        <item>SD</item>
+        <item>蓝牙音乐</item>
+        <item>数字电视</item>
+        <item>模拟电视</item>
+        <item>AUX1</item>
+        <item>AUX2</item>
+        <item>IPOD</item>
+        <item>虚拟六碟</item>
+        <item>原车音源</item>
+        <item>默认导航音量</item>
+        <item>默认电话音量</item>
+        <item>开机最大增益</item>
+        <item>蓝牙MIC增益</item>
+    </string-array>
+    <string-array name="tpms_general_mode">
+        <item>关闭报警</item>
+        <item>单次报警</item>
+        <item>持续报警</item>
+    </string-array>
+    <string-array name="tpms_general_disp">
+        <item>温度单位</item>
+        <item>压力单位</item>
+        <item>温度上限</item>
+        <item>压力上限</item>
+        <item>压力下限</item>
+    </string-array>
+    <string-array name="tpms_general_error">
+        <item>漏气</item>
+        <item>低电压</item>
+        <item>无信号</item>
+        <item>气压低</item>
+        <item>气压高</item>
+        <item>开始学习</item>
+        <item>学习中</item>
+    </string-array>
+    <string-array name="mcu_update_msg">
+        <item>未进入升级流程</item>
+        <item>升级文件打开失败!</item>
+        <item>升级中，升级完成之前请不要断电!</item>
+        <item>芯片已加密!</item>
+        <item>芯片擦除失败!</item>
+        <item>芯片擦除成功!</item>
+        <item>升级成功，请重启本设备!</item>
+    </string-array>
+    <string-array name="can_cam_yh_title">
+        <item>平均车速</item>
+        <item>行驶时间</item>
+        <item>可持续行驶里程</item>
+    </string-array>
+    <string-array name="can_car_play_sta">
+        <item>关闭/停止播放</item>
+        <item>加载中</item>
+        <item>没有连接</item>
+        <item>已经连接</item>
+        <item>播放中</item>
+        <item>暂停</item>
+        <item>其他状态</item>
+    </string-array>
+    <string-array name="can_fist_set_title">
+        <item>里程单位</item>
+        <item>转向灯闪烁指示</item>
+        <item>警告提示</item>
+        <item>信息提示</item>
+        <item>环境灯设置</item>
+    </string-array>
+    <string-array name="can_fist_l_c">
+        <item>公里</item>
+        <item>英里</item>
+    </string-array>
+    <string-array name="can_fist_zxd">
+        <item>闪烁一次</item>
+        <item>闪烁三次</item>
+    </string-array>
+    <string-array name="can_conv_tips">
+        <item></item>
+        <item>空调</item>
+        <item>辅助加热器</item>
+        <item>后窗加热</item>
+        <item>左边座椅加热</item>
+        <item>右边座椅加热</item>
+        <item>左座椅通风</item>
+        <item>右前区域加热</item>
+        <item>左前区域加热</item>
+        <item>右前区域加热</item>
+        <item>前雾灯</item>
+        <item>后雾灯</item>
+        <item>前窗加热</item>
+        <item>方向盘加热</item>
+        <item>后视镜加热</item>
+        <item>后座椅加热</item>
+        <item>后座椅通风</item>
+        <item>插座</item>
+        <item>饮料架</item>
+    </string-array>
+    <string-array name="can_start_stop_msg">
+        <item>拖车模式</item>
+        <item>小心档风玻璃起雾</item>
+        <item>不能维持工作温度</item>
+        <item>未发现驾驶员</item>
+        <item>操作变速箱需要发动机运行</item>
+        <item>功耗高</item>
+        <item>启用启-停系统</item>
+        <item>引擎必须运行</item>
+        <item>坡度太陡</item>
+        <item>启-停系统当前不可用</item>
+        <item>紧急制动功能干预</item>
+        <item>制动器需要发动机运行</item>
+        <item>功耗高</item>
+        <item>空调开启需要发动机运行</item>
+        <item>转向角太大</item>
+        <item>操纵模式</item>
+        <item>除霜功能开启</item>
+        <item>驾驶员未系安全带</item>
+        <item>驾驶室门打开</item>
+        <item>加速踏板被踩下</item>
+        <item>前窗加热开启</item>
+        <item>空调最大制冷需要发动机运行</item>
+        <item>引擎盖未关好</item>
+        <item>发动机当前无法停止</item>
+        <item>越野模式已启用</item>
+        <item>手刹按钮/ 杆使用太频繁</item>
+        <item>齿轮啮合</item>
+        <item>启-停按钮已按下</item>
+        <item>空调开启需要发动机运行</item>
+        <item>ACC 状态</item>
+        <item>驻车辅助已启动</item>
+        <item>ESC 关闭</item>
+        <item>功耗高</item>
+        <item>启-停系统需要发动机运行</item>
+    </string-array>
+    <string-array name="can_start_stop_other_msg">
+        <item>启-停系统已经激活</item>
+        <item>启-停系统可用</item>
+        <item>引擎已经停止</item>
+        <item>驾驶侧门打开，驾驶员不在</item>
+        <item>请按下油门踏板</item>
+        <item>请踩离合器，停止引擎</item>
+        <item>启-停系统未激活</item>
+        <item>错误：启-停系统不可用</item>
+        <item>启-停系统不可用</item>
+    </string-array>
+    <string-array name="can_teramont_eco_array">
+        <item>经济</item>
+        <item>标准</item>
+        <item>运动</item>
+        <item>个性化</item>
+    </string-array>
+    <string-array name="can_teramont_drive_profile_array">
+        <item>雪地</item>
+        <item>经济</item>
+        <item>越野</item>
+        <item>越野个性化</item>
+    </string-array>
+    <string-array name="can_golf_teramont_tyres_array">
+        <item>舒适</item>
+        <item>标准</item>
+        <item>满载</item>
+    </string-array>
+    <string-array name="can_golf_teramont_tyres_warn_array">
+        <item>轮胎压力正常</item>
+        <item>请检查轮胎压力</item>
+        <item>轮胎压力过低</item>
+        <item>轮胎失压</item>
+    </string-array>
+    <string-array name="can_jyx5_car_type_array">
+        <item>高配</item>
+        <item>低配、中配</item>
+    </string-array>
+    <string-array name="can_kadjar_car_type_array">
+        <item>其他车型</item>
+        <item>科雷傲（低配）</item>
+    </string-array>
+    <string-array name="can_qc_t70_car_type_array">
+        <item>2015款 T70</item>
+        <item>2016款 T70</item>
+        <item>2017款 T90</item>
+    </string-array>
+    <string-array name="can_df_jyx5_jdsj">
+        <item>10分钟</item>
+        <item>20分钟</item>
+        <item>30分钟</item>
+    </string-array>
+    <string-array name="can_df_jyx5_ddys">
+        <item>无</item>
+        <item>10s</item>
+        <item>20s</item>
+        <item>30s</item>
+    </string-array>
+    <string-array name="can_geely_boy_mode">
+        <item>舒适</item>
+        <item>运动</item>
+    </string-array>
+    <string-array name="can_geely_boy_yklsfk">
+        <item>喇叭不响</item>
+        <item>喇叭响</item>
+    </string-array>
+    <string-array name="can_kaiyi_3x_tdjd">
+        <item>角度 0</item>
+        <item>角度 1</item>
+        <item>角度 2</item>
+        <item>角度 3</item>
+    </string-array>
+    <string-array name="can_kaiyi_3x_aqkz">
+        <item>经济型</item>
+        <item>舒适型</item>
+        <item>运动型</item>
+    </string-array>
+    <string-array name="can_kaiyi_3x_bdsg">
+        <item>关</item>
+        <item>3 次</item>
+        <item>5 次</item>
+        <item>7 次</item>
+    </string-array>
+    <string-array name="can_h6_car_type_array">
+        <item>其他车型</item>
+        <item>2016款 Coupe</item>
+    </string-array>
+    <string-array name="can_ht_car_type_array">
+        <item>其他车型</item>
+        <item>汉腾 X7（低配）</item>
+    </string-array>
+    <string-array name="can_b50_car_type_array">
+        <item>其他车型</item>
+        <item>17款X80低配</item>
+    </string-array>
+    <string-array name="can_cch6_dd_delay_array">
+        <item>3s</item>
+        <item>10s</item>
+        <item>20s</item>
+        <item>60s</item>
+    </string-array>
+    <string-array name="can_cch6_hj_delay_array">
+        <item>30s</item>
+        <item>1min</item>
+        <item>2min</item>
+        <item>3min</item>
+    </string-array>
+    <string-array name="can_cch6_jd_setup_array">
+        <item>10min</item>
+        <item>20min</item>
+        <item>30min</item>
+    </string-array>
+    <string-array name="can_tigger7_car_type_array">
+        <item>艾瑞泽5</item>
+        <item>瑞虎7 2016</item>
+        <item>瑞虎3x 2017</item>
+        <item>瑞虎3 2017</item>
+        <item>艾瑞泽7 2016</item>
+    </string-array>
+    <string-array name="can_tigger7_language_array">
+        <item>中文</item>
+        <item>English</item>
+    </string-array>
+    <string-array name="can_tigger7_tip_array">
+        <item>喇叭</item>
+        <item>灯光</item>
+        <item>灯光和喇叭</item>
+    </string-array>
+    <string-array name="can_tigger7_car_line_array">
+        <item>关</item>
+        <item>静态</item>
+        <item>静态+动态</item>
+    </string-array>
+    <string-array name="can_service_notice_array">
+        <item>保养提示</item>
+        <item>即将到期</item>
+        <item>检查日期已过</item>
+        <item>请尽快保养</item>
+    </string-array>
+    <string-array name="can_by_service_array">
+        <item>机油</item>
+        <item>车辆检查</item>
+        <item>制动液</item>
+        <item>法定尾气检查</item>
+        <item>法定车辆检查</item>
+        <item>前部制动摩擦片</item>
+        <item>后部制动摩擦片</item>
+        <item>变速汽油</item>
+        <item>磨合检查</item>
+    </string-array>
+    <string-array name="can_psa_check">
+        <item>检测位置灯</item>
+        <item>轮胎破裂：更换或修理轮胎</item>
+        <item>轮胎破裂：更换或修理轮胎</item>
+        <item>轮胎破裂：更换或修理轮胎</item>
+        <item>轮胎破裂：更换或修理轮胎</item>
+        <item>保留</item>
+        <item>保留</item>
+        <item>保留</item>
+        <item>检测右后制动灯</item>
+        <item>检测远光灯</item>
+        <item>检测远光灯</item>
+        <item>检测近光灯</item>
+        <item>检测近光灯</item>
+        <item>检测位置灯</item>
+        <item>检测位置灯</item>
+        <item>检测位置灯</item>
+        <item>检测转向灯</item>
+        <item>检测转向灯</item>
+        <item>检测转向灯</item>
+        <item>检测后雾灯</item>
+        <item>检测后雾灯</item>
+        <item>检测前雾灯</item>
+        <item>检测前雾灯</item>
+        <item>检测左后制动灯</item>
+        <item>保留</item>
+        <item>保留</item>
+        <item>保留</item>
+        <item>保留</item>
+        <item>保留</item>
+        <item>检测倒车灯</item>
+        <item>检测倒车灯</item>
+        <item>检测转向灯</item>
+        <item>请给轮胎充气</item>
+        <item>请给轮胎充气</item>
+        <item>保留</item>
+        <item>保留</item>
+        <item>驻车辅助系统故障</item>
+        <item>保留</item>
+        <item>保留</item>
+        <item>保留</item>
+        <item>保留</item>
+        <item>防污染系统故障</item>
+        <item>防污染系统故障：禁止启动</item>
+        <item>防污染系统故障</item>
+        <item>保留</item>
+        <item>关闭大灯</item>
+        <item>请给轮胎充气</item>
+        <item>请给轮胎充气</item>
+        <item>左后门未关</item>
+        <item>右后门未关</item>
+        <item>左前门未关</item>
+        <item>右前门未关</item>
+        <item>当心路面结冰</item>
+        <item>换挡杆到“p位”</item>
+        <item>保留</item>
+        <item>保留</item>
+        <item>保留</item>
+        <item>保留</item>
+        <item>保留</item>
+        <item>保留</item>
+        <item>保留</item>
+        <item>后风挡未关</item>
+        <item>碰撞风险探测故障</item>
+        <item>李箱未关</item>
+        <item>保留</item>
+        <item>随动转向前大灯故障</item>
+        <item>自动手刹系统故障</item>
+        <item>可变尾翼功能故障请限速并参考说明书</item>
+        <item>驻车制动故障：请维修车辆</item>
+        <item>保留</item>
+        <item>保留</item>
+        <item>保留</item>
+        <item>保留</item>
+        <item>保留</item>
+        <item>变速箱故障：请维修车辆</item>
+        <item>保留</item>
+        <item>保留</item>
+        <item>保留</item>
+        <item>保留</item>
+        <item>保留</item>
+        <item>保留</item>
+        <item>悬架系统故障：请限速90KM</item>
+        <item>发动机故障：请维修车辆</item>
+        <item>保留</item>
+        <item>保留</item>
+        <item>保留</item>
+        <item>保留</item>
+        <item>保留</item>
+        <item>传感器故障：左后轮胎气压未监控</item>
+        <item>传感器故障：右后轮胎气压未监控</item>
+        <item>传感器故障：右前轮胎气压未监控</item>
+        <item>传感器故障：左前轮胎气压未监控</item>
+        <item>保留</item>
+        <item>保留</item>
+        <item>保留</item>
+        <item>保留</item>
+        <item>胎压监测系统故障</item>
+        <item>保留</item>
+        <item>发动车故障：请停车</item>
+        <item>行车间距测量故障</item>
+        <item>保留</item>
+        <item>保留</item>
+        <item>助力转向系统故障：请维修车辆</item>
+        <item>悬架系统故障：请维修车辆</item>
+        <item>填充防污染添加剂，禁止启动</item>
+        <item>填充防污染添加剂</item>
+        <item>填充防污染添加剂</item>
+        <item>保留</item>
+        <item>左前轮胎气压不足：请充气，然后重新开始初始化</item>
+        <item>右前轮胎气压不足：请充气，然后重新开始初始化</item>
+        <item>左后轮胎气压不足：请充气，然后重新开始初始化</item>
+        <item>右后轮胎气压不足：请充气，然后重新开始初始化</item>
+        <item>保留</item>
+        <item>请加注冷却液</item>
+        <item>助力转向系统故障：请停车</item>
+        <item>保留</item>
+        <item>制动系统故障：请停车</item>
+        <item>保留</item>
+        <item>发动机温度故障：请停车</item>
+        <item>发动机机油压力故障：请停车</item>
+        <item>行李箱未关</item>
+        <item>保留</item>
+        <item>右后门未关</item>
+        <item>左后门未关</item>
+        <item>右前门未关</item>
+        <item>左前门未关</item>
+        <item>保留</item>
+        <item>请加注发动机机油</item>
+        <item>安全气囊或安全带预张紧故障</item>
+        <item>燃油量不足</item>
+        <item>请更换制动片</item>
+        <item>柴油滤清器进水：请维修车辆</item>
+        <item>保留</item>
+        <item>蓄电池充电故障：请停车</item>
+        <item>ESP/ASR系统故障：请维修车辆</item>
+        <item>后风挡未关</item>
+        <item>悬架系统故障：请维修车辆</item>
+        <item>保留</item>
+        <item>微粒过滤器添加剂不足：请维修车辆</item>
+        <item>保留</item>
+        <item>微粒过滤器有堵塞风险：请参考说明书</item>
+        <item>ABS制动系统故障：请维修车辆</item>
+        <item>发动机故障：请维修车辆</item>
+        <item>保留</item>
+        <item>无法开启硬顶：系统温度过高</item>
+        <item>保留</item>
+        <item>电子防启动系统故障</item>
+        <item>转向柱锁故障：请维修车辆</item>
+        <item>硬顶折叠机械故障</item>
+        <item>检测中间制动灯</item>
+        <item>预热/预通风停用：油量不足</item>
+        <item>预热/预通风停用：电量不足</item>
+        <item>更换遥控器电池</item>
+        <item>请添加玻璃清洗液</item>
+        <item>混合动力系统故障：请限速，维修车辆</item>
+        <item>混合动力系统故障：请维修车辆</item>
+        <item>大灯自动调节系统故障</item>
+        <item>混合动力系统故障：请停车并参考说明书</item>
+        <item>无法开启硬顶：拉紧手刹</item>
+        <item>无法开启硬顶：启动发动机</item>
+        <item>保留</item>
+        <item>保留</item>
+        <item>保留</item>
+        <item>胎压检测系统故障</item>
+        <item>保留</item>
+        <item>拖车连接故障：请维修车辆</item>
+        <item>预热/预通风停用：设置时钟</item>
+        <item>保留</item>
+    </string-array>
+    <string-array name="can_psa_warn">
+        <item>发动机油温故障，请停车</item>
+        <item>请加注冷却液</item>
+        <item>请加注发动机机油</item>
+        <item>发动机机油压力故障，请停车</item>
+        <item>制动系统故障，请停车</item>
+        <item>微粒过滤器有堵塞风险，请参考说明书</item>
+        <item>悬架系统故障，限速：90km/h</item>
+        <item>助力转向系统故障，请维修车辆</item>
+        <item>驻车制动故障，请维修车辆</item>
+        <item>请更换制动片</item>
+        <item>驻车制动故障，请维修车辆</item>
+        <item>可变尾翼故障 请限速，请参考说明书</item>
+        <item>ABS制动系统故障，请维修车辆</item>
+        <item>ESP/ASR系统故障，请维修车辆</item>
+        <item>悬架系统故障，请维修车辆</item>
+        <item>助力转向系统故障，请停车</item>
+        <item>大灯自动调节系统故障</item>
+        <item>随动转向前大灯故障</item>
+        <item>安全气囊或安全带预张紧故障</item>
+        <item>发动机罩开启传感器故障</item>
+        <item>变速箱故障，请维修车辆</item>
+        <item>启动发动机，请踩住刹车踏板并将换挡杆置于N位置</item>
+        <item>柴油滤清器进水，请维修车辆</item>
+        <item>发动机故障，请维修车辆</item>
+        <item>NULL</item>
+        <item>微粒过滤器添加剂不足，请维修车辆</item>
+        <item>驻车辅助系统故障</item>
+        <item>蓄电池充电故障，请停车</item>
+        <item>车辆靠近</item>
+        <item>行车间距不可测量，巡航功能已激活</item>
+        <item>条件不足，无法激活</item>
+        <item>巡航功能暂停，重新检测</item>
+        <item>速度>150km/h，速度调节关闭</item>
+        <item>记录胎压</item>
+        <item>胎压监测系统故障</item>
+        <item>请关门，以便启动自动释放手刹功能</item>
+        <item>请刹车！</item>
+        <item>自动手刹系统关闭</item>
+        <item>加注添加剂，在0km内禁止开始</item>
+        <item>NULL</item>
+        <item>填充防污染添加剂，禁止启动</item>
+        <item>防污染系统故障</item>
+        <item>排放控制故障，在0km内禁止开始</item>
+        <item>防污染系统故障，禁止启动</item>
+        <item>发动机启停功能停用，环境温度不适</item>
+        <item>行驶时无法重新初始化</item>
+        <item>动态模式关闭</item>
+        <item>无动态模式</item>
+        <item>关闭大灯</item>
+        <item>请拔钥匙</item>
+        <item>定速巡航系统不能启用，速度过低</item>
+        <item>定速巡航系统不能启用，设定车速</item>
+        <item>换挡杆换到P位</item>
+        <item>当心路面结冰</item>
+        <item>松开手刹</item>
+        <item>请调整玻璃清洗液</item>
+        <item>燃油量不足</item>
+        <item>供油切断</item>
+        <item>更换遥控器电池</item>
+        <item>将换挡杆置于N位置</item>
+        <item>按下手刹停车按钮时请踩住制动踏板</item>
+        <item>无法开启硬顶，室外温度过低</item>
+        <item>无法开启硬顶，车速过高</item>
+        <item>无法开启硬顶，行李箱盖未关</item>
+        <item>无法开启硬顶，隔板未放</item>
+        <item>硬顶操作完成</item>
+        <item>立即结束硬顶操作</item>
+        <item>硬顶折叠机械故障</item>
+        <item>操作失败，后风窗未关</item>
+        <item>防倒退系统故障</item>
+        <item>行车间距不可测量，能见度过低</item>
+        <item>行车间距不可测量，正在初始化</item>
+        <item>预热/预通风停用，调节时钟</item>
+        <item>预热/预通风停用，燃油不足</item>
+        <item>预热/预通风停用，电量不足</item>
+        <item>转动方向盘以解锁</item>
+        <item>钥匙已拔出，请长按关闭发动机</item>
+        <item>为关闭发动机，请将换挡杆置于P位置</item>
+        <item>为启动发动机，请将钥匙插入</item>
+        <item>为启动发动机，请踩住制动踏板+按START</item>
+        <item>为启动发动机，请踩住离合踏板+按START</item>
+        <item>未检测到钥匙</item>
+        <item>取出钥匙</item>
+        <item>无车钥匙</item>
+        <item>为松开手刹，请踩住制动踏板</item>
+        <item>定速巡航功能暂停</item>
+        <item>定速巡航故障</item>
+        <item>请完全踩下离合器</item>
+        <item>测算中，最大车速20km/h</item>
+        <item>通过转向灯选择方向</item>
+        <item>方向盘故障，请维修车辆</item>
+        <item>请将手刹拉至最大位置</item>
+        <item>电路故障，请维修车辆</item>
+        <item>拉紧手刹</item>
+        <item>电子防启动故障</item>
+        <item>发动机故障，请停车</item>
+        <item>无法开启硬顶，系统温度过高</item>
+        <item>无法开启硬顶，启动发动机</item>
+        <item>无法开启硬顶，拉紧手刹</item>
+        <item>混合动力系统故障，请停车并参考说明书</item>
+        <item>混合动力系统故障，请维修车辆</item>
+        <item>混合动力系统故障，请限速，维修车辆</item>
+        <item>将换挡杆置于N位置并断开钥匙连接</item>
+        <item>混合动力系统激活</item>
+        <item>电动力模式暂时无法切换</item>
+        <item>拖车连接故障，请维修车辆</item>
+        <item>请手动重新启动</item>
+    </string-array>
+    <string-array name="can_psa_func">
+        <item>驻车制动启用</item>
+        <item>驻车制动解除</item>
+        <item>自动雨刷启用</item>
+        <item>自动雨刷停用</item>
+        <item>大灯自动点亮启用</item>
+        <item>大灯自动点亮停用</item>
+        <item>车门自锁启用</item>
+        <item>车门自锁停用</item>
+        <item>儿童安全装置启用</item>
+        <item>儿童安全装置停用</item>
+        <item>ESP系统启用</item>
+        <item>ESP系统停用</item>
+        <item>驱动防滑系统：正常模式</item>
+        <item>驱动防滑系统：泥地模式</item>
+        <item>驱动防滑系统：雪地模式</item>
+        <item>驱动防滑系统：沙地模式</item>
+        <item>发动机启停功能启用</item>
+        <item>发动机启停功能停用</item>
+        <item>牵引控制开启</item>
+        <item>牵引控制关闭</item>
+    </string-array>
+    <string-array name="can_ford_warn_text">
+        <item>无</item>
+        <item>变速箱过热请安全停车</item>
+        <item>变速箱故障请立即检修</item>
+        <item>引擎故障请立即检修</item>
+        <item>柴油滤清器阻塞请参考用户手册</item>
+        <item>引擎机油需要更换请检修</item>
+        <item>引擎机油油量低请安全停车</item>
+        <item>坡道起步辅助不可用</item>
+        <item>安全气囊故障请立即检修</item>
+        <item>刹车系统故障请安全停车</item>
+        <item>刹车油油量低请立即检修</item>
+        <item>ABS故障请立即检修</item>
+        <item>ESP关闭</item>
+        <item>ESP关闭</item>
+        <item>助力转向故障请立即检修</item>
+        <item>无</item>
+        <item>后备箱未关好</item>
+        <item>引擎盖未关好</item>
+        <item>后排右侧车门未关好</item>
+        <item>后排左侧车门未关好</item>
+        <item>副驾驶座车门未关好</item>
+        <item>驾驶座车门未关好</item>
+        <item>无</item>
+        <item>自动 启-停 启动引擎</item>
+        <item>左转提示灯故障更换灯泡</item>
+        <item>左转提示灯故障更换灯泡</item>
+        <item>引擎盖未关好</item>
+        <item>后备箱未关好</item>
+        <item>后排右侧车门未关好</item>
+        <item>后排左侧车门未关好</item>
+        <item>副驾驶座车门未关好</item>
+        <item>驾驶座车门未关好</item>
+        <item>踩离合器启动</item>
+        <item>踩刹车启动</item>
+        <item>钥匙电池电量低更换电池</item>
+        <item>自动 启-停 请踩踏板 启动引擎</item>
+        <item>防盗系统故障请检修</item>
+        <item>钥匙电池电量低更换电池</item>
+        <item>内部扫描已取消</item>
+        <item>自动雨刷/灯故障请检修</item>
+        <item>自动 启-停 请手动启动引擎</item>
+        <item>关闭后备箱或使用备用钥匙</item>
+        <item>转向锁已启用请转动方向盘</item>
+        <item>转向锁故障请安全停车</item>
+        <item>转向锁故障请立即检修</item>
+        <item>钥匙不在车内</item>
+        <item>未发现钥匙</item>
+        <item>按POWER键关闭引擎</item>
+        <item>车门未关好请踩刹车减速</item>
+        <item>选择空挡启动</item>
+        <item>踩刹车启动</item>
+        <item>自动 启-停 选择空挡</item>
+        <item>选择空挡或P档启动</item>
+        <item>变速箱不在P档请选择P档</item>
+        <item>自动 启-停 关闭点火开关</item>
+        <item>引擎防盗锁故障请立即检修</item>
+        <item>防盗系统已启动请检查车辆</item>
+        <item>防盗系统已启动请检查车辆</item>
+        <item>防盗系统已启动请检查车辆</item>
+        <item>防盗系统已启动请检查车辆</item>
+        <item>变速箱温度高请停车或加速</item>
+        <item>变速箱温度高请停车或加速</item>
+        <item>变速箱准备就绪</item>
+        <item>变速箱温度高请等候4分钟</item>
+        <item>踩刹车和离合器启动</item>
+        <item>踩刹车启动</item>
+        <item>踩离合器启动</item>
+        <item>城市安全系统 自动刹车</item>
+        <item>城市安全系统不可用</item>
+        <item>城市安全系统 感应器阻塞 请清理镜头</item>
+        <item>请检车轮胎压力</item>
+        <item>轮胎压力系统故障请检修</item>
+        <item>引擎运转中</item>
+        <item>MyKey 已启用请安全驾驶</item>
+        <item>MyKey 限速至160KM/H</item>
+        <item>MyKey 车速已达最高车速</item>
+        <item>无</item>
+        <item>无</item>
+        <item>无</item>
+        <item>无</item>
+        <item>MyKey 注意车速 请安全驾驶</item>
+        <item>无</item>
+        <item>无</item>
+        <item>无</item>
+        <item>无</item>
+        <item>无</item>
+        <item>无</item>
+        <item>无</item>
+        <item>MyKey 泊车辅助不能解除</item>
+        <item>MyKey 电子稳定控制不能解除</item>
+        <item>无</item>
+        <item>无</item>
+        <item>无</item>
+        <item>无</item>
+        <item>无</item>
+        <item>无</item>
+        <item>踩刹车解锁变速杆</item>
+        <item>启动 时间超时</item>
+        <item>无</item>
+        <item>无</item>
+        <item>无</item>
+        <item>无</item>
+        <item>无</item>
+        <item>无</item>
+        <item>无</item>
+        <item>无</item>
+        <item>无</item>
+        <item>无</item>
+        <item>无</item>
+        <item>无</item>
+        <item>变速箱 不在P档</item>
+        <item>变速杆已解锁</item>
+        <item>手刹未松</item>
+        <item>无</item>
+        <item>无</item>
+        <item>无</item>
+        <item>无</item>
+        <item>无</item>
+        <item>无</item>
+        <item>无</item>
+        <item>无</item>
+        <item>无</item>
+        <item>无</item>
+        <item>无</item>
+        <item>无</item>
+        <item>MyKey 车速接近最高车速</item>
+        <item>无</item>
+        <item>手刹未松</item>
+    </string-array>
+    <string-array name="can_auto_array">
+        <item>无协议</item>
+        <item>大众</item>
+        <item>大众MQB平台(高尔夫7)</item>
+        <item>丰田</item>
+        <item>12款思域、CRV</item>
+        <item>本田DA系统(杰德、凌派、缤智...)</item>
+        <item>日产天籁，奇骏，楼兰</item>
+        <item>14款霸道</item>
+        <item>通用全系</item>
+        <item>雅阁9代</item>
+        <item>赛欧3（睿志诚）</item>
+        <item>标雪</item>
+        <item>TS全系</item>
+        <item>福特全系</item>
+        <item>现代全系</item>
+        <item>克莱斯勒车系</item>
+        <item>宝骏</item>
+        <item>广汽传祺系列</item>
+        <item>荣威550</item>
+        <item>荣威系列</item>
+        <item>14款歌诗图</item>
+        <item>老马自达，欧宝</item>
+        <item>11款B70</item>
+        <item>14款B70</item>
+        <item>奔腾X80</item>
+        <item>荣威950</item>
+        <item>15款名爵锐腾</item>
+        <item>江淮瑞风S2,S3</item>
+        <item>江铃</item>
+        <item>16款吉普自由光</item>
+        <item>众泰云100</item>
+        <item>2016款奔腾B30</item>
+        <item>奔驰B200</item>
+        <item>和驰奔驰</item>
+        <item>标致508</item>
+        <item>梅甘娜</item>
+        <item>菲亚特全系</item>
+        <item>菲亚特博悦</item>
+        <item>16款吉普自由光(睿志诚)</item>
+        <item>马自达3昂克赛拉</item>
+        <item>奔驰 SMART</item>
+        <item>保时捷卡宴</item>
+        <item>宝马E90系列</item>
+        <item>奥迪A3</item>
+        <item>标致（和驰）</item>
+        <item>标致3008保留原车屏(和驰)</item>
+        <item>海马M3,S7</item>
+        <item>启辰T70</item>
+        <item>13款B50</item>
+        <item>北汽绅宝</item>
+        <item>海马M5</item>
+        <item>蒙迪欧致胜</item>
+        <item>东风风神AX7</item>
+        <item>老嘉年华</item>
+        <item>奇瑞瑞虎5(和驰)</item>
+        <item>雷诺科雷嘉</item>
+        <item>三菱 欧蓝德</item>
+        <item>奇瑞艾瑞泽5,瑞虎7,瑞虎3x,瑞虎3</item>
+        <item>标雪 国外版</item>
+        <item>中华 V3</item>
+        <item>众泰大迈X5</item>
+        <item>NULL</item>
+        <item>奔驰C200 (巴谷)</item>
+        <item>奔驰 威霆</item>
+        <item>菲亚特 DOBLO</item>
+        <item>宝马 MINI</item>
+        <item>启辰ER70</item>
+        <item>东风 风光 580</item>
+        <item>三菱欧蓝德 09-11</item>
+        <item>马自达CX-4</item>
+        <item>东风风光360,330s,580</item>
+        <item>奔腾B50 2016</item>
+        <item>吉利 EC7</item>
+        <item>长安CS75</item>
+        <item>力帆720/820</item>
+        <item>雅阁 7（国内版）</item>
+        <item>比亚迪系列（安盛）</item>
+        <item>马自达 CX-7</item>
+        <item>长城 H2</item>
+        <item>CW</item>
+        <item>长城哈弗 H6</item>
+        <item>2017 奔驰威霆(巴谷)</item>
+        <item>海马 福美来 2017款</item>
+        <item>比亚迪S6,F3(长远通)</item>
+        <item>荣威RX5（威驰）</item>
+        <item>宝马 MINI （FSTT）</item>
+        <item>汉腾 X7</item>
+        <item>克莱斯勒个别车系(巴谷)</item>
+        <item>通用（思博）</item>
+        <item>凯翼3x</item>
+        <item>比亚迪F6（道俊）</item>
+        <item>吉利博越</item>
+        <item>东风景逸X5</item>
+        <item>BS M3</item>
+        <item>奔腾B50 （老款）</item>
+        <item>福美来</item>
+        <item>雅阁9 2.4（鑫巴斯）</item>
+        <item>比速M3（睿志诚）</item>
+        <item>北汽EC180</item>
+        <item>长安悦翔V7（15款）</item>
+        <item>雅阁9 2.0（鑫巴斯）</item>
+        <item>标志408</item>
+        <item>韩系车型</item>
+        <item>大众（开景现代）</item>
+        <item>标志206/207（和驰）</item>
+        <item>长城风骏6</item>
+        <item>北汽威望M20</item>
+        <item>08天籁</item>
+        <item>标志206/207/307（欣朴）</item>
+        <item>大通T60（欧迪）</item>
+        <item>江淮瑞风S5(威驰)</item>
+        <item>马自达特别版</item>
+        <item>马自达CX5</item>
+        <item>丰田特别版（开景）</item>
+        <item>克莱斯勒系列（鑫巴斯）</item>
+        <item>雷克萨斯IS250</item>
+    </string-array>
+</resources>

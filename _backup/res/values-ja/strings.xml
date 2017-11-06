@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="str_bt_sub_connect">Connect</string>
+    <string name="str_bt_sub_dial">Dial</string>
+    <string name="str_bt_sub_pb">Book</string>
+    <string name="str_bt_sub_log">Log</string>
+    <string name="str_bt_sub_music">Music</string>
+    <string name="str_bt_call_in">着信中</string>
+    <string name="str_bt_call_out">発信中</string>
+    <string name="bt_connect_first_msg">Bluetoothは接続していません</string>
+    <string name="str_bt_reset">Bluetooth reseting</string>
+    <string name="str_bt_ok">OK</string>
+    <string name="str_bt_cancel">キャンセル</string>
+    <string name="str_bt_dial">ダイアル</string>
+    <string name="str_bt_call_active">通話中</string>
+    <string name="str_bt_call_end">通話終了</string>
+    <string name="bt_si_text">Search result</string>
+</resources>

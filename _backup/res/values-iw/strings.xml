@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="str_bt_sub_connect">Connect</string>
+    <string name="str_bt_sub_dial">Dial</string>
+    <string name="str_bt_sub_pb">Book</string>
+    <string name="str_bt_sub_log">Log</string>
+    <string name="str_bt_sub_music">Music</string>
+    <string name="str_bt_call_in">שיחה נכנסת</string>
+    <string name="str_bt_call_out">שיחה יוצאת</string>
+    <string name="bt_connect_first_msg">Bluetooth מנותק</string>
+    <string name="str_bt_reset">Bluetooth reseting</string>
+    <string name="str_bt_ok">אישור</string>
+    <string name="str_bt_cancel">ביטול</string>
+    <string name="str_bt_dial">חוּגָה</string>
+    <string name="str_bt_call_active">פעיל</string>
+    <string name="str_bt_call_end">שיחה סיום</string>
+    <string name="bt_si_text">Search result</string>
+</resources>

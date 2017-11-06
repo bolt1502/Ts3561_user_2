@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="str_bt_sub_connect">Connect</string>
+    <string name="str_bt_sub_dial">Dial</string>
+    <string name="str_bt_sub_pb">Book</string>
+    <string name="str_bt_sub_log">Log</string>
+    <string name="str_bt_sub_music">Music</string>
+    <string name="str_bt_call_in">สายเข้า</string>
+    <string name="str_bt_call_out">โทรออก</string>
+    <string name="bt_connect_first_msg">ไม่เชื่อมต่อบลูทูธ</string>
+    <string name="str_bt_reset">Bluetooth reseting</string>
+    <string name="str_bt_ok">ตกลง</string>
+    <string name="str_bt_cancel">ปิด</string>
+    <string name="str_bt_dial">โทร</string>
+    <string name="str_bt_call_active">เวลาโทร</string>
+    <string name="str_bt_call_end">วางสาย</string>
+    <string name="bt_si_text">Search result</string>
+</resources>

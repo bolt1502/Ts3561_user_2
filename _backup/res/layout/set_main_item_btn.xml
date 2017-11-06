@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/ripple_bg" android:focusable="true" android:clickable="true" android:layout_width="1024.0px" android:layout_height="79.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="28.0px" android:textColor="@android:color/black" android:gravity="center_vertical" android:id="@id/set_text" android:layout_width="700.0px" android:layout_height="79.0px" android:layout_marginLeft="50.0px" android:text="hello world" android:layout_centerVertical="true" />
+    <Button android:gravity="center_vertical" android:id="@id/set_button" android:layout_width="95.0px" android:layout_height="57.0px" android:layout_marginLeft="929.0px" android:layout_marginTop="11.0px" />
+    <ImageView android:background="@drawable/setup_main_line" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_alignParentBottom="true" />
+</RelativeLayout>

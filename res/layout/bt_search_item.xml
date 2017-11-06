@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/phonebook_search_line_up" android:layout_width="827.0px" android:layout_height="91.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/btn_call_phonebook" android:visibility="gone" android:layout_width="40.0px" android:layout_height="40.0px" android:layout_marginLeft="20.0px" android:src="@drawable/phonebook_mobile" android:layout_centerVertical="true" />
+    <TextView android:textSize="32.0px" android:textColor="@drawable/bt_pb_item_selector" android:ellipsize="end" android:gravity="center|left" android:id="@id/btPbName" android:duplicateParentState="true" android:layout_width="320.0px" android:layout_height="fill_parent" android:layout_marginLeft="80.0px" android:text="iPhone 4s" android:singleLine="true" />
+    <TextView android:textSize="32.0px" android:textColor="@drawable/bt_pb_item_selector" android:ellipsize="end" android:gravity="center|right" android:id="@id/btPbNum" android:paddingRight="30.0px" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="90.0px" android:text="iPhone 4s" android:singleLine="true" />
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/can_layout_door" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:background="@drawable/can_door_car" android:layout_width="248.0px" android:layout_height="470.0px" android:layout_marginLeft="399.0px" android:layout_marginTop="39.0px" />
+    <ImageView android:id="@id/can_door_lf" android:background="@drawable/can_door02" android:layout_width="97.0px" android:layout_height="94.0px" android:layout_marginLeft="323.0px" android:layout_marginTop="153.0px" />
+    <ImageView android:id="@id/can_door_rf" android:background="@drawable/can_door01" android:layout_width="97.0px" android:layout_height="94.0px" android:layout_marginLeft="613.0px" android:layout_marginTop="153.0px" />
+    <ImageView android:id="@id/can_door_lr" android:background="@drawable/can_door02" android:layout_width="97.0px" android:layout_height="94.0px" android:layout_marginLeft="323.0px" android:layout_marginTop="269.0px" />
+    <ImageView android:id="@id/can_door_rr" android:background="@drawable/can_door01" android:layout_width="97.0px" android:layout_height="94.0px" android:layout_marginLeft="613.0px" android:layout_marginTop="269.0px" />
+    <ImageView android:id="@id/can_door_rear" android:background="@drawable/can_door03" android:layout_width="158.0px" android:layout_height="77.0px" android:layout_marginLeft="437.0px" android:layout_marginTop="426.0px" />
+    <ImageView android:id="@id/can_door_head" android:background="@drawable/can_door04" android:layout_width="158.0px" android:layout_height="77.0px" android:layout_marginLeft="435.0px" android:layout_marginTop="29.0px" />
+</RelativeLayout>

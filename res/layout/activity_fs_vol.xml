@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/factory_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/fs_top_item" />
+    <GridView android:gravity="center" android:id="@id/fs_vol_grid" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="84.0px" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:horizontalSpacing="5.0px" android:verticalSpacing="4.0px" android:stretchMode="columnWidth" android:columnWidth="459.0px" android:numColumns="2" />
+</RelativeLayout>

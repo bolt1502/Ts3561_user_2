@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/can_camera_layout" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.ts.backcar.AutoFitTextureView android:id="@id/CameratextureView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentBottom="true" android:layout_alignParentStart="true" />
+    <Button android:id="@id/btn_display" android:background="@drawable/camera_btn_display" android:visibility="invisible" android:layout_width="85.0px" android:layout_height="84.0px" android:layout_marginLeft="31.0px" android:layout_marginTop="26.0px" />
+    <com.ts.can.CameraUIView android:id="@id/can_eps_line" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include layout="@layout/can_right_radar" />
+    <Button android:id="@id/can_eps_show_rtradar" android:background="@drawable/btn_can_show_rtradar" android:layout_width="81.0px" android:layout_height="81.0px" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <Button android:id="@id/can_eps_show_line" android:background="@drawable/btn_can_show_eps_line" android:layout_width="106.0px" android:layout_height="56.0px" android:layout_marginLeft="20.0px" android:layout_marginTop="50.0px" />
+    <Button android:id="@id/can_eps_show_track" android:background="@drawable/btn_can_show_eps_track" android:layout_width="106.0px" android:layout_height="56.0px" android:layout_marginLeft="20.0px" android:layout_marginTop="136.0px" />
+</RelativeLayout>

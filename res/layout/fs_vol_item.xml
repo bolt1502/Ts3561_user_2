@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="459.0px" android:layout_height="53.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/fs_main_btn_text_size" android:textColor="@color/fs_title" android:gravity="center|left" android:id="@id/fsvol_title" android:layout_width="200.0px" android:layout_height="45.0px" android:layout_marginLeft="30.0px" />
+    <com.ts.other.ParamButton android:id="@id/fsvol_cut" android:layout_width="46.0px" android:layout_height="45.0px" android:layout_marginLeft="244.0px" />
+    <TextView android:textSize="@dimen/fs_main_btn_text_size" android:textColor="@color/fs_btn_text_color" android:gravity="center" android:id="@id/fsvol_val" android:background="@drawable/factory_radio_box" android:layout_width="97.0px" android:layout_height="45.0px" android:layout_marginLeft="290.0px" />
+    <com.ts.other.ParamButton android:id="@id/fsvol_add" android:layout_width="46.0px" android:layout_height="45.0px" android:layout_marginLeft="387.0px" />
+    <ImageView android:background="@drawable/factory_short_line" android:layout_width="459.0px" android:layout_height="2.0px" android:layout_marginLeft="0.0px" android:layout_marginTop="50.0px" />
+</RelativeLayout>

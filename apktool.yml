@@ -1,0 +1,30 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: Ts3561_user_2.apk
+compressionType: false
+doNotCompress:
+- arsc
+- MP3
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '17'
+  targetSdkVersion: '17'
+sharedLibrary: false
+unknownFiles:
+  cfg/ts.tab: '8'
+  com/mediatek/PaxHeader/miravision: '8'
+  com/ts/main/common/KeyTouch.java.bak: '8'
+  com/ts/main/common/Version.bat: '8'
+  pinyindb/pinyin_gwoyeu_mapping.xml: '8'
+  pinyindb/pinyin_mapping.xml: '8'
+  pinyindb/unicode_to_hanyu_pinyin.txt: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.2.2_1023
+versionInfo:
+  versionCode: '1'
+  versionName: '1.0'

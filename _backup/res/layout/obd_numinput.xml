@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/obd_popup_bg" android:layout_width="529.0px" android:layout_height="360.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="35.0px" android:textColor="#ff000000" android:gravity="center|right" android:id="@id/dvd_goto_edx_num" android:layout_width="155.0px" android:layout_height="58.0px" android:layout_marginLeft="115.0px" android:layout_marginTop="35.0px" android:text="" android:singleLine="true" />
+    <TextView android:textSize="35.0px" android:textColor="#ff000000" android:gravity="center|left" android:id="@id/dvd_goto_total_num" android:layout_width="155.0px" android:layout_height="58.0px" android:layout_marginLeft="267.0px" android:layout_marginTop="35.0px" android:text="" android:singleLine="true" />
+    <Button android:id="@id/dvd_goto_btn_num1" android:background="@drawable/obd_popup_goto_num01" android:layout_width="112.0px" android:layout_height="68.0px" android:layout_marginLeft="20.0px" android:layout_marginTop="261.0px" />
+    <Button android:id="@id/dvd_goto_btn_num2" android:background="@drawable/obd_popup_goto_num02" android:layout_width="112.0px" android:layout_height="68.0px" android:layout_marginLeft="146.0px" android:layout_marginTop="261.0px" />
+    <Button android:id="@id/dvd_goto_btn_num3" android:background="@drawable/obd_popup_goto_num03" android:layout_width="112.0px" android:layout_height="68.0px" android:layout_marginLeft="271.0px" android:layout_marginTop="261.0px" />
+    <Button android:id="@id/dvd_goto_btn_delete" android:background="@drawable/obd_popup_goto_delete" android:layout_width="87.0px" android:layout_height="65.0px" android:layout_marginLeft="409.0px" android:layout_marginTop="27.0px" />
+    <Button android:id="@id/dvd_goto_btn_ok" android:background="@drawable/obd_popup_goto_ok" android:layout_width="112.0px" android:layout_height="68.0px" android:layout_marginLeft="397.0px" android:layout_marginTop="185.0px" />
+    <Button android:id="@id/dvd_goto_btn_num4" android:background="@drawable/obd_popup_goto_num04" android:layout_width="112.0px" android:layout_height="68.0px" android:layout_marginLeft="20.0px" android:layout_marginTop="185.0px" />
+    <Button android:id="@id/dvd_goto_btn_num5" android:background="@drawable/obd_popup_goto_num05" android:layout_width="112.0px" android:layout_height="68.0px" android:layout_marginLeft="146.0px" android:layout_marginTop="185.0px" />
+    <Button android:id="@id/dvd_goto_btn_num6" android:background="@drawable/obd_popup_goto_num06" android:layout_width="112.0px" android:layout_height="68.0px" android:layout_marginLeft="271.0px" android:layout_marginTop="185.0px" />
+    <Button android:id="@id/dvd_goto_btn_close" android:background="@drawable/obd_popup_goto_close" android:layout_width="112.0px" android:layout_height="68.0px" android:layout_marginLeft="397.0px" android:layout_marginTop="109.0px" />
+    <Button android:id="@id/dvd_goto_btn_num7" android:background="@drawable/obd_popup_goto_num07" android:layout_width="112.0px" android:layout_height="68.0px" android:layout_marginLeft="20.0px" android:layout_marginTop="109.0px" />
+    <Button android:id="@id/dvd_goto_btn_num8" android:background="@drawable/obd_popup_goto_num08" android:layout_width="112.0px" android:layout_height="68.0px" android:layout_marginLeft="146.0px" android:layout_marginTop="109.0px" />
+    <Button android:id="@id/dvd_goto_btn_num9" android:background="@drawable/obd_popup_goto_num09" android:layout_width="112.0px" android:layout_height="68.0px" android:layout_marginLeft="271.0px" android:layout_marginTop="109.0px" />
+    <Button android:id="@id/dvd_goto_btn_num0" android:background="@drawable/obd_popup_goto_num00" android:layout_width="112.0px" android:layout_height="68.0px" android:layout_marginLeft="397.0px" android:layout_marginTop="261.0px" />
+</RelativeLayout>

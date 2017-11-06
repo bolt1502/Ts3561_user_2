@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/bt_bg01" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:scrollbarStyle="outsideInset" android:id="@id/btListSearch" android:layout_width="827.0px" android:layout_height="454.0px" android:layout_marginLeft="196.0px" android:layout_marginTop="91.0px" android:listSelector="@drawable/bt_pb_search_list" android:divider="@android:color/transparent" android:dividerHeight="0.0px" />
+    <EditText android:textSize="35.0px" android:textColor="#ffffffff" android:gravity="center|right" android:id="@id/search" android:background="@drawable/phonebook_search_box" android:paddingRight="40.0px" android:layout_width="827.0px" android:layout_height="91.0px" android:layout_marginLeft="198.0px" android:layout_marginTop="0.0px" android:singleLine="true" />
+    <include layout="@layout/bt_sub_items" />
+</RelativeLayout>

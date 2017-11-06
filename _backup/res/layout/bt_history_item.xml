@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="793.0px" android:layout_height="60.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/btLogType" android:layout_width="42.0px" android:layout_height="42.0px" android:layout_marginLeft="13.0px" android:layout_marginTop="10.0px" android:src="@drawable/phonebook_mobile" android:contentDescription="TODO" />
+    <TextView android:textSize="38.0px" android:textColor="@drawable/bt_pb_item_selector" android:gravity="center|left" android:id="@id/btLogNum" android:duplicateParentState="true" android:layout_width="300.0px" android:layout_height="fill_parent" android:layout_marginLeft="70.0px" android:text="iPhone 4s" />
+    <TextView android:textSize="40.0px" android:textColor="@drawable/bt_pb_item_selector" android:gravity="center|left" android:id="@id/btLogTime" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="400.0px" android:text="iPhone 4s" />
+</RelativeLayout>
