@@ -4071,7 +4071,7 @@
 
     move-result v28
 
-#insert new if branch
+    #insert new if branch
     if-eqz v28, :cond_4ee
 
     .line 2586
@@ -4083,7 +4083,7 @@
 
     goto/16 :goto_0
 
-# START API for changing brightness
+    # START API for changing brightness
 	:cond_4ee
 	const-string v28, "forfan.intent.action.BRIGHT_LEVEL_DAY"
 	move-object/from16 v0, v28
@@ -4137,7 +4137,7 @@
     invoke-static {v1}, Lcom/yyw/ts70xhw/StSet;->SetBLNight(I)I
 
 	goto/16 :goto_0
-# END of changing brightness API
+    # END of changing brightness API
     .line 2587
     :cond_58
     const-string v28, "forfan.intent.action.MUTE"
