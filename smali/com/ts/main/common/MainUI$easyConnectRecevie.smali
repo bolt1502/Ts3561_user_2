@@ -4117,7 +4117,7 @@
 	invoke-virtual {v0, v12}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
     
 	move-result v28
-	if-eqz v28, :cond_4e
+	if-eqz v28, :cond_58
 
 	.local v1, "brightness":I
     const-string v28, "MainUI"
