@@ -65,6 +65,10 @@
 
 .field public static final BROADCAST_LANCHER_FUNC_ACCELERATION:Ljava/lang/String; = "forfan.intent.action.ACCELERATION"
 
+.field public static final BROADCAST_LANCHER_FUNC_BRIGHT_LEVEL_DAY:Ljava/lang/String; = "forfan.intent.action.BRIGHT_LEVEL_DAY"
+
+.field public static final BROADCAST_LANCHER_FUNC_BRIGHT_LEVEL_NIGHT:Ljava/lang/String; = "forfan.intent.action.BRIGHT_LEVEL_NIGHT"
+
 .field public static final BROADCAST_LANCHER_FUNC_BLUETOOTH:Ljava/lang/String; = "forfan.intent.action.BLUETOOTH"
 
 .field public static final BROADCAST_LANCHER_FUNC_BRIGHTNESS:Ljava/lang/String; = "forfan.intent.action.BRIGHTNESS"
@@ -9149,6 +9153,13 @@
 
     invoke-virtual {v1, v9}, Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
 
+#START receive Brigthness API broadcast
+	const-string v6, "forfan.intent.action.BRIGHT_LEVEL_DAY"
+    invoke-virtual {v0, v6}, Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
+
+const-string v6, "forfan.intent.action.BRIGHT_LEVEL_NIGHT"
+    invoke-virtual {v0, v6}, Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
+#END  receive Brigthness API broadcast
     .line 4099
     const-string v9, "android.intent.category.DEFAULT"
 

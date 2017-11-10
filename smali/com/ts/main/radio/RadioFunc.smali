@@ -350,11 +350,13 @@
         0x203 -> :sswitch_13
         0x204 -> :sswitch_12
         0x311 -> :sswitch_22
-        0x312 -> :sswitch_20
-        0x316 -> :sswitch_23
-        0x317 -> :sswitch_21
-        0x31a -> :sswitch_22
-        0x31f -> :sswitch_23
+        0x312 -> :sswitch_20 #TuneSearch (1)
+        0x316 -> :sswitch_23 #TuneMprev ()
+        0x317 -> :sswitch_21 #TuneSearch (0)
+        0x31b -> :sswitch_22 #TuneMnext ()
+		0x31c -> :sswitch_20
+        0x320 -> :sswitch_23 #TuneMprev ()
+		0x321 -> :sswitch_21
     .end sparse-switch
 .end method
 

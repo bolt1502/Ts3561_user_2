@@ -15,31 +15,31 @@
         <item>Режим сна</item>
         <item>Speech Recognition</item>
         <item>Ассистент на дисплее</item>
-        <item>Громкость при движении</item>
+        <item>Приглушение при дв.зад.х.</item>
         <item>Логотип загрузки</item>
         <item>Virtual CD Storage Device</item>
         <item>Сбросить все настройки</item>
         <item>Удалить все данные</item>
     </string-array>
     <string-array name="set_display_options">
-        <item>Дневной режим</item>
-        <item>Ночной режим</item>
+        <item>Уровень дневной подстветки</item>
+        <item>Уровень ночной подстветки</item>
         <item>Авто-режим</item>
-        <item>Key Light Color</item>
+        <item>Цвет кнопок</item>
     </string-array>
     <string-array name="set_volume_options">
-        <item>Медиа</item>
-        <item>Навигация</item>
-        <item>Bluetooth</item>
-        <item>Вызовы</item>
-        <item>Оповещения</item>
-        <item>Система</item>
+        <item>Громкость мультимедиа</item>
+        <item>Громкость навигации</item>
+        <item>Громкость BT</item>
+        <item>Громкость звонка</item>
+        <item>Громкость предупреждений</item>
+        <item>Системные звуки</item>
     </string-array>
     <string-array name="set_video_options">
         <item>Запрет просмотра видео в движении</item>
         <item>Динамические линии парковки</item>
         <item>Разметка камеры</item>
-        <item>Зеркалировать изображение камеры</item>
+        <item>Зеркальное изображение камеры</item>
         <item>Климат-контроль</item>
         <item>Заднее видео</item>
     </string-array>

@@ -4071,7 +4071,8 @@
 
     move-result v28
 
-    if-eqz v28, :cond_58
+#insert new if branch
+    if-eqz v28, :cond_4ee
 
     .line 2586
     const-string v28, "MainUI"
@@ -4082,6 +4083,61 @@
 
     goto/16 :goto_0
 
+# START API for changing brightness
+	:cond_4ee
+	const-string v28, "forfan.intent.action.BRIGHT_LEVEL_DAY"
+	move-object/from16 v0, v28
+	invoke-virtual {v0, v12}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
+    
+	move-result v28
+	if-eqz v28, :cond_4ef
+
+	.local v1, "brightness":I
+    const-string v28, "MainUI"
+    const-string v29, "BROADCAST_LANCHER_FUNC_BRIGHT_LEVEL_DAY"
+    invoke-static/range {v28 .. v29}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-virtual/range {p2 .. p2}, Landroid/content/Intent;->getExtras()Landroid/os/Bundle;
+
+    move-result-object v28
+
+    const-string v29, "brightness"
+
+    invoke-virtual/range {v28 .. v29}, Landroid/os/Bundle;->getInt(Ljava/lang/String;)I
+
+	move-result v1
+    #move/from16 v1, v23
+
+    invoke-static {v1}, Lcom/yyw/ts70xhw/StSet;->SetBLDay(I)I    
+
+	goto/16 :goto_0
+
+	:cond_4ef
+	const-string v28, "forfan.intent.action.BRIGHT_LEVEL_NIGHT"
+	move-object/from16 v0, v28
+	invoke-virtual {v0, v12}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
+    
+	move-result v28
+	if-eqz v28, :cond_4e
+
+	.local v1, "brightness":I
+    const-string v28, "MainUI"
+    const-string v29, "BROADCAST_LANCHER_FUNC_BRIGHT_LEVEL_NIGHT"
+    invoke-static/range {v28 .. v29}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-virtual/range {p2 .. p2}, Landroid/content/Intent;->getExtras()Landroid/os/Bundle;
+
+    move-result-object v28
+
+    const-string v29, "brightness"
+
+    invoke-virtual/range {v28 .. v29}, Landroid/os/Bundle;->getInt(Ljava/lang/String;)I
+
+	move-result v1
+    #move/from16 v1, v23
+
+    invoke-static {v1}, Lcom/yyw/ts70xhw/StSet;->SetBLNight(I)I
+
+	goto/16 :goto_0
+# END of changing brightness API
     .line 2587
     :cond_58
     const-string v28, "forfan.intent.action.MUTE"

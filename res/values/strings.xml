@@ -203,9 +203,9 @@
     <string name="str_fsrad_no">No</string>
     <string name="str_fsrad_sort0">SD Level</string>
     <string name="str_fsrad_sort1">Freq</string>
-    <string name="str_fs_normal">Normal</string>
-    <string name="str_fs_swap">Swap</string>
-    <string name="str_fs_hide">Hide</string>
+    <string name="str_fs_normal">Нормально</string>
+    <string name="str_fs_swap">Замена</string>
+    <string name="str_fs_hide">Спрятать</string>
     <string name="str_fs_tip">Tips</string>
     <string name="str_fs_savereset">Save success, please reboot</string>
     <string name="str_fs_import_faild">Import fail</string>
@@ -213,7 +213,7 @@
     <string name="str_fs_usb_import_reset">USB import success, please reboot</string>
     <string name="str_fs_reset">reboot</string>
     <string name="fs_other_lcmtype">LCM type</string>
-    <string name="fs_other_brake">Brake</string>
+    <string name="fs_other_brake">Тормоз</string>
     <string name="fs_other_extuart">Ext UART</string>
     <string name="fs_other_dvr_type">DVR type</string>
     <string name="fs_other_dtv_type">DTV type</string>
@@ -231,7 +231,7 @@
     <string name="fs_other_last_mem">Last memory</string>
     <string name="fs_other_usb1_speed">USB1 speed</string>
     <string name="fs_other_usb2_speed">USB2 speed</string>
-    <string name="fs_other_usb2_dbg">USB2 Debug</string>
+    <string name="fs_other_usb2_dbg">USB2 отладка</string>
     <string name="fs_other_ecd_swap">Ecd swap</string>
     <string name="fs_other_debug_out">Debug output</string>
     <string name="fs_other_tv_out">Video out</string>
